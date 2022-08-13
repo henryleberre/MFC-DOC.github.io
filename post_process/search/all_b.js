@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['mfc_20mfc_3a_20post_2dprocess_70',['MFC MFC: Post-Process',['../index.html',1,'']]],
+  ['mfc_3a_20post_2dprocess_70',['MFC: Post-Process',['../index.html',1,'']]],
   ['m_71',['m',['../namespacem__global__parameters.html#aee38c9d03e9195858a93ec611b605f33',1,'m_global_parameters']]],
   ['m_5fdata_5finput_72',['m_data_input',['../namespacem__data__input.html',1,'']]],
   ['m_5fdata_5finput_2ef90_73',['m_data_input.f90',['../m__data__input_8f90.html',1,'']]],

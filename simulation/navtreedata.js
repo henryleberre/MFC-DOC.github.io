@@ -22,7 +22,7 @@ for the JavaScript code in this file
 */
 var NAVTREE =
 [
-  [ "MFC MFC: Simulation", "index.html", [
+  [ "MFC: Simulation", "index.html", [
     [ "Modules", "namespaces.html", [
       [ "Modules List", "namespaces.html", "namespaces_dup" ],
       [ "Module Members", "namespacemembers.html", [
