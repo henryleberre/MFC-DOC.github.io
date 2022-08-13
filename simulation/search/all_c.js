@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['mfc_20mfc_20simulation_293',['MFC MFC Simulation',['../index.html',1,'']]],
+  ['mfc_20mfc_3a_20simulation_293',['MFC MFC: Simulation',['../index.html',1,'']]],
   ['m_294',['m',['../namespacem__global__parameters.html#aee38c9d03e9195858a93ec611b605f33',1,'m_global_parameters']]],
   ['m_5fbubbles_295',['m_bubbles',['../namespacem__bubbles.html',1,'']]],
   ['m_5fbubbles_2ef90_296',['m_bubbles.f90',['../m__bubbles_8f90.html',1,'']]],

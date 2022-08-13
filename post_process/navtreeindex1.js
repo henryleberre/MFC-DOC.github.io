@@ -1,9 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"namespacem__data__input.html":[0,0,0],
-"namespacem__data__input.html":[1,0,0],
-"namespacem__data__output.html":[0,0,1],
-"namespacem__derived__variables.html":[0,0,2],
 "namespacem__global__parameters.html":[0,0,3],
 "namespacem__mpi__proxy.html":[0,0,4],
 "namespacem__start__up.html":[0,0,5],
@@ -37,7 +33,7 @@ var NAVTREEINDEX1 =
 "namespacemembers_y.html":[0,1,0,22],
 "namespacemembers_z.html":[0,1,0,23],
 "namespaces.html":[0,0],
-"p__main_8f90.html":[2,0,1,0,7],
-"p__main_8f90.html#aeec10ee8e2940c953967da3e374e1579":[2,0,1,0,7,0],
+"p__main_8f90.html":[2,0,7],
+"p__main_8f90.html#aeec10ee8e2940c953967da3e374e1579":[2,0,7,0],
 "pages.html":[]
 };
