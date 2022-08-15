@@ -55,14 +55,20 @@ var NAVTREE =
       [ "Fetch & Build", "md_building.html#autotoc_md10", null ]
     ] ],
     [ "Running", "md_running.html", [
-      [ "Python Input File", "md_running.html#autotoc_md25", null ],
-      [ "Input parameters", "md_running.html#autotoc_md26", [
-        [ "Job-scheduler parameters", "md_running.html#autotoc_md27", null ]
+      [ "Python Input File", "md_running.html#autotoc_md25", [
+        [ "Job-scheduler parameters", "md_running.html#autotoc_md26", null ],
+        [ "Computational domain parameters", "md_running.html#autotoc_md27", null ],
+        [ "Patch parameters", "md_running.html#autotoc_md28", null ],
+        [ "Fluid material’s parameters", "md_running.html#autotoc_md29", null ],
+        [ "Simulation algorithm parameters", "md_running.html#autotoc_md30", null ],
+        [ "Formatted database and structure parameters", "md_running.html#autotoc_md31", null ],
+        [ "(Optional) Acoustic source parameters", "md_running.html#autotoc_md32", null ],
+        [ "(Optional) Ensemble-averaged bubble model parameters", "md_running.html#autotoc_md33", null ]
       ] ],
-      [ "Running", "md_running.html#autotoc_md28", [
-        [ "Interactive Execution", "md_running.html#autotoc_md29", null ],
-        [ "Batch Execution", "md_running.html#autotoc_md30", null ],
-        [ "Example Runs", "md_running.html#autotoc_md31", null ]
+      [ "Running", "md_running.html#autotoc_md34", [
+        [ "Interactive Execution", "md_running.html#autotoc_md35", null ],
+        [ "Batch Execution", "md_running.html#autotoc_md36", null ],
+        [ "Example Runs", "md_running.html#autotoc_md37", null ]
       ] ]
     ] ],
     [ "Testing", "md_testing.html", null ]
