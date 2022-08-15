@@ -23,44 +23,29 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "MFC", "index.html", [
-    [ "Multi-component Flow Code", "index.html", [
-      [ "Documentation", "index.html#autotoc_md1", null ],
-      [ "Authors", "index.html#autotoc_md2", null ],
-      [ "Publications", "index.html#autotoc_md3", [
-        [ "Primary Paper", "index.html#autotoc_md4", null ],
-        [ "Related publications", "index.html#autotoc_md5", null ]
+    [ "@image html icon.ico", "index.html", [
+      [ "Documentation", "index.html#autotoc_md14", null ],
+      [ "Publications", "index.html#autotoc_md15", [
+        [ "Primary Paper", "index.html#autotoc_md16", null ],
+        [ "Related publications", "index.html#autotoc_md17", null ],
+        [ "User Configuration (<tt>defaults.yaml</tt>)", "index.html#autotoc_md18", null ]
       ] ],
-      [ "Build Environment", "index.html#autotoc_md6", [
-        [ "*nix", "index.html#autotoc_md7", null ],
-        [ "Windows", "index.html#autotoc_md8", [
-          [ "Windows + Intel (Native)", "index.html#autotoc_md9", null ],
-          [ "Windows + Docker", "index.html#autotoc_md10", null ],
-          [ "Windows + WSL", "index.html#autotoc_md11", null ]
-        ] ],
-        [ "MacOS (x86 and Apple Silicon)", "index.html#autotoc_md12", null ],
-        [ "Docker (Cross-Platform)", "index.html#autotoc_md13", null ]
+      [ "Development", "index.html#autotoc_md19", [
+        [ "Fypp", "index.html#autotoc_md20", null ]
       ] ],
-      [ "Fetch, Build, and Test", "index.html#autotoc_md14", [
-        [ "User Configuration (<tt>defaults.yaml</tt>)", "index.html#autotoc_md15", null ]
+      [ "Useful Scripts", "index.html#autotoc_md21", [
+        [ "Loading Modules", "index.html#autotoc_md22", null ],
+        [ "OpenACC Memory Profiling", "index.html#autotoc_md23", null ]
       ] ],
-      [ "Running MFC", "index.html#autotoc_md16", [
-        [ "Interactive Execution", "index.html#autotoc_md17", null ],
-        [ "Batch Execution", "index.html#autotoc_md18", null ],
-        [ "Example Runs", "index.html#autotoc_md19", null ]
-      ] ],
-      [ "Testing MFC", "index.html#autotoc_md20", [
-        [ "Creating Tests", "index.html#autotoc_md21", null ]
-      ] ],
-      [ "Development", "index.html#autotoc_md22", [
-        [ "Fypp", "index.html#autotoc_md23", null ]
-      ] ],
-      [ "Useful Scripts", "index.html#autotoc_md24", [
-        [ "Loading Modules", "index.html#autotoc_md25", null ],
-        [ "OpenACC Memory Profiling", "index.html#autotoc_md26", null ]
-      ] ],
-      [ "License", "index.html#autotoc_md27", null ],
-      [ "Acknowledgements", "index.html#autotoc_md28", null ]
-    ] ]
+      [ "License", "index.html#autotoc_md24", null ],
+      [ "Acknowledgements", "index.html#autotoc_md25", null ]
+    ] ],
+    [ "Authors", "md_authors.html", null ],
+    [ "Fetch, Build, and Test", "md_building.html", null ],
+    [ "Build Environment", "md_environment.html", null ],
+    [ "Python input file", "md_input.html", null ],
+    [ "Running MFC", "md_running.html", null ],
+    [ "Testing MFC", "md_testing.html", null ]
   ] ]
 ];
 

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['landing_2emd_2',['landing.md',['../landing_8md.html',1,'']]]
+  ['authors_2emd_13',['authors.md',['../authors_8md.html',1,'']]]
 ];
