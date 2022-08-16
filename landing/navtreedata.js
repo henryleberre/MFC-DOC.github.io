@@ -55,29 +55,31 @@ var NAVTREE =
       [ "Fetch & Build", "md_building.html#autotoc_md10", null ]
     ] ],
     [ "Running", "md_running.html", [
-      [ "Python Input File", "md_running.html#autotoc_md25", [
-        [ "1. Job-scheduler parameters", "md_running.html#autotoc_md26", null ],
-        [ "2. Computational domain parameters", "md_running.html#autotoc_md27", null ],
-        [ "3. Patch parameters", "md_running.html#autotoc_md28", null ],
-        [ "4. Fluid material’s parameters", "md_running.html#autotoc_md29", null ],
-        [ "5. Simulation algorithm parameters", "md_running.html#autotoc_md30", null ],
-        [ "6. Formatted database and structure parameters", "md_running.html#autotoc_md31", null ],
-        [ "7. (Optional) Acoustic source parameters", "md_running.html#autotoc_md32", null ],
-        [ "8. (Optional) Ensemble-averaged bubble model parameters", "md_running.html#autotoc_md33", null ],
-        [ "Boundary conditions", "md_running.html#autotoc_md34", null ],
-        [ "Patch types", "md_running.html#autotoc_md35", null ],
-        [ "Flux limiter", "md_running.html#autotoc_md36", null ]
+      [ "Parameters", "md_running.html#autotoc_md25", [
+        [ "1. Runtime", "md_running.html#autotoc_md26", null ],
+        [ "2. Computational domain", "md_running.html#autotoc_md27", null ],
+        [ "3. Patches", "md_running.html#autotoc_md28", null ],
+        [ "4. Fluid material’s", "md_running.html#autotoc_md29", null ],
+        [ "5. Simulation algorithm", "md_running.html#autotoc_md30", null ],
+        [ "6. Formatted Output", "md_running.html#autotoc_md31", null ],
+        [ "7. Acoustic source", "md_running.html#autotoc_md32", null ],
+        [ "8. Ensemble-averaged bubble model", "md_running.html#autotoc_md33", null ]
       ] ],
-      [ "Running", "md_running.html#autotoc_md37", [
-        [ "Interactive Execution", "md_running.html#autotoc_md38", null ],
-        [ "Batch Execution", "md_running.html#autotoc_md39", null ],
-        [ "Example Runs", "md_running.html#autotoc_md40", null ]
+      [ "Enumerations", "md_running.html#autotoc_md34", [
+        [ "Boundary conditions", "md_running.html#autotoc_md35", null ],
+        [ "Patch types", "md_running.html#autotoc_md36", null ],
+        [ "Flux limiter", "md_running.html#autotoc_md37", null ]
+      ] ],
+      [ "Running", "md_running.html#autotoc_md38", [
+        [ "Interactive Execution", "md_running.html#autotoc_md39", null ],
+        [ "Batch Execution", "md_running.html#autotoc_md40", null ],
+        [ "Example Runs", "md_running.html#autotoc_md41", null ]
       ] ]
     ] ],
     [ "Testing", "md_testing.html", null ],
     [ "Flow visualization", "md_visualisation.html", [
-      [ "Procedure", "md_visualisation.html#autotoc_md44", null ],
-      [ "Serial data output", "md_visualisation.html#autotoc_md45", null ]
+      [ "Procedure", "md_visualisation.html#autotoc_md45", null ],
+      [ "Serial data output", "md_visualisation.html#autotoc_md46", null ]
     ] ]
   ] ]
 ];
