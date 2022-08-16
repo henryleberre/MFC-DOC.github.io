@@ -71,7 +71,8 @@ var NAVTREE =
         [ "Example Runs", "md_running.html#autotoc_md37", null ]
       ] ]
     ] ],
-    [ "Testing", "md_testing.html", null ]
+    [ "Testing", "md_testing.html", null ],
+    [ "visualisation", "md_visualisation.html", null ]
   ] ]
 ];
 
