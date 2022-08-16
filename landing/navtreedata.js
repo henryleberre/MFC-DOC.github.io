@@ -63,16 +63,22 @@ var NAVTREE =
         [ "5. Simulation algorithm parameters", "md_running.html#autotoc_md30", null ],
         [ "6. Formatted database and structure parameters", "md_running.html#autotoc_md31", null ],
         [ "7. (Optional) Acoustic source parameters", "md_running.html#autotoc_md32", null ],
-        [ "8. (Optional) Ensemble-averaged bubble model parameters", "md_running.html#autotoc_md33", null ]
+        [ "8. (Optional) Ensemble-averaged bubble model parameters", "md_running.html#autotoc_md33", null ],
+        [ "Boundary conditions", "md_running.html#autotoc_md34", null ],
+        [ "Patch types", "md_running.html#autotoc_md35", null ],
+        [ "Flux limiter", "md_running.html#autotoc_md36", null ]
       ] ],
-      [ "Running", "md_running.html#autotoc_md34", [
-        [ "Interactive Execution", "md_running.html#autotoc_md35", null ],
-        [ "Batch Execution", "md_running.html#autotoc_md36", null ],
-        [ "Example Runs", "md_running.html#autotoc_md37", null ]
+      [ "Running", "md_running.html#autotoc_md37", [
+        [ "Interactive Execution", "md_running.html#autotoc_md38", null ],
+        [ "Batch Execution", "md_running.html#autotoc_md39", null ],
+        [ "Example Runs", "md_running.html#autotoc_md40", null ]
       ] ]
     ] ],
     [ "Testing", "md_testing.html", null ],
-    [ "visualisation", "md_visualisation.html", null ]
+    [ "Flow visualization", "md_visualisation.html", [
+      [ "Procedure", "md_visualisation.html#autotoc_md44", null ],
+      [ "Serial data output", "md_visualisation.html#autotoc_md45", null ]
+    ] ]
   ] ]
 ];
 
