@@ -256,7 +256,7 @@ Parameters</h1>
 <p>The table lists the fluid material's parameters. The parameters define material's property of compressible fluids that are used in simulation.</p>
 <ul>
 <li><code>fluid_pp(i)gamma</code> and <code>fluid_pp(i)pi_inf</code> define $\Gamma$ and $\Pi$ as parameters of $i$-th fluid that are used in stiffened gas equation of state.</li>
-<li><code>fluid_pp(i)Re(1)</code> and <code>fluid_pp(i)Re(2)</code> define the shear and volume viscosities of $i$-th fluid, respectively. When these parameters are undefined, fluids are treated as inviscid. Details of implementation of viscosity in MFC can be found in~\citet{Coralic15}.</li>
+<li><code>fluid_pp(i)Re(1)</code> and <code>fluid_pp(i)Re(2)</code> define the shear and volume viscosities of $i$-th fluid, respectively. When these parameters are undefined, fluids are treated as inviscid. Details of implementation of viscosity in MFC can be found in <a href="references.md#7">Coralic (2015)</a>.</li>
 </ul>
 <h2><a class="anchor" id="autotoc_md31"></a>
 5. Simulation algorithm</h2>
@@ -316,7 +316,7 @@ Parameters</h1>
 <li>* Options that work only with <code>model_eqns</code> $=2$.</li>
 <li>† Options that work only with <code>cyl_coord</code> $=$ <code>False</code>.</li>
 </ul>
-<p>The table lists simulation algorithm parameters. The parameters are used to specify options in algorithms that are used to integrate the governing equations of the multi-component flow based on the initial condition. Models and assumptions that are used to formulate and discritize the governing equations are described in \citet{Bryngelson19}. Details of the simulation algorithms and implementation of the WENO scheme can be found in \citet{Coralic15}.</p>
+<p>The table lists simulation algorithm parameters. The parameters are used to specify options in algorithms that are used to integrate the governing equations of the multi-component flow based on the initial condition. Models and assumptions that are used to formulate and discritize the governing equations are described in <a href="references.md#5">Bryngelson et al. (2019)</a>. Details of the simulation algorithms and implementation of the WENO scheme can be found in \citet{Coralic15}.</p>
 <ul>
 <li><code>bc_[x,y,z]%[beg,end]</code> specifies the boundary conditions at the beginning and the end of domain boundaries in each coordinate direction by a negative integer from -1 through -12. See table t:bcs} for details.</li>
 <li><code>model_eqns</code> specifies the choice of the multi-component model that is used to formulate the dynamics of the flow using integers from 1 through 3. <code>model_eqns</code> $=$ 1, 2, and 3 correspond to $\Gamma$-$\Pi_\infty$ model \citep{Johnsen08}, 5-equation model \citep{Allaire02}, and 6-equation model \citep{Saurel09}, respectively. The difference of the two models is assessed by \citep{Schmidmayer19}. Note that some code parameters are only compatible with 5-equation model.</li>
