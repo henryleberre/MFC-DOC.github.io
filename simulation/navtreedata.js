@@ -23,7 +23,7 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "MFC: Simulation", "index.html", [
-    [ "MFC Pre-Process", "index.html", null ]
+    [ "MFC Simulation", "index.html", null ]
   ] ]
 ];
 
