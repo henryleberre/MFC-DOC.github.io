@@ -68,18 +68,19 @@ var NAVTREE =
       [ "Enumerations", "md_running.html#autotoc_md34", [
         [ "Boundary conditions", "md_running.html#autotoc_md35", null ],
         [ "Patch types", "md_running.html#autotoc_md36", null ],
-        [ "Flux limiter", "md_running.html#autotoc_md37", null ]
+        [ "Flux limiter", "md_running.html#autotoc_md37", null ],
+        [ "References", "md_running.html#autotoc_md38", null ]
       ] ],
-      [ "Running", "md_running.html#autotoc_md38", [
-        [ "Interactive Execution", "md_running.html#autotoc_md39", null ],
-        [ "Batch Execution", "md_running.html#autotoc_md40", null ],
-        [ "Example Runs", "md_running.html#autotoc_md41", null ]
+      [ "Running", "md_running.html#autotoc_md39", [
+        [ "Interactive Execution", "md_running.html#autotoc_md40", null ],
+        [ "Batch Execution", "md_running.html#autotoc_md41", null ],
+        [ "Example Runs", "md_running.html#autotoc_md42", null ]
       ] ]
     ] ],
     [ "Testing", "md_testing.html", null ],
     [ "Flow visualization", "md_visualisation.html", [
-      [ "Procedure", "md_visualisation.html#autotoc_md45", null ],
-      [ "Serial data output", "md_visualisation.html#autotoc_md46", null ]
+      [ "Procedure", "md_visualisation.html#autotoc_md46", null ],
+      [ "Serial data output", "md_visualisation.html#autotoc_md47", null ]
     ] ]
   ] ]
 ];

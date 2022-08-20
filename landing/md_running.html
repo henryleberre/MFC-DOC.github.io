@@ -596,7 +596,33 @@ Flux limiter</h2>
 <td class="markdownTableBodyRight">7 </td><td class="markdownTableBodyLeft">van Leer  </td></tr>
 </table>
 <p>The flux limiters supported by the MFC are listed in table~t:fl}. Each limiter can be specified by specifying the value of <code>flux_lim</code>. Details of their implementations can be found in \citet{Meng16}.</p>
-<h1><a class="anchor" id="autotoc_md38"></a>
+<h2><a class="anchor" id="autotoc_md38"></a>
+References</h2>
+<ul>
+<li>Allaire, G., Clerc, S., and Kokh, S. (2002). A five-equation model for the simulation of interfaces between compressible fluids. Journal of Computational Physics, 181(2):577–616.</li>
+<li>Ando, K. (2010). Effects of polydispersity in bubbly flows. PhD thesis, California Institute of Technology.</li>
+<li>Balsara, D. S. and Shu, C.-W. (2000). Monotonicity preserving weighted essentially non-oscillatory schemes with increasingly high order of accuracy. Journal of Computational Physics, 160(2):405–452.</li>
+<li>Batten, P., Clarke, N., Lambert, C., and Causon, D. M. (1997). On the choice of wavespeeds for the hllc riemann solver. SIAM Journal on Scientific Computing, 18(6):1553–1570.</li>
+<li>Bryngelson, S. H., Schmidmayer, K., Coralic, V., Meng, J. C., Maeda, K., and Colonius, T. (2019). Mfc: An open-source high-order multi-component, multi-phase, and multi-scale compressible flow solver. arXiv preprint arXiv:1907.10512.</li>
+<li>Childs, H., Brugger, E., Whitlock, B., Meredith, J., Ahern, S., Pugmire, D., Biagas, K., Miller, M., Harrison, C., Weber, G. H., Krishnan, H., Fogal, T., Sanderson, A., Garth, C., Bethel, E. W., Camp, D., R¨ubel, O., Durant, M., Favre, J. M., and Navr´atil, P. (2012). VisIt: An End-User Tool For Visualizing and Analyzing Very Large Data. In High Performance Visualization–Enabling Extreme-Scale Scientific Insight, pages 357–372.</li>
+<li>Coralic, V. (2015). Simulation of shock-induced bubble collapse with application to vascular injury in shockwave lithotripsy. PhD thesis, California Institute of Technology.</li>
+<li>Coralic, V. and Colonius, T. (2014). Finite-volume weno scheme for viscous compressible multicomponent flows. Journal of computational physics, 274:95–121.</li>
+<li>Gottlieb, S. and Shu, C.-W. (1998). Total variation diminishing runge-kutta schemes. Mathematics of computation of the American Mathematical Society, 67(221):73–85.</li>
+<li>Henrick, A. K., Aslam, T. D., and Powers, J. M. (2005). Mapped weighted essentially nonoscillatory schemes: achieving optimal order near critical points. Journal of Computational Physics, 207(2):542–567.</li>
+<li>Johnsen, E. (2008). Numerical simulations of non-spherical bubble collapse: With applications to shockwave lithotripsy. PhD thesis, California Institute of Technology.</li>
+<li>Maeda, K. and Colonius, T. (2017). A source term approach for generation of one-way acoustic waves in the euler and navier–stokes equations. Wave Motion, 75:36–49.</li>
+<li>Meng, J. C. C. (2016). Numerical simulations of droplet aerobreakup. PhD thesis, California Institute of Technology.</li>
+<li>Preston, A., Colonius, T., and Brennen, C. (2007). A reduced-order model of diffusive effects on the dynamics of bubbles. Physics of Fluids, 19(12):123302.</li>
+<li>Saurel, R., Petitpas, F., and Berry, R. A. (2009). Simple and efficient relaxation methods for interfaces separating compressible fluids, cavitating flows and shocks in multiphase mixtures. journal of Computational Physics, 228(5):1678–1712</li>
+<li>Schmidmayer, K., Bryngelson, S. H., and Colonius, T. (2019). An assessment of multicomponent flow models and interface capturing schemes for spherical bubble dynamics. arXiv preprint arXiv:1903.08242.</li>
+<li>Suresh, A. and Huynh, H. (1997). Accurate monotonicity-preserving schemes with runge–kutta time stepping. Journal of Computational Physics, 136(1):83–99.</li>
+<li>Thompson, K. W. (1987). Time dependent boundary conditions for hyperbolic systems. Journal of computational physics, 68(1):1–24.</li>
+<li>Thompson, K. W. (1990). Time-dependent boundary conditions for hyperbolic systems, ii. Journal of computational physics, 89(2):439–461.</li>
+<li>Titarev, V. A. and Toro, E. F. (2004). Finite-volume weno schemes for three-dimensional conservation laws. Journal of Computational Physics, 201(1):238–260.</li>
+<li>Tiwari, A., Freund, J. B., and Pantano, C. (2013). A diffuse interface model with immiscibility preservation. Journal of computational physics, 252:290–309.</li>
+<li>Toro, E. F. (2013). Riemann solvers and numerical methods for fluid dynamics: a practical introduction. Springer Science &amp; Business Media.</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md39"></a>
 Running</h1>
 <p>MFC can be run using <code>mfc.sh</code>'s <code>run</code> command. It supports both interactive and batch execution, the latter being designed for multi-socket systems, namely supercomputers, equipped with a scheduler such as PBS, SLURM, and LSF. A full (and updated) list of available arguments can be acquired with <code>./mfc.sh run -h</code>. Example Python input files can be found in the <a href="samples/">samples/</a> directory. They print a Python dictionary containing input parameters for MFC. Their contents, and a guide to filling them out, are documented in the user manual. A commented, tutorial script can also be found in <a href="samples/3D_sphbubcollapse/case.py">samples/3d_sphbubcollapse/</a>.</p>
 <p>The skeleton for an input file may look like the following:</p>
@@ -610,7 +636,7 @@ Running</h1>
 <div class="line">  ...</div>
 <div class="line">}))</div>
 </div><!-- fragment --><p>Thus, you can run your case file with Python to view the computed case dictionary that will be processed by MFC when you run. This is particularly useful when computations are done in Python to generate the case.</p>
-<h2><a class="anchor" id="autotoc_md39"></a>
+<h2><a class="anchor" id="autotoc_md40"></a>
 Interactive Execution</h2>
 <p>To run all stages of MFC, that is <a href="src/pre_process_code/">pre_process</a>, <a href="src/simulation_code/">simulation</a>, and <a href="src/post_process_code/">post_process</a> on the sample case <a href="samples/2D_shockbubble/">2D_shockbubble</a>,</p>
 <div class="fragment"><div class="line">$ ./mfc.sh run samples/2D_shockbubble/case.py</div>
@@ -629,7 +655,7 @@ Interactive Execution</h2>
 <p>On some computer clusters, MFC might select the wrong MPI program to execute your application because it uses a general heuristic for its selection. Notably, <code>srun</code> is known to fail on some SLURM systems when using GPUs or MPI implementations from different vendors, whereas <code>mpirun</code> functions properly. To override and manually specify which MPI program you wish to run your application with, please use the <code>-b &lt;program name&gt;</code> option (i.e <code>--binary</code>).</p>
 <p>Additional flags can be appended to the MPI executable call using the <code>-f</code> (i.e <code>--flags</code>) option.</p>
 <p>Please refer to <code>./mfc.sh run -h</code> for a complete list of arguments and options, along with their defaults.</p>
-<h2><a class="anchor" id="autotoc_md40"></a>
+<h2><a class="anchor" id="autotoc_md41"></a>
 Batch Execution</h2>
 <p>The MFC detects which scheduler your system is using and handles the creation and execution of batch scripts. The batch engine is requested with the <code>-e batch</code> option. Whereas the interactive engine can execute all of MFC's codes in succession, the batch engine requires you to only specify one target with the <code>-t</code> option. The number of nodes and GPUs can, respectively be specified with the <code>-N</code> (i.e <code>--nodes</code>) and <code>-g</code> (i.e <code>--gpus-per-node</code>) options.</p>
 <div class="fragment"><div class="line">$ ./mfc.sh run samples/2D_shockbubble/case.py -e batch -N 2 -n 4 -g 4 -t simulation</div>
@@ -652,7 +678,7 @@ Batch Execution</h2>
 <li>Statements of the form <code>{MFC::expression}</code> tell MFC where to place the common code, across all batch files, that is required for proper execution. They are not intended to be modified by users.</li>
 </ul>
 <p><b>Disclaimer</b>: IBM's JSRUN on LSF-managed computers does not use the traditional node-based approach to allocate resources. Therefore, the MFC constructs equivalent resource-sets in task and GPU count.</p>
-<h2><a class="anchor" id="autotoc_md41"></a>
+<h2><a class="anchor" id="autotoc_md42"></a>
 Example Runs</h2>
 <ul>
 <li>Oak Ridge National Laboratory's <a href="https://www.olcf.ornl.gov/summit/">Summit</a>:</li>
