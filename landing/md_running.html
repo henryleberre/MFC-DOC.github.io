@@ -226,8 +226,8 @@ Parameters</h1>
 <ul>
 <li><code>num_patches</code> defines the total number of patches defined in the domain. The number has to be a positive integer.</li>
 <li><code>num_fluids</code> defines the total number of fluids defined in each of the patches. The number has to be a positive integer.</li>
-<li><code>patch_icpp(j)geometry</code> defines the type of geometry of $j$-th patch by using an integer from 1 to 13. Definition of the patch type for each integer is listed in table t:patches}).</li>
-<li><code>[x,y,z]_centroid</code>, <code>length_[x,y,z]</code>, and/or <code>radius</code> are used to uniquely define the geometry of the patch with given type. Requisite combinations of the parameters for each type can be found in is listed in table t:patches}).</li>
+<li><code>patch_icpp(j)geometry</code> defines the type of geometry of $j$-th patch by using an integer from 1 to 13. Definition of the patch type for each integer is listed in table <a href="#patch-types">Patch Types</a>.</li>
+<li><code>[x,y,z]_centroid</code>, <code>length_[x,y,z]</code>, and/or <code>radius</code> are used to uniquely define the geometry of the patch with given type. Requisite combinations of the parameters for each type can be found in is listed in table <a href="#patch-types">Patch types</a>.</li>
 <li><code>patch_icpp(j)alter_patch(i)</code> activates alternation of <code>patch(i)</code> with <code>patch(j)</code>. For instance, in a 2D simulation, when a cylindrical <code>patch(2)</code> is immersed in a rectangular <code>patch(1)</code>:<ul>
 <li><code>patch_icpp(1)geometry</code>=3</li>
 <li><code>patch_icpp(2)geometry</code>=2</li>
@@ -235,7 +235,7 @@ Parameters</h1>
 </ul>
 </li>
 <li><code>smoothen</code> activates smoothening of the boundary of the patch that alters the existing patch. When smoothening occurs, fluids of the two patches are mixed in the region of the boundary. For instance, in the aforementioned case of the cylindrical patch immersed in the rectangular patch, smoothening occurs when <code>patch_icpp(2)smoothen</code>=TRUE. <code>smooth_coeff</code> controls the thickness of the region of smoothening (sharpness of the mixture region). The default value of <code>smooth_coeff</code> is unity. The region of smoothening is thickened with decreasing the value. Optimal choice of the value of <code>smooth_coeff</code> is case-dependent and left to the user.</li>
-<li><code>patch_icpp(j)alpha(i)</code>, <code>patch_icpp(j)alpha_rho(i)</code>, <code>patch_icpp(j)pres</code>, and <code>texttt{patch_icpp(j)vel(i)</code> define for $j$-th patch the void fraction of <code>fluid(i)</code>, partial density of <code>fluid(i)</code>, the pressure, and the velocity in the $i$-th coordinate direction. These physical parameters must be consistent with fluid material's parameters defined in the next subsection. See also <code>adv_alphan</code> in table t:algorithm}.</li>
+<li><code>patch_icpp(j)alpha(i)</code>, <code>patch_icpp(j)alpha_rho(i)</code>, <code>patch_icpp(j)pres</code>, and <code>texttt{patch_icpp(j)vel(i)</code> define for $j$-th patch the void fraction of <code>fluid(i)</code>, partial density of <code>fluid(i)</code>, the pressure, and the velocity in the $i$-th coordinate direction. These physical parameters must be consistent with fluid material's parameters defined in the next subsection. See also <code>adv_alphan</code> in table <a href="#5-simulation-algorithm">Simulation Algorithm Parameters</a>.</li>
 </ul>
 <h2><a class="anchor" id="autotoc_md30"></a>
 4. Fluid material’s</h2>
@@ -259,12 +259,12 @@ Parameters</h1>
 <li><code>fluid_pp(i)Re(1)</code> and <code>fluid_pp(i)Re(2)</code> define the shear and volume viscosities of $i$-th fluid, respectively. When these parameters are undefined, fluids are treated as inviscid. Details of implementation of viscosity in MFC can be found in <a href="references.md#Coralic15">Coralic (2015)</a>.</li>
 </ul>
 <h2><a class="anchor" id="autotoc_md31"></a>
-5. Simulation algorithm</h2>
+5. Simulation Algorithm</h2>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadRight">Parameter </th><th class="markdownTableHeadCenter">Type </th><th class="markdownTableHeadLeft">Description  </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyRight"><code>bc_[x,y,z]\beg[end]</code> </td><td class="markdownTableBodyCenter">Integer </td><td class="markdownTableBodyLeft">Beginning [ending] boundary condition in the $[x,y,z]$-direction (negative integer, see table~t:bcs})  </td></tr>
+<td class="markdownTableBodyRight"><code>bc_[x,y,z]\beg[end]</code> </td><td class="markdownTableBodyCenter">Integer </td><td class="markdownTableBodyLeft">Beginning [ending] boundary condition in the $[x,y,z]$-direction (negative integer, see table <a href="#boundary-conditions">Boundary Conditions</a>)  </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyRight"><code>model_eqns</code> </td><td class="markdownTableBodyCenter">Integer </td><td class="markdownTableBodyLeft">Multicomponent model: [1] $\Gamma/\Pi_\infty$; [2] 5-equation; [3] 6-equation\%;%[4] 4-equation  </td></tr>
 <tr class="markdownTableRowOdd">
@@ -318,7 +318,7 @@ Parameters</h1>
 </ul>
 <p>The table lists simulation algorithm parameters. The parameters are used to specify options in algorithms that are used to integrate the governing equations of the multi-component flow based on the initial condition. Models and assumptions that are used to formulate and discritize the governing equations are described in <a href="references.md#Bryngelson19">Bryngelson et al. (2019)</a>. Details of the simulation algorithms and implementation of the WENO scheme can be found in <a href="references.md#Coralic15">Coralic (2015)</a>.</p>
 <ul>
-<li><code>bc_[x,y,z]%[beg,end]</code> specifies the boundary conditions at the beginning and the end of domain boundaries in each coordinate direction by a negative integer from -1 through -12. See table t:bcs} for details.</li>
+<li><code>bc_[x,y,z]%[beg,end]</code> specifies the boundary conditions at the beginning and the end of domain boundaries in each coordinate direction by a negative integer from -1 through -12. See table <a href="#boundary-conditions">Boundary Conditions</a> for details.</li>
 <li><code>model_eqns</code> specifies the choice of the multi-component model that is used to formulate the dynamics of the flow using integers from 1 through 3. <code>model_eqns</code> $=$ 1, 2, and 3 correspond to $\Gamma$-$\Pi_\infty$ model (<a href="references.md#Johnsen08">Johnsen, 2008</a>), 5-equation model (<a href="references.md#Allaire02">Allaire et al., 2002</a>), and 6-equation model (<a href="references.md#Saurel09">Saurel et al., 2009</a>), respectively. The difference of the two models is assessed by (<a href="references.md#Schmidmayer19">Schmidmayer et al., 2019</a>). Note that some code parameters are only compatible with 5-equation model.</li>
 <li><code>alt_soundspeed</code> activates the source term in the advection equations for the volume fractions, $K\nabla\cdot \underline{u}$, that regularizes the speed of sound in the mixture region when the 5-equation model is used. The effect and use of the source term are assessed by <a href="references.md#Schmidmayer19">Schmidmayer et al., 2019</a>.</li>
 <li><code>adv_alphan</code> activates the advection equations of all the components of fluid. If this parameter is set false, the void fraction of $N$-th component is computed as the residual of the void fraction of the other components at each cell:</li>
@@ -343,7 +343,7 @@ Parameters</h1>
 <li><code>commute_err</code> activates WENO reconstruction of the cell-averaged variables at the cell-interior Gaussian quadrature points, following the two-point, fourth order Gaussian quadrature rule (<a href="references.md#Titarev04">Titarev and Toro, 2004</a>).</li>
 <li><code>split_err</code> activates numerical approximation of the left or right cell-boundary integral-average of the given variables by getting the arithmetic mean of their WENO-reconstructed values at the cell-boundary Gaussian quadrature points, following the two-point, fourth order Gaussian quadrature rule (<a href="references.md#Titarev04">Titarev and Toro, 2004</a>). When <code>commute_err</code> and <code>split_err</code> are set <code>True</code> and the 5th-order WENO is used, the global order of accuracy of the spatial integration of the governing equations becomes fourth order (<a href="references.md#Coralic14">Coralic and Colonius, 2014</a>).</li>
 <li><code>reg_eps</code> specifies the magnitude of interface regularization for two-component flows that prevents diffusion of the phase interface (<a href="references.md#Tiwari13">Tiwari et al., 2013</a>). The default value of <code>reg_eps</code> is unity. When <code>reg_eps</code> is undefined, interface regularization is not used. Details of implementation and assessment are addressed in <a href="references.md#Meng16">Meng (2016)</a>; <a href="references.md#Schmidmayer19">Schmidmayer et al. (2019)</a>.</li>
-<li><code>flux_lim</code> specifies the choice of flux limiter that is used in simulation by an integer from 1 through 7 as listed in table~t:fl}. When <code>flux_lim</code> is undefined, flux limiter is not applied. Details of the limiters and their implementations in MFC can be found in <a href="references.md#Meng16">Meng (2016)</a>.</li>
+<li><code>flux_lim</code> specifies the choice of flux limiter that is used in simulation by an integer from 1 through 7 as listed in table <a href="#flux-limiters">Flux Limiters</a>. When <code>flux_lim</code> is undefined, flux limiter is not applied. Details of the limiters and their implementations in MFC can be found in <a href="references.md#Meng16">Meng (2016)</a>.</li>
 <li><code>tvd_rhs_flux</code> activates a specified flux limiter to inte-rcell fluxes outside Riemann solver.</li>
 <li><code>tvd_riemann_flux</code> activate a specified flux limiter to cell edges inside the Riemann solver. <code>tvd_rhs_flux</code> and <code>tvd_riemann_flux</code> are mutually exclusive.</li>
 <li><code>tvd_wave_speeds</code> activates the use of the TVD wave speeds for flux computation inside the Riemann solver when <code>tvd_riemann_flux</code> is set <code>True</code>.</li>
@@ -541,7 +541,7 @@ Boundary conditions</h2>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyRight">-12 </td><td class="markdownTableBodyCenter">Characteristic </td><td class="markdownTableBodyLeft">Supersonic outflow  </td></tr>
 </table>
-<p>The boundary condition supported by the MFC are listed in table~t:bcs}. Their number (<code>#</code>) corresponds to the input value in <code>input.py</code> labeled <code>bc_[x,y,z]%[beg,end]</code> (see table~t:algorithm}). The entries labeled "Characteristic." are characteristic boundary conditions based on <a href="references.md#Thompson87">Thompson (1987)</a> and <a href="references.md#Thompson90">Thompson (1990)</a>.</p>
+<p>The boundary condition supported by the MFC are listed in table <a href="#boundary-conditions">Boundary Conditions</a>. Their number (<code>#</code>) corresponds to the input value in <code>input.py</code> labeled <code>bc_[x,y,z]%[beg,end]</code> (see table <a href="#5-simulation-algorithm">Simulation Algorithm Parameters</a>). The entries labeled "Characteristic." are characteristic boundary conditions based on <a href="references.md#Thompson87">Thompson (1987)</a> and <a href="references.md#Thompson90">Thompson (1990)</a>.</p>
 <h2><a class="anchor" id="autotoc_md37"></a>
 Patch types</h2>
 <table class="markdownTable">
@@ -574,9 +574,9 @@ Patch types</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyRight">13 </td><td class="markdownTableBodyCenter">3D analytical </td><td class="markdownTableBodyCenter">3 </td><td class="markdownTableBodyCenter">N </td><td class="markdownTableBodyLeft">Assigns the primitive variables as analytical functions  </td></tr>
 </table>
-<p>The patch types supported by the MFC are listed in table~t:patches}. This includes types exclusive to one-, two-, and three-dimensional problems. The patch type number (<code>#</code>) corresponds to the input value in <code>input.py</code> labeled <code>patch_icpp(j)geometry</code> where $j$ is the patch index. Each patch requires a different set of parameters, which are also listed in this table.</p>
+<p>The patch types supported by the MFC are listed in table <a href="#patch-types">Patch Types</a>. This includes types exclusive to one-, two-, and three-dimensional problems. The patch type number (<code>#</code>) corresponds to the input value in <code>input.py</code> labeled <code>patch_icpp(j)geometry</code> where $j$ is the patch index. Each patch requires a different set of parameters, which are also listed in this table.</p>
 <h2><a class="anchor" id="autotoc_md38"></a>
-Flux limiter</h2>
+Flux limiters</h2>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadRight"># </th><th class="markdownTableHeadLeft">Description  </th></tr>
@@ -595,7 +595,7 @@ Flux limiter</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyRight">7 </td><td class="markdownTableBodyLeft">van Leer  </td></tr>
 </table>
-<p>The flux limiters supported by the MFC are listed in table~t:fl}. Each limiter can be specified by specifying the value of <code>flux_lim</code>. Details of their implementations can be found in <a href="references.md#Meng16">Meng (2016)</a>.</p>
+<p>The flux limiters supported by the MFC are listed in table <a href="#flux-limiters">Flux Limiters</a>. Each limiter can be specified by specifying the value of <code>flux_lim</code>. Details of their implementations can be found in <a href="references.md#Meng16">Meng (2016)</a>.</p>
 <h1><a class="anchor" id="autotoc_md39"></a>
 Running</h1>
 <p>MFC can be run using <code>mfc.sh</code>'s <code>run</code> command. It supports both interactive and batch execution, the latter being designed for multi-socket systems, namely supercomputers, equipped with a scheduler such as PBS, SLURM, and LSF. A full (and updated) list of available arguments can be acquired with <code>./mfc.sh run -h</code>. Example Python input files can be found in the <a href="samples/">samples/</a> directory. They print a Python dictionary containing input parameters for MFC. Their contents, and a guide to filling them out, are documented in the user manual. A commented, tutorial script can also be found in <a href="samples/3D_sphbubcollapse/case.py">samples/3d_sphbubcollapse/</a>.</p>
