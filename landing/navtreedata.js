@@ -58,13 +58,13 @@ var NAVTREE =
     [ "Running", "md_running.html", [
       [ "Parameters", "md_running.html#autotoc_md26", [
         [ "1. Runtime", "md_running.html#autotoc_md27", null ],
-        [ "2. Computational domain", "md_running.html#autotoc_md28", null ],
+        [ "2. Computational Domain", "md_running.html#autotoc_md28", null ],
         [ "3. Patches", "md_running.html#autotoc_md29", null ],
-        [ "4. Fluid material’s", "md_running.html#autotoc_md30", null ],
+        [ "4. Fluid Material’s", "md_running.html#autotoc_md30", null ],
         [ "5. Simulation Algorithm", "md_running.html#autotoc_md31", null ],
         [ "6. Formatted Output", "md_running.html#autotoc_md32", null ],
-        [ "7. Acoustic source", "md_running.html#autotoc_md33", null ],
-        [ "8. Ensemble-averaged bubble model", "md_running.html#autotoc_md34", null ]
+        [ "7. Acoustic Source", "md_running.html#autotoc_md33", null ],
+        [ "8. Ensemble-Averaged Bubble Model", "md_running.html#autotoc_md34", null ]
       ] ],
       [ "Enumerations", "md_running.html#autotoc_md35", [
         [ "Boundary conditions", "md_running.html#autotoc_md36", null ],

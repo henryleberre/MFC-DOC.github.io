@@ -114,14 +114,14 @@ $(document).ready(function(){initNavTree('md_running.html',''); initResizable();
 <h1><a class="anchor" id="autotoc_md26"></a>
 Parameters</h1>
 <p>There are multiple sets of parameters that must be specified in the python input file:</p><ol type="1">
-<li><a href="#1-runtime">Runtime parameters</a></li>
-<li><a href="#2-computational-domain">Computational domain parameters</a></li>
-<li><a href="#3-patches">Patch parameters</a></li>
-<li><a href="#4-fluid-materials">Fluid material's parameters</a></li>
-<li><a href="#5-simulation-algorithm">Simulation algorithm parameters</a></li>
-<li><a href="#6-formatted-output">Formatted database and structure parameters</a></li>
-<li><a href="#7-acoustic-source">(Optional) Acoustic source parameters</a></li>
-<li><a href="#8-ensemble-averaged-bubble-model">(Optional) Ensemble-averaged bubble model parameters</a></li>
+<li><a href="#1-runtime">Runtime Parameters</a></li>
+<li><a href="#2-computational-domain">Computational Domain Parameters</a></li>
+<li><a href="#3-patches">Patch Parameters</a></li>
+<li><a href="#4-fluid-materials">Fluid Material's Parameters</a></li>
+<li><a href="#5-simulation-algorithm">Simulation Algorithm Parameters</a></li>
+<li><a href="#6-formatted-output">Formatted Database and Structure Parameters</a></li>
+<li><a href="#7-acoustic-source">(Optional) Acoustic Source Parameters</a></li>
+<li><a href="#8-ensemble-averaged-bubble-model">(Optional) Ensemble-Averaged Bubble Model Parameters</a></li>
 </ol>
 <p>Items 7 and 8 are optional sets of parameters that activate the acoustic source model and ensemble-averaged bubble model, respectively. Definition of the parameters is described in the following subsections.</p>
 <h2><a class="anchor" id="autotoc_md27"></a>
@@ -139,7 +139,7 @@ Parameters</h1>
 <li><code>run_time_info</code> generates a text file that includes run-time information including the CFL number(s) at each time-step.</li>
 </ul>
 <h2><a class="anchor" id="autotoc_md28"></a>
-2. Computational domain</h2>
+2. Computational Domain</h2>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadRight">Parameter </th><th class="markdownTableHeadCenter">Type </th><th class="markdownTableHeadLeft">Description  </th></tr>
@@ -238,7 +238,7 @@ Parameters</h1>
 <li><code>patch_icpp(j)alpha(i)</code>, <code>patch_icpp(j)alpha_rho(i)</code>, <code>patch_icpp(j)pres</code>, and <code>texttt{patch_icpp(j)vel(i)</code> define for $j$-th patch the void fraction of <code>fluid(i)</code>, partial density of <code>fluid(i)</code>, the pressure, and the velocity in the $i$-th coordinate direction. These physical parameters must be consistent with fluid material's parameters defined in the next subsection. See also <code>adv_alphan</code> in table <a href="#5-simulation-algorithm">Simulation Algorithm Parameters</a>.</li>
 </ul>
 <h2><a class="anchor" id="autotoc_md30"></a>
-4. Fluid material’s</h2>
+4. Fluid Material’s</h2>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadRight">Parameter </th><th class="markdownTableHeadCenter">Type </th><th class="markdownTableHeadLeft">Description  </th></tr>
@@ -422,7 +422,7 @@ Parameters</h1>
 <li><code>cb_wrt(i)</code> activates output of the coherent body mass of $i$-th fluid component in the domain into the database.</li>
 </ul>
 <h2><a class="anchor" id="autotoc_md33"></a>
-7. Acoustic source</h2>
+7. Acoustic Source</h2>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadRight">Parameter </th><th class="markdownTableHeadCenter">Type </th><th class="markdownTableHeadLeft">Description  </th></tr>
@@ -456,7 +456,7 @@ Parameters</h1>
 <li><code>Mono(i)support</code> specifies the choice of the geometry of acoustic source distribution of $i$-th source plane by an integer from 1 through 3:\ <code>Mono(i)support</code> $=1$ specifies an infinite source plane that is normal to the $x$-axis and intersects with the axis at $x=$ <code>Mono(i)loc(1)</code> in 1-D simulation.\ <code>Mono(i)support</code> $=2$ specifies a semi-infinite source plane in 2-D simulation. The $i$-th source plane is determined by the point at [<code>Mono(i)loc(1)</code>, <code>Mono(i)loc(2)</code>] and the normal vector [$\mathrm{cos}$(<code>Mono(i)dir</code>), $\mathrm{sin}$(<code>Mono(i)dir</code>)] that consists of this point. The source plane is defined in the finite region of the domain: $x\in[-\infty,\infty]$ and $y\in$[-<code>mymono_length</code>/2, <code>mymono_length</code>/2].\ <code>Mono(i)support</code> $=3$ specifies a semi-infinite source plane in 3-D simulation. The $i$-th source plane is determined by the point at [<code>Mono(i)loc(1)</code>, <code>Mono(i)loc(2)</code>, <code>Mono(i)loc(3)</code>] and the normal vector [$\mathrm{cos}$(<code>Mono(i)dir</code>), $\mathrm{sin}$(<code>Mono(i)dir</code>), 1] that consists of this point. The source plane is defined in the finite region of the domain: $x\in[-\infty,\infty]$ and $y,z\in$[-<code>mymono_length</code>/2, <code>mymono_length</code>/2].</li>
 </ul>
 <h2><a class="anchor" id="autotoc_md34"></a>
-8. Ensemble-averaged bubble model</h2>
+8. Ensemble-Averaged Bubble Model</h2>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadRight">Parameter </th><th class="markdownTableHeadCenter">Type </th><th class="markdownTableHeadLeft">Description  </th></tr>
