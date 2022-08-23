@@ -29,7 +29,8 @@ MathJax.Hub.Config({
     tex2jax: {
       inlineMath:  [ ['$',  '$'], ["\\(","\\)"] ],
       displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-      processEscapes: true
+      processEscapes: true,
+      ignoreClass: "fragment" // Ignore code blocks: https://web.archive.org/web/20120430100225/http://www.mathjax.org/docs/1.1/options/tex2jax.html
     },
     "HTML-CSS": {
       fonts: ["TeX"]
@@ -119,21 +120,21 @@ Build Environment</h1>
 <ul>
 <li><b>Via <a href="https://wiki.debian.org/Aptitude">Aptitude</a>:</b></li>
 </ul>
-<div class="fragment"><div class="line">sudo apt update</div>
-<div class="line">sudo apt upgrade</div>
-<div class="line">sudo apt install tar wget make cmake gcc g++ \</div>
-<div class="line">                 python3 python3-dev         \</div>
-<div class="line">                 &quot;openmpi-*&quot; libopenmpi-dev</div>
+<div class="fragment"><div class="line">$ sudo apt update</div>
+<div class="line">$ sudo apt upgrade</div>
+<div class="line">$ sudo apt install tar wget make cmake gcc g++ \</div>
+<div class="line">                   python3 python3-dev         \</div>
+<div class="line">                   &quot;openmpi-*&quot; libopenmpi-dev</div>
 </div><!-- fragment --><ul>
 <li><b>Via <a href="https://wiki.archlinux.org/title/pacman">Pacman</a>:</b></li>
 </ul>
-<div class="fragment"><div class="line">sudo pacman -Syu</div>
-<div class="line">sudo pacman -S base-devel coreutils  \</div>
-<div class="line">               git ninja gcc-fortran \</div>
-<div class="line">               cmake openmpi python3 \</div>
-<div class="line">               python-pip openssh    \</div>
-<div class="line">               python-virtualenv vim \</div>
-<div class="line">               wget tree</div>
+<div class="fragment"><div class="line">$ sudo pacman -Syu</div>
+<div class="line">$ sudo pacman -S base-devel coreutils  \</div>
+<div class="line">                 git ninja gcc-fortran \</div>
+<div class="line">                 cmake openmpi python3 \</div>
+<div class="line">                 python-pip openssh    \</div>
+<div class="line">                 python-virtualenv vim \</div>
+<div class="line">                 wget tree</div>
 </div><!-- fragment --><p>If you wish to build MFC using <a href="https://developer.nvidia.com/hpc-sdk">NVidia's NVHPC SDK</a>, follow the instructions <a href="https://developer.nvidia.com/nvidia-hpc-sdk-downloads">here</a>.</p>
 <h2><a class="anchor" id="autotoc_md4"></a>
 Windows</h2>
@@ -160,13 +161,13 @@ MacOS (x86 and Apple Silicon)</h2>
 <ul>
 <li><b>MacOS v10.15 (Catalina) or newer [ZSH]</b> (Verify with <code>echo $SHELL</code>)</li>
 </ul>
-<div class="fragment"><div class="line">touch ~/.zshrc</div>
-<div class="line">open ~/.zshrc</div>
+<div class="fragment"><div class="line">$ touch ~/.zshrc</div>
+<div class="line">$ open ~/.zshrc</div>
 </div><!-- fragment --><ul>
 <li><b>Older than MacOS v10.15 (Catalina) [BASH]</b> (Verify with <code>echo $SHELL</code>)</li>
 </ul>
-<div class="fragment"><div class="line">touch ~/.bash_profile</div>
-<div class="line">open ~/.bash_profile</div>
+<div class="fragment"><div class="line">$ touch ~/.bash_profile</div>
+<div class="line">$ open ~/.bash_profile</div>
 </div><!-- fragment --><p>An editor should open. Please paste the following lines into it before saving the file. If you wish to use a version of GNU's GCC other than 11, modify the first assignment. These lines ensure that LLVM's Clang, and Apple's modified version of GCC, won't be used to compile MFC. Further reading on <code>open-mpi</code> incompatibility with <code>clang</code>-based <code>gcc</code> on macOS: <a href="https://stackoverflow.com/questions/27930481/how-to-build-openmpi-with-homebrew-and-gcc-4-9">here</a>. We do <em>not</em> support <code>clang</code> due to conflicts with our Silo dependency.</p>
 <div class="fragment"><div class="line"># === MFC MPI Installation ===</div>
 <div class="line">export MFC_GCC_VER=11</div>
@@ -178,8 +179,8 @@ MacOS (x86 and Apple Silicon)</h2>
 <div class="line">export FC=gfortran-$MFC_GCC_VER</div>
 <div class="line"># === MFC MPI Installation ===</div>
 </div><!-- fragment --><p><b>Close the open editor and terminal window</b>. Open a <b>new terminal</b> window before executing the commands bellow.</p>
-<div class="fragment"><div class="line">brew install wget make python make cmake coreutils gcc@$MFC_GCC_VER</div>
-<div class="line">HOMEBREW_MAKE_JOBS=$(nproc) brew install --cc=gcc-$MFC_GCC_VER --verbose --build-from-source open-mpi</div>
+<div class="fragment"><div class="line">$ brew install wget make python make cmake coreutils gcc@$MFC_GCC_VER</div>
+<div class="line">$ HOMEBREW_MAKE_JOBS=$(nproc) brew install --cc=gcc-$MFC_GCC_VER --verbose --build-from-source open-mpi</div>
 </div><!-- fragment --><p>They will download the dependencies MFC requires to build itself. <code>open-mpi</code> will be compiled from source, using the version of GCC we specified above with the environment variables <code>HOMEBREW_CC</code> and <code>HOMEBREW_CXX</code>. Building this package might take a while.</p>
 <h2><a class="anchor" id="autotoc_md9"></a>
 Docker (Cross-Platform)</h2>
@@ -187,16 +188,16 @@ Docker (Cross-Platform)</h2>
 <p>First install Docker and Git:</p><ul>
 <li>Windows: <a href="https://docs.docker.com/get-docker/">Docker</a> + <a href="https://git-scm.com/downloads">Git</a>.</li>
 <li>macOS: <code>brew install git docker</code> (requires <a href="https://brew.sh/">Homebrew</a>).</li>
-<li>Other systems: <div class="fragment"><div class="line">sudo apt install git docker # Debian / Ubuntu via Aptitude</div>
-<div class="line">sudo pacman -S git docker   # Arch Linux via Pacman</div>
+<li>Other systems: <div class="fragment"><div class="line">$ sudo apt install git docker # Debian / Ubuntu via Aptitude</div>
+<div class="line">$ sudo pacman -S git docker   # Arch Linux via Pacman</div>
 </div><!-- fragment --></li>
 </ul>
 <p>Once Docker and Git are installed on your system, clone MFC with</p>
-<div class="fragment"><div class="line">git clone https://github.com/MFlowCode/MFC</div>
-<div class="line">cd MFC </div>
+<div class="fragment"><div class="line">$ git clone https://github.com/MFlowCode/MFC</div>
+<div class="line">$ cd MFC </div>
 </div><!-- fragment --><p>To fetch the prebuilt Docker image and enter an interactive bash session with the recommended settings applied, run</p>
-<div class="fragment"><div class="line">./mfc.sh  docker # If on \*nix/macOS</div>
-<div class="line">.\mfc.bat docker # If on Windows</div>
+<div class="fragment"><div class="line">$ ./mfc.sh  docker # If on \*nix/macOS</div>
+<div class="line">  .\mfc.bat docker # If on Windows</div>
 </div><!-- fragment --><p>We automatically mount and configure the proper permissions in order for you to access your local copy of MFC, available at <code>~/MFC</code>. You will be logged-in as the <code>me</code> user with root permissions.</p>
 <p>:warning: The state of your container is entirely transient, except for the MFC mount. Thus, any modification outside of <code>~/MFC</code> should be considered as permanently lost upon session exit.</p>
 <h1><a class="anchor" id="autotoc_md10"></a>
@@ -205,8 +206,8 @@ Fetch &amp; Build</h1>
 <ul>
 <li><b>Fetch MFC:</b></li>
 </ul>
-<div class="fragment"><div class="line">git clone https://github.com/MFlowCode/MFC</div>
-<div class="line">cd MFC</div>
+<div class="fragment"><div class="line">$ git clone https://github.com/MFlowCode/MFC</div>
+<div class="line">$ cd MFC</div>
 </div><!-- fragment --><ul>
 <li>**(Optional) Configure MFC defaults in <a href="defaults.yaml">defaults.yaml</a>:**</li>
 </ul>
@@ -214,13 +215,13 @@ Fetch &amp; Build</h1>
 <ul>
 <li><b>Build MFC's codes in <code>release-cpu</code> mode with 8 threads:</b></li>
 </ul>
-<div class="fragment"><div class="line">./mfc.sh build -t pre_process simulation post_process -j 8</div>
+<div class="fragment"><div class="line">$ ./mfc.sh build -t pre_process simulation post_process -j 8</div>
 </div><!-- fragment --><p>To build MFC in different configurations (herein, <em>modes</em>), the <code>-m &lt;mode&gt;</code> option can be specified to each call to <code>mfc.sh</code>. A full list of modes is located in <a href="defaults.yaml">defaults.yaml</a>. It can be modified to work with system, and additional modes can be created at your discretion. The default mode is <code>release-cpu</code> but you can use others such as <code>release-gpu</code>.</p>
 <p><b>IMPORTANT NOTE</b>: This same mode will be used for any future commands such as <code>./mfc.sh test</code> and <code>./mfc.sh run</code> until you specify <code>-m</code> again (in any of these commands).</p>
 <ul>
 <li><b>Run MFC's tests in <code>release-cpu</code> mode with 8 threads:</b></li>
 </ul>
-<div class="fragment"><div class="line">./mfc.sh test -j 8</div>
+<div class="fragment"><div class="line">$ ./mfc.sh test -j 8</div>
 </div><!-- fragment --><p>Please refer to the <a href="#testing-mfc">Testing</a> section of this document for more information. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
