@@ -23,40 +23,13 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "MFC: Simulation", "index.html", [
-    [ "Modules", "namespaces.html", [
-      [ "Modules List", "namespaces.html", "namespaces_dup" ],
-      [ "Module Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", "namespacemembers_dup" ],
-        [ "Functions/Subroutines", "namespacemembers_func.html", null ],
-        [ "Variables", "namespacemembers_vars.html", "namespacemembers_vars" ]
-      ] ]
-    ] ],
-    [ "Data Types List", "annotated.html", [
-      [ "Data Types List", "annotated.html", "annotated_dup" ],
-      [ "Data Types", "classes.html", null ],
-      [ "Data Fields", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Functions/Subroutines", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ]
-      ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Functions/Subroutines", "globals_func.html", null ],
-        [ "Variables", "globals_vars.html", null ]
-      ] ]
-    ] ]
+    [ "MFC Simulation", "index.html", null ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"annotated.html",
-"m__global__parameters_8f90.html#a1a3314b39e21e17d7e72a9837db2ab42",
-"m__rhs_8f90.html#a56b9c2e321892673b369bba835bbd0f0",
-"m__time__steppers_8f90.html#af1bbf3b693b9d269249a93dca5069b56"
+"index.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
