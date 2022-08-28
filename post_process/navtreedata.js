@@ -23,6 +23,7 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "MFC: Post-Process", "index.html", [
+    [ "MFC Post-Process", "index.html", null ],
     [ "Modules", "namespaces.html", [
       [ "Modules List", "namespaces.html", "namespaces_dup" ],
       [ "Module Members", "namespacemembers.html", [
@@ -52,7 +53,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"namespacem__derived__variables.html"
+"namespacem__data__output.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
