@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.9.1-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -39,6 +40,7 @@ MathJax.Hub.Config({
 </script>
 <script type="text/javascript" async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="icon.ico" type="image/x-icon" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
@@ -50,7 +52,6 @@ MathJax.Hub.Config({
   <td id="projectlogo"><img alt="Logo" src="icon.ico"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MFC: Simulation
-   &#160;<span id="projectnumber">1.0</span>
    </div>
    <div id="projectbrief">High-fidelity multiphase flow simulation</div>
   </td>
@@ -132,20 +133,15 @@ Functions/Subroutines</h2></td></tr>
 <tr class="separator:ae6f7edb814859919c5d1f739574155bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a361f0038973069452cc88430c49bcfe8"><td class="memItemLeft" align="right" valign="top">subroutine, public&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__rhs.html#a361f0038973069452cc88430c49bcfe8">m_rhs::s_compute_rhs</a> (q_cons_vf, q_prim_vf, rhs_vf, t_step)</td></tr>
 <tr class="separator:a361f0038973069452cc88430c49bcfe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d8c1fe0371ff61af10a30b69cce0c43"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__rhs.html#a4d8c1fe0371ff61af10a30b69cce0c43">m_rhs::s_compute_rhs_full</a> (q_cons_vf, q_prim_vf, rhs_vf, t_step)</td></tr>
-<tr class="separator:a4d8c1fe0371ff61af10a30b69cce0c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2da1b596b26740b8edff160297676447"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__rhs.html#a2da1b596b26740b8edff160297676447">m_rhs::s_compute_viscous_stress_tensor</a> (q_prim_vf, grad_x_vf, grad_y_vf, grad_z_vf)</td></tr>
 <tr class="memdesc:a2da1b596b26740b8edff160297676447"><td class="mdescLeft">&#160;</td><td class="mdescRight">The purpose of this subroutine is to compute the viscous stress tensor for the cells directly next to the axis in cylindrical coordinates. This is necessary to avoid the 1/r singularity that arises at the cell boundary coinciding with the axis, i.e., y_cb(-1) = 0.  <a href="namespacem__rhs.html#a2da1b596b26740b8edff160297676447">More...</a><br /></td></tr>
 <tr class="separator:a2da1b596b26740b8edff160297676447"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacbe385f29e71aa174541d4931bdcbbe"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__rhs.html#aacbe385f29e71aa174541d4931bdcbbe">m_rhs::s_get_divergence</a> (idir, q_prim_vf, mydivu)</td></tr>
-<tr class="memdesc:aacbe385f29e71aa174541d4931bdcbbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the divergence term for k div(U)  <a href="namespacem__rhs.html#aacbe385f29e71aa174541d4931bdcbbe">More...</a><br /></td></tr>
-<tr class="separator:aacbe385f29e71aa174541d4931bdcbbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85f6d4136791f9252ecdc9423786b25e"><td class="memItemLeft" align="right" valign="top">real(kind(0d0)) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__rhs.html#a85f6d4136791f9252ecdc9423786b25e">m_rhs::f_g</a> (mytime, sos, mysos, nm)</td></tr>
-<tr class="memdesc:a85f6d4136791f9252ecdc9423786b25e"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function gives the temporally varying amplitude of the pulse.  <a href="namespacem__rhs.html#a85f6d4136791f9252ecdc9423786b25e">More...</a><br /></td></tr>
-<tr class="separator:a85f6d4136791f9252ecdc9423786b25e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fb660ba9ad6113914fc3ef7f91cfcd6"><td class="memItemLeft" align="right" valign="top">real(kind(0d0)) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__rhs.html#a2fb660ba9ad6113914fc3ef7f91cfcd6">m_rhs::f_delta</a> (<a class="el" href="m__rhs_8f90.html#aeadbc0ce9b66517f8fde156199772ec1">j</a>, <a class="el" href="m__rhs_8f90.html#af22c486581933c52df7d4aa306382074">k</a>, <a class="el" href="m__rhs_8f90.html#a2ac747380de0e6e5e11b01f4137fb75c">l</a>, mono_loc, mono_leng, nm)</td></tr>
-<tr class="memdesc:a2fb660ba9ad6113914fc3ef7f91cfcd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function give the spatial support of the acoustic source.  <a href="namespacem__rhs.html#a2fb660ba9ad6113914fc3ef7f91cfcd6">More...</a><br /></td></tr>
-<tr class="separator:a2fb660ba9ad6113914fc3ef7f91cfcd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a642873683995e4b85749c56f3365a96a"><td class="memItemLeft" align="right" valign="top">real(kind(0d0)) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__rhs.html#a642873683995e4b85749c56f3365a96a">m_rhs::f_g</a> (mytime, sos, mysos, nm, term_index)</td></tr>
+<tr class="memdesc:a642873683995e4b85749c56f3365a96a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function gives the temporally varying amplitude of the pulse.  <a href="namespacem__rhs.html#a642873683995e4b85749c56f3365a96a">More...</a><br /></td></tr>
+<tr class="separator:a642873683995e4b85749c56f3365a96a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a505bdec14965140a760442507b2a4b04"><td class="memItemLeft" align="right" valign="top">real(kind(0d0)) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__rhs.html#a505bdec14965140a760442507b2a4b04">m_rhs::f_delta</a> (<a class="el" href="m__rhs_8f90.html#aeadbc0ce9b66517f8fde156199772ec1">j</a>, <a class="el" href="m__rhs_8f90.html#af22c486581933c52df7d4aa306382074">k</a>, <a class="el" href="m__rhs_8f90.html#a2ac747380de0e6e5e11b01f4137fb75c">l</a>, mono_loc, mono_leng, nm, angle, angle_z)</td></tr>
+<tr class="memdesc:a505bdec14965140a760442507b2a4b04"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function give the spatial support of the acoustic source.  <a href="namespacem__rhs.html#a505bdec14965140a760442507b2a4b04">More...</a><br /></td></tr>
+<tr class="separator:a505bdec14965140a760442507b2a4b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf11c6f8bb16f3c74cc0205b16d31e96"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__rhs.html#abf11c6f8bb16f3c74cc0205b16d31e96">m_rhs::s_compute_fd_gradient</a> (var, grad_x, grad_y, grad_z, norm)</td></tr>
 <tr class="memdesc:abf11c6f8bb16f3c74cc0205b16d31e96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the scalar gradient fields via finite differences.  <a href="namespacem__rhs.html#abf11c6f8bb16f3c74cc0205b16d31e96">More...</a><br /></td></tr>
 <tr class="separator:abf11c6f8bb16f3c74cc0205b16d31e96"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -261,6 +257,10 @@ Variables</h2></td></tr>
 <tr class="separator:aa57450021168543af7002776786c3e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56b9c2e321892673b369bba835bbd0f0"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__rhs.html#a56b9c2e321892673b369bba835bbd0f0">m_rhs::bubxe</a></td></tr>
 <tr class="separator:a56b9c2e321892673b369bba835bbd0f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad44f2434838c4219caed9d71c52971c"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__rhs.html#aad44f2434838c4219caed9d71c52971c">m_rhs::strxb</a></td></tr>
+<tr class="separator:aad44f2434838c4219caed9d71c52971c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e2ab1b7a2a7cfcd80493da246179b57"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__rhs.html#a4e2ab1b7a2a7cfcd80493da246179b57">m_rhs::strxe</a></td></tr>
+<tr class="separator:a4e2ab1b7a2a7cfcd80493da246179b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ee66aa918e36ec9c345ab1f96213e14"><td class="memItemLeft" align="right" valign="top">real(kind(0d0)), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__rhs.html#a4ee66aa918e36ec9c345ab1f96213e14">m_rhs::gammas</a></td></tr>
 <tr class="separator:a4ee66aa918e36ec9c345ab1f96213e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5bf3d142a34152410bf886f26ef841d0"><td class="memItemLeft" align="right" valign="top">real(kind(0d0)), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__rhs.html#a5bf3d142a34152410bf886f26ef841d0">m_rhs::pi_infs</a></td></tr>
@@ -287,6 +287,10 @@ Variables</h2></td></tr>
 <tr class="separator:afb9b253b2417f80edbc19ba777cf8d6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64e626c6ce39fac48a4db10019c9f5bb"><td class="memItemLeft" align="right" valign="top">real(kind(0d0)), dimension(:, :), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__rhs.html#a64e626c6ce39fac48a4db10019c9f5bb">m_rhs::loc_mono</a></td></tr>
 <tr class="separator:a64e626c6ce39fac48a4db10019c9f5bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80a42b3a550b886f7faa77e065cc4a3e"><td class="memItemLeft" align="right" valign="top">real(kind(0d0)), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__rhs.html#a80a42b3a550b886f7faa77e065cc4a3e">m_rhs::foc_length</a></td></tr>
+<tr class="separator:a80a42b3a550b886f7faa77e065cc4a3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a957eeda7b657f10fa76cd6722e3ee45f"><td class="memItemLeft" align="right" valign="top">real(kind(0d0)), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__rhs.html#a957eeda7b657f10fa76cd6722e3ee45f">m_rhs::aperture</a></td></tr>
+<tr class="separator:a957eeda7b657f10fa76cd6722e3ee45f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31f27cef4252ee5a36802fd02b3f8ac9"><td class="memItemLeft" align="right" valign="top">character(50)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__rhs.html#a31f27cef4252ee5a36802fd02b3f8ac9">m_rhs::file_path</a></td></tr>
 <tr class="memdesc:a31f27cef4252ee5a36802fd02b3f8ac9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local file path for saving debug files.  <a href="namespacem__rhs.html#a31f27cef4252ee5a36802fd02b3f8ac9">More...</a><br /></td></tr>
 <tr class="separator:a31f27cef4252ee5a36802fd02b3f8ac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -567,9 +571,6 @@ Relaxed pressure, initial partial pressures, function f(p) and its partial</h2><
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Contains module <a class="el" href="namespacem__rhs.html" title="The module contains the subroutines used to calculate the right- hand-side (RHS) in the quasi-conserv...">m_rhs</a>. </p>
-<dl class="section author"><dt>Author</dt><dd>S. Bryngelson, K. Schimdmayer, V. Coralic, J. Meng, K. Maeda, T. Colonius </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>JUNE 06 2019 </dd></dl>
 </div><h2 class="groupheader">Variable Documentation</h2>
 <a id="a8947fb914dfe4c2f0e688f4061e802ee"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8947fb914dfe4c2f0e688f4061e802ee">&#9670;&nbsp;</a></span>alpha</h2>
@@ -857,13 +858,12 @@ Relaxed pressure, initial partial pressures, function f(p) and its partial</h2><
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.9.1-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="m__rhs_8f90.html">m_rhs.f90</a></li>
-    <li class="footer">Generated by
-    <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
 </div>
 </body>
