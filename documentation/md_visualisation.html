@@ -126,9 +126,9 @@ Serial data output</h1>
 <p>and the primitive variables are</p>
 <p>$$ {(\rho \alpha)}_1, \dots, (\rho\alpha)_{N_c}, u_1, \dots, u_{N_d}, p, \alpha_1, \dots, \alpha_{N_c} $$</p>
 <p>where $N_c$ are the number of components <code>num_fluids</code> and $N_d$ is the number of spatial dimensions. There are exceptions: if <code>model_eqns</code> $=3$, then the six-equation model appends these variables with the internal energies of each component. If there are sub-grid bubbles <code>bubbles</code> $=$ <code>T</code>, then the bubble variables are also written. These depend on the bubble dynamics model used. If <code>polytropic</code> $=$ <code>T</code> then the conservative variables are appended by</p>
-<p>$$ n_b R_1, n_b</p><div class="dotgraph">
+<p>$$ n_b R_1, n_b {</p><div class="dotgraph">
 <div class="caption">
-{R_1} , \dots, n_b R_{N_b}, n_b \dot{R}_{N_b} $$</div>
+R}_1, \dots, n_b R_{N_b}, n_b {\dot R}_{N_b} $$</div>
 </div>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
