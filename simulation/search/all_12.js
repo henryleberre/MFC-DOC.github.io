@@ -157,7 +157,7 @@ var searchData=
   ['s_5fwrite_5frun_5ftime_5finformation_728',['s_write_run_time_information',['../namespacem__data__output.html#a33a72559ec5cfdedf7162a8269d41201',1,'m_data_output']]],
   ['s_5fwrite_5fserial_5fdata_5ffiles_729',['s_write_serial_data_files',['../namespacem__data__output.html#a04c6b0f01b8561e248a740b017fc4f7d',1,'m_data_output']]],
   ['sgm_5feps_730',['sgm_eps',['../namespacem__global__parameters.html#aec97838cc58623019b07ae47da7f4c1c',1,'m_global_parameters']]],
-  ['size_731',['size',['../structnvtx_1_1nvtxeventattributes.html#a073c788ac024351d153f5fa2a54a03dc',1,'nvtx::nvtxeventattributes']]],
+  ['size_731',['size',['../structm__nvtx_1_1nvtxeventattributes.html#a28114f0de57d3cd7d1dd54b7a9a6cb99',1,'m_nvtx::nvtxeventattributes']]],
   ['small_5falf_732',['small_alf',['../namespacem__global__parameters.html#a7f2ac5cd6f86ffdb40df2894111220df',1,'m_global_parameters']]],
   ['ss_733',['ss',['../namespacem__global__parameters.html#afcb3bf395f8f03bac37cd6b63f49ae18',1,'m_global_parameters']]],
   ['start_5fidx_734',['start_idx',['../namespacem__global__parameters.html#a4bd117ae744eab60f3d681fd03d6e90d',1,'m_global_parameters']]],

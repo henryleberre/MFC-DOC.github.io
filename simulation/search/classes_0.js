@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['nvtxeventattributes_819',['nvtxeventattributes',['../structnvtx_1_1nvtxeventattributes.html',1,'nvtx']]],
-  ['nvtxrangepop_820',['nvtxrangepop',['../interfacenvtx_1_1nvtxrangepop.html',1,'nvtx']]],
-  ['nvtxrangepush_821',['nvtxrangepush',['../interfacenvtx_1_1nvtxrangepush.html',1,'nvtx']]]
+  ['nvtxeventattributes_819',['nvtxeventattributes',['../structm__nvtx_1_1nvtxeventattributes.html',1,'m_nvtx']]],
+  ['nvtxrangepop_820',['nvtxrangepop',['../interfacem__nvtx_1_1nvtxrangepop.html',1,'m_nvtx']]],
+  ['nvtxrangepush_821',['nvtxrangepush',['../interfacem__nvtx_1_1nvtxrangepush.html',1,'m_nvtx']]]
 ];
