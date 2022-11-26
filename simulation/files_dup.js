@@ -9,6 +9,7 @@ var files_dup =
     [ "m_global_parameters.f90", "m__global__parameters_8f90.html", "m__global__parameters_8f90" ],
     [ "m_hypoelastic.f90", "m__hypoelastic_8f90.html", "m__hypoelastic_8f90" ],
     [ "m_mpi_proxy.f90", "m__mpi__proxy_8f90.html", "m__mpi__proxy_8f90" ],
+    [ "m_nvtx.f90", "m__nvtx_8f90.html", "m__nvtx_8f90" ],
     [ "m_qbmm.f90", "m__qbmm_8f90.html", "m__qbmm_8f90" ],
     [ "m_rhs.f90", "m__rhs_8f90.html", "m__rhs_8f90" ],
     [ "m_riemann_solvers.f90", "m__riemann__solvers_8f90.html", "m__riemann__solvers_8f90" ],
@@ -16,6 +17,5 @@ var files_dup =
     [ "m_time_steppers.f90", "m__time__steppers_8f90.html", "m__time__steppers_8f90" ],
     [ "m_variables_conversion.f90", "m__variables__conversion_8f90.html", "m__variables__conversion_8f90" ],
     [ "m_weno.f90", "m__weno_8f90.html", "m__weno_8f90" ],
-    [ "nvtx.f90", "nvtx_8f90.html", "nvtx_8f90" ],
     [ "p_main.f90", "p__main_8f90.html", "p__main_8f90" ]
 ];
