@@ -122,9 +122,6 @@ $(document).ready(function(){initNavTree('namespacem__variables__conversion.html
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Types</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacem__variables__conversion_1_1s__compute__pressure__xxxxx.html">s_compute_pressure_xxxxx</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract interface to three subroutines designed for computing pressure.  <a href="interfacem__variables__conversion_1_1s__compute__pressure__xxxxx.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacem__variables__conversion_1_1s__convert__xxxxx__to__mixture__variables.html">s_convert_xxxxx_to_mixture_variables</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract interface to two subroutines designed for the transfer/conversion of the mixture/species variables to the mixture variables.  <a href="interfacem__variables__conversion_1_1s__convert__xxxxx__to__mixture__variables.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,17 +140,6 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:a3645e5a02bfdcb5d3a8f68f9c00cb051"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__variables__conversion.html#a3645e5a02bfdcb5d3a8f68f9c00cb051">s_initialize_variables_conversion_module</a> ()</td></tr>
 <tr class="memdesc:a3645e5a02bfdcb5d3a8f68f9c00cb051"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computation of parameters, allocation procedures, and/or any other tasks needed to properly setup the module.  <a href="namespacem__variables__conversion.html#a3645e5a02bfdcb5d3a8f68f9c00cb051">More...</a><br /></td></tr>
 <tr class="separator:a3645e5a02bfdcb5d3a8f68f9c00cb051"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa714d58968474c43caaaf8e486605ef0"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__variables__conversion.html#aa714d58968474c43caaaf8e486605ef0">s_compute_pressure_from_energy</a> (q_cons_vf, dyn_p, j, k, l, pres)</td></tr>
-<tr class="memdesc:aa714d58968474c43caaaf8e486605ef0"><td class="mdescLeft">&#160;</td><td class="mdescRight">This procedure calculates the pressure based on energy when there are no bubbles present and model_eqns != 4.  <a href="namespacem__variables__conversion.html#aa714d58968474c43caaaf8e486605ef0">More...</a><br /></td></tr>
-<tr class="separator:aa714d58968474c43caaaf8e486605ef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a540d0a1ba44438d88c41ba5dac10d708"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__variables__conversion.html#a540d0a1ba44438d88c41ba5dac10d708">s_compute_pressure_from_bubbles</a> (q_cons_vf, dyn_p, j, k, l, pres)</td></tr>
-<tr class="memdesc:a540d0a1ba44438d88c41ba5dac10d708"><td class="mdescLeft">&#160;</td><td class="mdescRight">This procedure calculates the pressure when there are bubbles present and model_eqns != 4.  <a href="namespacem__variables__conversion.html#a540d0a1ba44438d88c41ba5dac10d708">More...</a><br /></td></tr>
-<tr class="separator:a540d0a1ba44438d88c41ba5dac10d708"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb9b2e3c06de0404b6784b7f4fb2910e"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__variables__conversion.html#afb9b2e3c06de0404b6784b7f4fb2910e">s_compute_pressure_4eqns</a> (q_cons_vf, dyn_p, j, k, l, pres)</td></tr>
-<tr class="memdesc:afb9b2e3c06de0404b6784b7f4fb2910e"><td class="mdescLeft">&#160;</td><td class="mdescRight">This procedure calculates the pressure when model_eqns = 4.  <a href="namespacem__variables__conversion.html#afb9b2e3c06de0404b6784b7f4fb2910e">More...</a><br /></td></tr>
-<tr class="separator:afb9b2e3c06de0404b6784b7f4fb2910e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b0073aa0eccccbe83ce541a445cb540"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__variables__conversion.html#a5b0073aa0eccccbe83ce541a445cb540">s_initialize_compute_pressure_module</a> ()</td></tr>
-<tr class="separator:a5b0073aa0eccccbe83ce541a445cb540"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a589fffc2fe084855ea9e86935f1916b1"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__variables__conversion.html#a589fffc2fe084855ea9e86935f1916b1">s_convert_conservative_to_primitive_variables</a> (q_cons_vf, q_prim_vf)</td></tr>
 <tr class="memdesc:a589fffc2fe084855ea9e86935f1916b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the conservative variables to the primitive ones.  <a href="namespacem__variables__conversion.html#a589fffc2fe084855ea9e86935f1916b1">More...</a><br /></td></tr>
 <tr class="separator:a589fffc2fe084855ea9e86935f1916b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -168,225 +154,10 @@ Functions/Subroutines</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:a3bd150e984abfe14c8269e759ea4cb60"><td class="memItemLeft" align="right" valign="top">procedure(<a class="el" href="interfacem__variables__conversion_1_1s__convert__xxxxx__to__mixture__variables.html">s_convert_xxxxx_to_mixture_variables</a>), pointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__variables__conversion.html#a3bd150e984abfe14c8269e759ea4cb60">s_convert_to_mixture_variables</a> =&gt; null()</td></tr>
 <tr class="separator:a3bd150e984abfe14c8269e759ea4cb60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4073b7d109b46a45cc69ff1cf60e54b"><td class="memItemLeft" align="right" valign="top">procedure(<a class="el" href="interfacem__variables__conversion_1_1s__compute__pressure__xxxxx.html">s_compute_pressure_xxxxx</a>), pointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__variables__conversion.html#ab4073b7d109b46a45cc69ff1cf60e54b">s_compute_pressure</a> =&gt; null()</td></tr>
-<tr class="separator:ab4073b7d109b46a45cc69ff1cf60e54b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This module consists of subroutines used in the conversion of the conservative variables into the primitive ones and vice versa. In addition, the module also contains the subroutines used to obtain the mixture variables. </p>
 </div><h2 class="groupheader">Function/Subroutine Documentation</h2>
-<a id="afb9b2e3c06de0404b6784b7f4fb2910e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb9b2e3c06de0404b6784b7f4fb2910e">&#9670;&nbsp;</a></span>s_compute_pressure_4eqns()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">subroutine m_variables_conversion::s_compute_pressure_4eqns </td>
-          <td>(</td>
-          <td class="paramtype">type(scalar_field), dimension(sys_size), intent(in)&#160;</td>
-          <td class="paramname"><em>q_cons_vf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">real(kind(0d0)), intent(in)&#160;</td>
-          <td class="paramname"><em>dyn_p</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer, intent(in)&#160;</td>
-          <td class="paramname"><em>j</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer, intent(in)&#160;</td>
-          <td class="paramname"><em>k</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer, intent(in)&#160;</td>
-          <td class="paramname"><em>l</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">real(kind(0d0)), intent(out)&#160;</td>
-          <td class="paramname"><em>pres</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>This procedure calculates the pressure when model_eqns = 4. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">q_cons_vf</td><td>conservative variables </td></tr>
-    <tr><td class="paramname">dyn_p</td><td>dynamic pressure </td></tr>
-    <tr><td class="paramname">j</td><td>(x) cell index in which the mixture or species primitive variables from the indicated patch areassigned </td></tr>
-    <tr><td class="paramname">k</td><td>(y,th) cell index in which the mixture or species primitive variables from the indicated patch areassigned </td></tr>
-    <tr><td class="paramname">l</td><td>(z) cell index in which the mixture or species primitive variables from the indicated patch areassigned </td></tr>
-    <tr><td class="paramname">p</td><td>pressure to calculate </td></tr>
-  </table>
-  </dd>
-</dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacem__variables__conversion_afb9b2e3c06de0404b6784b7f4fb2910e_icgraph.svg" width="568" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
-<a id="a540d0a1ba44438d88c41ba5dac10d708"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a540d0a1ba44438d88c41ba5dac10d708">&#9670;&nbsp;</a></span>s_compute_pressure_from_bubbles()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">subroutine m_variables_conversion::s_compute_pressure_from_bubbles </td>
-          <td>(</td>
-          <td class="paramtype">type(scalar_field), dimension(sys_size), intent(in)&#160;</td>
-          <td class="paramname"><em>q_cons_vf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">real(kind(0d0)), intent(in)&#160;</td>
-          <td class="paramname"><em>dyn_p</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer, intent(in)&#160;</td>
-          <td class="paramname"><em>j</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer, intent(in)&#160;</td>
-          <td class="paramname"><em>k</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer, intent(in)&#160;</td>
-          <td class="paramname"><em>l</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">real(kind(0d0)), intent(out)&#160;</td>
-          <td class="paramname"><em>pres</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>This procedure calculates the pressure when there are bubbles present and model_eqns != 4. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">q_cons_vf</td><td>conservative variables </td></tr>
-    <tr><td class="paramname">dyn_p</td><td>dynamic pressure </td></tr>
-    <tr><td class="paramname">j</td><td>(x) cell index in which the mixture or species primitive variables from the indicated patch areassigned </td></tr>
-    <tr><td class="paramname">k</td><td>(y,th) cell index in which the mixture or species primitive variables from the indicated patch areassigned </td></tr>
-    <tr><td class="paramname">l</td><td>(z) cell index in which the mixture or species primitive variables from the indicated patch areassigned </td></tr>
-    <tr><td class="paramname">p</td><td>pressure to calculate </td></tr>
-  </table>
-  </dd>
-</dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacem__variables__conversion_a540d0a1ba44438d88c41ba5dac10d708_icgraph.svg" width="560" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
-<a id="aa714d58968474c43caaaf8e486605ef0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa714d58968474c43caaaf8e486605ef0">&#9670;&nbsp;</a></span>s_compute_pressure_from_energy()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">subroutine m_variables_conversion::s_compute_pressure_from_energy </td>
-          <td>(</td>
-          <td class="paramtype">type(scalar_field), dimension(sys_size), intent(in)&#160;</td>
-          <td class="paramname"><em>q_cons_vf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">real(kind(0d0)), intent(in)&#160;</td>
-          <td class="paramname"><em>dyn_p</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer, intent(in)&#160;</td>
-          <td class="paramname"><em>j</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer, intent(in)&#160;</td>
-          <td class="paramname"><em>k</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer, intent(in)&#160;</td>
-          <td class="paramname"><em>l</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">real(kind(0d0)), intent(out)&#160;</td>
-          <td class="paramname"><em>pres</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>This procedure calculates the pressure based on energy when there are no bubbles present and model_eqns != 4. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">q_cons_vf</td><td>conservative variables </td></tr>
-    <tr><td class="paramname">dyn_p</td><td>dynamic pressure </td></tr>
-    <tr><td class="paramname">j</td><td>(x) cell index in which the mixture or species primitive variables from the indicated patch areassigned </td></tr>
-    <tr><td class="paramname">k</td><td>(y,th) cell index in which the mixture or species primitive variables from the indicated patch areassigned </td></tr>
-    <tr><td class="paramname">l</td><td>(z) cell index in which the mixture or species primitive variables from the indicated patch areassigned </td></tr>
-    <tr><td class="paramname">p</td><td>pressure to calculate </td></tr>
-  </table>
-  </dd>
-</dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacem__variables__conversion_aa714d58968474c43caaaf8e486605ef0_icgraph.svg" width="560" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
 <a id="a589fffc2fe084855ea9e86935f1916b1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a589fffc2fe084855ea9e86935f1916b1">&#9670;&nbsp;</a></span>s_convert_conservative_to_primitive_variables()</h2>
 
@@ -747,32 +518,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a5b0073aa0eccccbe83ce541a445cb540"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b0073aa0eccccbe83ce541a445cb540">&#9670;&nbsp;</a></span>s_initialize_compute_pressure_module()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">subroutine m_variables_conversion::s_initialize_compute_pressure_module</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacem__variables__conversion_a5b0073aa0eccccbe83ce541a445cb540_cgraph.svg" width="450" height="214"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacem__variables__conversion_a5b0073aa0eccccbe83ce541a445cb540_icgraph.svg" width="310" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
 <a id="a3645e5a02bfdcb5d3a8f68f9c00cb051"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3645e5a02bfdcb5d3a8f68f9c00cb051">&#9670;&nbsp;</a></span>s_initialize_variables_conversion_module()</h2>
 
@@ -802,20 +547,6 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="ab4073b7d109b46a45cc69ff1cf60e54b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4073b7d109b46a45cc69ff1cf60e54b">&#9670;&nbsp;</a></span>s_compute_pressure</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">procedure(<a class="el" href="interfacem__variables__conversion_1_1s__compute__pressure__xxxxx.html">s_compute_pressure_xxxxx</a>), pointer m_variables_conversion::s_compute_pressure =&gt; null()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a3bd150e984abfe14c8269e759ea4cb60"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3bd150e984abfe14c8269e759ea4cb60">&#9670;&nbsp;</a></span>s_convert_to_mixture_variables</h2>
 
