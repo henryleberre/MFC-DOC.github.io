@@ -800,24 +800,24 @@ var sectionId = 'dynsection-0';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="namespacenvtx.html#aed9b06c5398e0a5b8d7a6e687564fb46" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="289,-2195 289,-2214 400,-2214 400,-2195 289,-2195"/>
-<text text-anchor="middle" x="344.5" y="-2202" font-family="Helvetica,sans-Serif" font-size="10.00">nvtx::nvtxendrange</text>
+<g id="a_node4"><a xlink:href="namespacem__nvtx.html#acb0ad47c439f074b02a3cfc88817b9c7" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="281.5,-2195 281.5,-2214 407.5,-2214 407.5,-2195 281.5,-2195"/>
+<text text-anchor="middle" x="344.5" y="-2202" font-family="Helvetica,sans-Serif" font-size="10.00">m_nvtx::nvtxendrange</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M222.85,-2222.96C240.66,-2220.23 260.51,-2217.2 278.89,-2214.38"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="279.57,-2217.82 288.92,-2212.85 278.51,-2210.9 279.57,-2217.82"/>
+<path fill="none" stroke="midnightblue" d="M222.85,-2222.96C238.23,-2220.6 255.15,-2218.02 271.32,-2215.54"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="271.92,-2218.99 281.27,-2214.02 270.86,-2212.07 271.92,-2218.99"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="namespacenvtx.html#abaf43be3229e42bd0f4c1e75d9670075" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="286.5,-2157 286.5,-2176 402.5,-2176 402.5,-2157 286.5,-2157"/>
-<text text-anchor="middle" x="344.5" y="-2164" font-family="Helvetica,sans-Serif" font-size="10.00">nvtx::nvtxstartrange</text>
+<g id="a_node5"><a xlink:href="namespacem__nvtx.html#a9b922c5d5c93c41e0abcd4cf8c382861" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="279,-2157 279,-2176 410,-2176 410,-2157 279,-2157"/>
+<text text-anchor="middle" x="344.5" y="-2164" font-family="Helvetica,sans-Serif" font-size="10.00">m_nvtx::nvtxstartrange</text>
 </a>
 </g>
 </g>
@@ -861,14 +861,14 @@ var sectionId = 'dynsection-0';
 <!-- Node25&#45;&gt;Node4 -->
 <g id="edge8" class="edge">
 <title>Node25&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M222.85,-2189.46C240.66,-2191.68 260.51,-2194.16 278.89,-2196.45"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="278.57,-2199.93 288.92,-2197.7 279.43,-2192.99 278.57,-2199.93"/>
+<path fill="none" stroke="midnightblue" d="M222.85,-2189.46C238.23,-2191.38 255.15,-2193.49 271.32,-2195.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="270.92,-2198.98 281.27,-2196.74 271.78,-2192.03 270.92,-2198.98"/>
 </g>
 <!-- Node25&#45;&gt;Node5 -->
 <g id="edge9" class="edge">
 <title>Node25&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M222.85,-2177.44C239.73,-2175.91 258.45,-2174.21 276.01,-2172.62"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="276.55,-2176.08 286.2,-2171.69 275.92,-2169.11 276.55,-2176.08"/>
+<path fill="none" stroke="midnightblue" d="M222.85,-2177.44C237.43,-2176.12 253.38,-2174.67 268.77,-2173.27"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="269.14,-2176.76 278.78,-2172.37 268.5,-2169.78 269.14,-2176.76"/>
 </g>
 <!-- Node25&#45;&gt;Node6 -->
 <g id="edge10" class="edge">

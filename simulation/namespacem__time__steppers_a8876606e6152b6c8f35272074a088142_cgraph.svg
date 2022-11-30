@@ -67,9 +67,9 @@ var sectionId = 'dynsection-0';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="namespacenvtx.html#aed9b06c5398e0a5b8d7a6e687564fb46" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="159,-542.5 159,-561.5 270,-561.5 270,-542.5 159,-542.5"/>
-<text text-anchor="middle" x="214.5" y="-549.5" font-family="Helvetica,sans-Serif" font-size="10.00">nvtx::nvtxendrange</text>
+<g id="a_node2"><a xlink:href="namespacem__nvtx.html#acb0ad47c439f074b02a3cfc88817b9c7" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="151.5,-542.5 151.5,-561.5 277.5,-561.5 277.5,-542.5 151.5,-542.5"/>
+<text text-anchor="middle" x="214.5" y="-549.5" font-family="Helvetica,sans-Serif" font-size="10.00">m_nvtx::nvtxendrange</text>
 </a>
 </g>
 </g>
@@ -82,9 +82,9 @@ var sectionId = 'dynsection-0';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="namespacenvtx.html#abaf43be3229e42bd0f4c1e75d9670075" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="156.5,-504.5 156.5,-523.5 272.5,-523.5 272.5,-504.5 156.5,-504.5"/>
-<text text-anchor="middle" x="214.5" y="-511.5" font-family="Helvetica,sans-Serif" font-size="10.00">nvtx::nvtxstartrange</text>
+<g id="a_node3"><a xlink:href="namespacem__nvtx.html#a9b922c5d5c93c41e0abcd4cf8c382861" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="149,-504.5 149,-523.5 280,-523.5 280,-504.5 149,-504.5"/>
+<text text-anchor="middle" x="214.5" y="-511.5" font-family="Helvetica,sans-Serif" font-size="10.00">m_nvtx::nvtxstartrange</text>
 </a>
 </g>
 </g>

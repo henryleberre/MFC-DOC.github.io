@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MFC: Simulation: nvtx.f90 File Reference</title>
+<title>MFC: Simulation: m_nvtx::nvtxrangepush Interface Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -89,7 +89,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('nvtx_8f90.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('interfacem__nvtx_1_1nvtxrangepush.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -109,50 +109,67 @@ $(document).ready(function(){initNavTree('nvtx_8f90.html',''); initResizable(); 
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Data Types</a> &#124;
-<a href="#namespaces">Modules</a> &#124;
-<a href="#func-members">Functions/Subroutines</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="interfacem__nvtx_1_1nvtxrangepush-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">nvtx.f90 File Reference</div>  </div>
+<div class="title">m_nvtx::nvtxrangepush Interface Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Data Types</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">type &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnvtx_1_1nvtxeventattributes.html">nvtx::nvtxeventattributes</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacenvtx_1_1nvtxrangepush.html">nvtx::nvtxrangepush</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacenvtx_1_1nvtxrangepop.html">nvtx::nvtxrangepop</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Modules</h2></td></tr>
-<tr class="memitem:namespacenvtx"><td class="memItemLeft" align="right" valign="top">module &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenvtx.html">nvtx</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions/Subroutines</h2></td></tr>
-<tr class="memitem:abaf43be3229e42bd0f4c1e75d9670075"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenvtx.html#abaf43be3229e42bd0f4c1e75d9670075">nvtx::nvtxstartrange</a> (name, id)</td></tr>
-<tr class="separator:abaf43be3229e42bd0f4c1e75d9670075"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed9b06c5398e0a5b8d7a6e687564fb46"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenvtx.html#aed9b06c5398e0a5b8d7a6e687564fb46">nvtx::nvtxendrange</a></td></tr>
-<tr class="separator:aed9b06c5398e0a5b8d7a6e687564fb46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a523c88a3f76de9670460c791b2d301ab"><td class="memItemLeft" align="right" valign="top">integer, dimension(7), private&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenvtx.html#a523c88a3f76de9670460c791b2d301ab">nvtx::col</a> = [ int(Z'0000ff00'), int(Z'000000ff'), int(Z'00ffff00'), int(Z'00ff00ff'), int(Z'0000ffff'), int(Z'00ff0000'), int(Z'00ffffff') ]</td></tr>
-<tr class="separator:a523c88a3f76de9670460c791b2d301ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1091382d3a4606a73e39a31cb3a6012"><td class="memItemLeft" align="right" valign="top">character(len=256), private&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenvtx.html#ad1091382d3a4606a73e39a31cb3a6012">nvtx::tempname</a></td></tr>
-<tr class="separator:ad1091382d3a4606a73e39a31cb3a6012"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:adb134459b6428ced50fdeedd7725690b"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacem__nvtx_1_1nvtxrangepush.html#adb134459b6428ced50fdeedd7725690b">nvtxrangepusha</a> (name)</td></tr>
+<tr class="separator:adb134459b6428ced50fdeedd7725690b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad81d253606a614fcacd51566e4865a0b"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacem__nvtx_1_1nvtxrangepush.html#ad81d253606a614fcacd51566e4865a0b">nvtxrangepushex</a> (event)</td></tr>
+<tr class="separator:ad81d253606a614fcacd51566e4865a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function/Subroutine Documentation</h2>
+<a id="adb134459b6428ced50fdeedd7725690b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb134459b6428ced50fdeedd7725690b">&#9670;&nbsp;</a></span>nvtxrangepusha()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine m_nvtx::nvtxrangepush::nvtxrangepusha </td>
+          <td>(</td>
+          <td class="paramtype">character(kind=c_char, len=*)&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad81d253606a614fcacd51566e4865a0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad81d253606a614fcacd51566e4865a0b">&#9670;&nbsp;</a></span>nvtxrangepushex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine m_nvtx::nvtxrangepush::nvtxrangepushex </td>
+          <td>(</td>
+          <td class="paramtype">type(<a class="el" href="structm__nvtx_1_1nvtxeventattributes.html">nvtxeventattributes</a>)&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this interface was generated from the following file:<ul>
+<li><a class="el" href="m__nvtx_8f90.html">m_nvtx.f90</a></li>
+</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.1-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="nvtx_8f90.html">nvtx.f90</a></li>
+    <li class="navelem"><a class="el" href="namespacem__nvtx.html">m_nvtx</a></li><li class="navelem"><a class="el" href="interfacem__nvtx_1_1nvtxrangepush.html">nvtxrangepush</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
 </div>

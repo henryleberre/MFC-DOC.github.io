@@ -1,7 +1,7 @@
 <map id="m_time_steppers::s_3rd_order_tvd_rk" name="m_time_steppers::s_3rd_order_tvd_rk">
 <area shape="rect" id="node1" title="3rd order TVD RK time&#45;stepping algorithm" alt="" coords="5,166,156,207"/>
-<area shape="rect" id="node2" href="$namespacenvtx.html#aed9b06c5398e0a5b8d7a6e687564fb46" title=" " alt="" coords="217,35,365,61"/>
-<area shape="rect" id="node3" href="$namespacenvtx.html#abaf43be3229e42bd0f4c1e75d9670075" title=" " alt="" coords="214,85,369,112"/>
+<area shape="rect" id="node2" href="$namespacem__nvtx.html#acb0ad47c439f074b02a3cfc88817b9c7" title=" " alt="" coords="207,35,375,61"/>
+<area shape="rect" id="node3" href="$namespacem__nvtx.html#a9b922c5d5c93c41e0abcd4cf8c382861" title=" " alt="" coords="204,85,379,112"/>
 <area shape="rect" id="node4" href="$namespacem__fftw.html#ada93950a5527dfe2a35cc4f4ba77cb96" title="The purpose of this subroutine is to apply a Fourier low&#45; pass filter to the flow variables in the az..." alt="" coords="204,137,379,178"/>
 <area shape="rect" id="node5" href="$namespacem__rhs.html#a361f0038973069452cc88430c49bcfe8" title=" " alt="" coords="207,203,375,229"/>
 <area shape="rect" id="node16" href="$namespacem__time__steppers.html#a575aa7f95bf96994f49d81d71d19c192" title="This subroutine saves the temporary q_prim_vf vector into the q_prim_ts vector that is then used in p..." alt="" coords="216,254,367,295"/>

@@ -27,7 +27,7 @@ var searchData=
   ['vel_5fsrc_5frsy_5fvf_5fflat_782',['vel_src_rsy_vf_flat',['../namespacem__riemann__solvers.html#a3c153e8cb3fe3882f413024953f2f54f',1,'m_riemann_solvers']]],
   ['vel_5fsrc_5frsz_5fvf_783',['vel_src_rsz_vf',['../namespacem__riemann__solvers.html#ae898628653ed0b589305bc82ed2aa791',1,'m_riemann_solvers']]],
   ['vel_5fsrc_5frsz_5fvf_5fflat_784',['vel_src_rsz_vf_flat',['../namespacem__riemann__solvers.html#a825e2e8d08e7cb6ee888c8544a23d040',1,'m_riemann_solvers']]],
-  ['version_785',['version',['../structnvtx_1_1nvtxeventattributes.html#a3e1c1186627d3585041f5107f7a2c6cf',1,'nvtx::nvtxeventattributes']]],
+  ['version_785',['version',['../structm__nvtx_1_1nvtxeventattributes.html#abea96c114d8adfd0734147f2a385fcea',1,'m_nvtx::nvtxeventattributes']]],
   ['verysmall_786',['verysmall',['../namespacem__qbmm.html#a149a4681ff01e75db84e7fd57eaeed3f',1,'m_qbmm']]],
   ['vl_5frs_5fvf_5fx_787',['vl_rs_vf_x',['../namespacem__weno.html#ac1e1e168e62d11af21faf270c891908e',1,'m_weno']]],
   ['vl_5frs_5fvf_5fy_788',['vl_rs_vf_y',['../namespacem__weno.html#a44c29cbc58dcd9903808c08ba3855a38',1,'m_weno']]],

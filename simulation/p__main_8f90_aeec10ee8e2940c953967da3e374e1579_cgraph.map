@@ -45,8 +45,8 @@
 <area shape="rect" id="node48" href="$namespacem__mpi__proxy.html#a9bc4c617505152d3cc553e5bc25c1ee1" title="The subroutine intializes the MPI execution environment and queries both the number of processors whi..." alt="" coords="148,2895,305,2936"/>
 <area shape="rect" id="node49" href="$namespacem__start__up.html#afd813d91357dc4664a58c690e935ccbd" title="The purpose of this subroutine is to populate the buffers of the grid variables, which are constitute..." alt="" coords="139,2960,314,3001"/>
 <area shape="rect" id="node50" href="$namespacem__start__up.html#ae0571e78c0179c22d3811df31c33c321" title="The purpose of this procedure is to first verify that an input file has been made available by the us..." alt="" coords="153,3025,300,3067"/>
-<area shape="rect" id="node4" href="$namespacenvtx.html#aed9b06c5398e0a5b8d7a6e687564fb46" title=" " alt="" coords="391,114,539,141"/>
-<area shape="rect" id="node5" href="$namespacenvtx.html#abaf43be3229e42bd0f4c1e75d9670075" title=" " alt="" coords="387,165,542,191"/>
+<area shape="rect" id="node4" href="$namespacem__nvtx.html#acb0ad47c439f074b02a3cfc88817b9c7" title=" " alt="" coords="381,114,549,141"/>
+<area shape="rect" id="node5" href="$namespacem__nvtx.html#a9b922c5d5c93c41e0abcd4cf8c382861" title=" " alt="" coords="377,165,552,191"/>
 <area shape="rect" id="node6" href="$namespacem__fftw.html#ada93950a5527dfe2a35cc4f4ba77cb96" title="The purpose of this subroutine is to apply a Fourier low&#45; pass filter to the flow variables in the az..." alt="" coords="377,216,552,257"/>
 <area shape="rect" id="node7" href="$namespacem__rhs.html#a361f0038973069452cc88430c49bcfe8" title=" " alt="" coords="381,63,549,90"/>
 </map>
