@@ -145,7 +145,7 @@ var searchData=
   ['s_5fread_5fserial_5fdata_5ffiles_715',['s_read_serial_data_files',['../namespacem__start__up.html#abd3c3fd9fbb80ef2ddaf82945c1c1af9',1,'m_start_up']]],
   ['s_5freconstruct_5fcell_5fboundary_5fvalues_716',['s_reconstruct_cell_boundary_values',['../namespacem__rhs.html#aa93d7b4162d84118e54c739f626a2f16',1,'m_rhs']]],
   ['s_5freconstruct_5fcell_5fboundary_5fvalues_5fvisc_717',['s_reconstruct_cell_boundary_values_visc',['../namespacem__viscous.html#a5444ae18cefee9f89a50427b2c0be45b',1,'m_viscous']]],
-  ['s_5freconstruct_5fcell_5fboundary_5fvalues_5fvisc_5fderiv_718',['s_reconstruct_cell_boundary_values_visc_deriv',['../namespacem__rhs.html#a632ecd6c105557ce459ab8bd686f9fd5',1,'m_rhs']]],
+  ['s_5freconstruct_5fcell_5fboundary_5fvalues_5fvisc_5fderiv_718',['s_reconstruct_cell_boundary_values_visc_deriv',['../namespacem__viscous.html#a43537e37310e460ebbbc966628aaae0e',1,'m_viscous']]],
   ['s_5friemann_5fsolver_719',['s_riemann_solver',['../namespacem__riemann__solvers.html#a7edc50538c81447bf49e9242d85ee1ff',1,'m_riemann_solvers']]],
   ['s_5fs_720',['s_s',['../namespacem__riemann__solvers.html#a576586da8d3d80052a335d379001059a',1,'m_riemann_solvers']]],
   ['s_5fsimpson_721',['s_simpson',['../namespacem__global__parameters.html#aaae887ec9e7fe756c6f52bd584a7f095',1,'m_global_parameters']]],

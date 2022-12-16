@@ -141,8 +141,6 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:aa93d7b4162d84118e54c739f626a2f16"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__rhs.html#aa93d7b4162d84118e54c739f626a2f16">s_reconstruct_cell_boundary_values</a> (v_vf, vL_x, vL_y, vL_z, vR_x, vR_y, vR_z, norm_dir)</td></tr>
 <tr class="memdesc:aa93d7b4162d84118e54c739f626a2f16"><td class="mdescLeft">&#160;</td><td class="mdescRight">The purpose of this subroutine is to WENO-reconstruct the left and the right cell-boundary values, including values at the Gaussian quadrature points, from the cell-averaged variables.  <a href="namespacem__rhs.html#aa93d7b4162d84118e54c739f626a2f16">More...</a><br /></td></tr>
 <tr class="separator:aa93d7b4162d84118e54c739f626a2f16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a632ecd6c105557ce459ab8bd686f9fd5"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__rhs.html#a632ecd6c105557ce459ab8bd686f9fd5">s_reconstruct_cell_boundary_values_visc_deriv</a> (v_vf, vL_x, vL_y, vL_z, vR_x, vR_y, vR_z, norm_dir, vL_prim_vf, vR_prim_vf)</td></tr>
-<tr class="separator:a632ecd6c105557ce459ab8bd686f9fd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73fc1430500bdd1786b121a9ed08a107"><td class="memItemLeft" align="right" valign="top">subroutine, public&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__rhs.html#a73fc1430500bdd1786b121a9ed08a107">s_finalize_rhs_module</a> ()</td></tr>
 <tr class="memdesc:a73fc1430500bdd1786b121a9ed08a107"><td class="mdescLeft">&#160;</td><td class="mdescRight">Module deallocation and/or disassociation procedures.  <a href="namespacem__rhs.html#a73fc1430500bdd1786b121a9ed08a107">More...</a><br /></td></tr>
 <tr class="separator:a73fc1430500bdd1786b121a9ed08a107"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -360,7 +358,7 @@ Variables</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacem__rhs_a361f0038973069452cc88430c49bcfe8_cgraph.svg" width="459" height="199"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacem__rhs_a361f0038973069452cc88430c49bcfe8_cgraph.svg" width="459" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -514,88 +512,6 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespacem__rhs_aa93d7b4162d84118e54c739f626a2f16_icgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-
-</div>
-</div>
-<a id="a632ecd6c105557ce459ab8bd686f9fd5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a632ecd6c105557ce459ab8bd686f9fd5">&#9670;&nbsp;</a></span>s_reconstruct_cell_boundary_values_visc_deriv()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">subroutine m_rhs::s_reconstruct_cell_boundary_values_visc_deriv </td>
-          <td>(</td>
-          <td class="paramtype">type(scalar_field), dimension(<a class="el" href="namespacem__rhs.html#a8c6d36b43361c5e4ec8a61a7cc8333b4">iv</a>%beg:iv%end), intent(in)&#160;</td>
-          <td class="paramname"><em>v_vf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">real(kind(0d0)), dimension(startx:, starty:, startz:, <a class="el" href="namespacem__rhs.html#a8c6d36b43361c5e4ec8a61a7cc8333b4">iv</a>%beg:), intent(inout)&#160;</td>
-          <td class="paramname"><em>vL_x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">real(kind(0d0)), dimension(startx:, starty:, startz:, <a class="el" href="namespacem__rhs.html#a8c6d36b43361c5e4ec8a61a7cc8333b4">iv</a>%beg:), intent(inout)&#160;</td>
-          <td class="paramname"><em>vL_y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">real(kind(0d0)), dimension(startx:, starty:, startz:, <a class="el" href="namespacem__rhs.html#a8c6d36b43361c5e4ec8a61a7cc8333b4">iv</a>%beg:), intent(inout)&#160;</td>
-          <td class="paramname"><em>vL_z</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">real(kind(0d0)), dimension(startx:, starty:, startz:, <a class="el" href="namespacem__rhs.html#a8c6d36b43361c5e4ec8a61a7cc8333b4">iv</a>%beg:), intent(inout)&#160;</td>
-          <td class="paramname"><em>vR_x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">real(kind(0d0)), dimension(startx:, starty:, startz:, <a class="el" href="namespacem__rhs.html#a8c6d36b43361c5e4ec8a61a7cc8333b4">iv</a>%beg:), intent(inout)&#160;</td>
-          <td class="paramname"><em>vR_y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">real(kind(0d0)), dimension(startx:, starty:, startz:, <a class="el" href="namespacem__rhs.html#a8c6d36b43361c5e4ec8a61a7cc8333b4">iv</a>%beg:), intent(inout)&#160;</td>
-          <td class="paramname"><em>vR_z</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer, intent(in)&#160;</td>
-          <td class="paramname"><em>norm_dir</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">type(scalar_field), dimension(<a class="el" href="namespacem__rhs.html#a8c6d36b43361c5e4ec8a61a7cc8333b4">iv</a>%beg:iv%end), intent(inout)&#160;</td>
-          <td class="paramname"><em>vL_prim_vf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">type(scalar_field), dimension(<a class="el" href="namespacem__rhs.html#a8c6d36b43361c5e4ec8a61a7cc8333b4">iv</a>%beg:iv%end), intent(inout)&#160;</td>
-          <td class="paramname"><em>vR_prim_vf</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespacem__rhs_a632ecd6c105557ce459ab8bd686f9fd5_icgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
