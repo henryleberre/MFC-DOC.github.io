@@ -6,7 +6,6 @@ var m__riemann__solvers_8f90 =
     [ "s_compute_abstract_viscous_source_flux", "interfacem__riemann__solvers_1_1s__compute__abstract__viscous__source__flux.html", "interfacem__riemann__solvers_1_1s__compute__abstract__viscous__source__flux" ],
     [ "s_compute_cartesian_viscous_source_flux", "m__riemann__solvers_8f90.html#a58c0a2ab06eb5094f60c5e68dbde7300", null ],
     [ "s_compute_cylindrical_viscous_source_flux", "m__riemann__solvers_8f90.html#a50ff087624d23846c62cd711dd003757", null ],
-    [ "s_convert_species_to_mixture_variables_riemann_acc", "m__riemann__solvers_8f90.html#a2b59913502c581f3404acaf955087521", null ],
     [ "s_finalize_riemann_solver", "m__riemann__solvers_8f90.html#ab679d890c95c6cb1ee3dc5e5a9ae1c19", null ],
     [ "s_finalize_riemann_solvers_module", "m__riemann__solvers_8f90.html#a5bd1ce6fbbb840b5b1c6dd97ccb8d674", null ],
     [ "s_hll_riemann_solver", "m__riemann__solvers_8f90.html#acc528a5919a3541742f3be994d0f7fa3", null ],
