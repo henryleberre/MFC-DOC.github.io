@@ -203,7 +203,11 @@ Docker (Cross-Platform)</h2>
 <p>:warning: The state of your container is entirely transient, except for the MFC mount. Thus, any modification outside of <code>~/MFC</code> should be considered as permanently lost upon session exit.</p>
 <h1><a class="anchor" id="autotoc_md10"></a>
 Fetch &amp; Build</h1>
-<p>MFC can be built without a helper script by directly running CMake but they (<code>mfc.sh</code> on Linux and <code>mfc.bat</code> on Windows) offer convenience features that assist in building, testing, optimization, as well as interactive and batch execution. To build MFC without a helper script, consult the <a href="CMakeLists.txt">CMakeLists.txt</a> file for a full list of options, as well as <a href="toolchain/dependencies/CMakeLists.txt">toolchain/dependencies/CMakeLists.txt</a> for a CMake superbuild file that fetches and builds MFC's main dependencies with supported versions.</p>
+<p>There are two ways of building and using MFC:</p>
+<ul>
+<li>**(Highly Recommended)** Using the <code>mfc.sh</code> script (or <code>mfc.bat</code> on Windows). <code>mfc.sh</code> offers many convenience features that assist in building, dependency management, testing, optimization, as well as interactive and batch execution.</li>
+<li>**(Highly Discouraged)** Invoking CMake manually (refer to the CMakeLists.txt file). A CMake superbuild file is provided to assist in building MFC's dependencies correctly.</li>
+</ul>
 <h2><a class="anchor" id="autotoc_md11"></a>
 Fetching MFC</h2>
 <div class="fragment"><div class="line">$ git clone https://github.com/MFlowCode/MFC</div>
@@ -213,23 +217,27 @@ Building MFC</h2>
 <p>MFC can be built with support for various (compile-time) features:</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
-<th class="markdownTableHeadNone">Feature   </th><th class="markdownTableHeadNone">Enable   </th><th class="markdownTableHeadNone">Disable   </th><th class="markdownTableHeadNone">Description    </th></tr>
+<th class="markdownTableHeadCenter">Feature   </th><th class="markdownTableHeadCenter">Enable   </th><th class="markdownTableHeadCenter">Disable   </th><th class="markdownTableHeadNone">Description    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">MPI   </td><td class="markdownTableBodyNone"><code>--mpi</code>   </td><td class="markdownTableBodyNone"><code>--no-mpi</code>   </td><td class="markdownTableBodyNone"></td></tr>
+<td class="markdownTableBodyCenter"><b>MPI</b>   </td><td class="markdownTableBodyCenter"><code>--mpi</code>   </td><td class="markdownTableBodyCenter"><code>--no-mpi</code>   </td><td class="markdownTableBodyNone">Lets MFC run on multiple processors (and nodes) simultaneously.    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">GPU (via OpenACC)   </td><td class="markdownTableBodyNone"><code>--gpu</code>   </td><td class="markdownTableBodyNone"><code>--no-gpu</code>   </td><td class="markdownTableBodyNone"></td></tr>
+<td class="markdownTableBodyCenter"><b>GPU</b>   </td><td class="markdownTableBodyCenter"><code>--gpu</code>   </td><td class="markdownTableBodyCenter"><code>--no-gpu</code>   </td><td class="markdownTableBodyNone">Enables GPU acceleration via OpenACC.    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">Debug (compiler)   </td><td class="markdownTableBodyNone"><code>--debug</code>   </td><td class="markdownTableBodyNone"><code>--no-debug</code>   </td><td class="markdownTableBodyNone"></td></tr>
+<td class="markdownTableBodyCenter"><b>Debug</b>   </td><td class="markdownTableBodyCenter"><code>--debug</code>   </td><td class="markdownTableBodyCenter"><code>--no-debug</code>   </td><td class="markdownTableBodyNone">Requests the compiler build MFC in debug mode.   </td></tr>
 </table>
-<p>When these options are given to <code>mfc.sh</code>, they will be remembered. You can enable and disable features at any time by passing any of the arguments above. For example, if you have previously built MFC with MPI support and no longer wish to __, you can pass <code>--no-mpi</code>.</p>
-<p>Examples:</p>
-<div class="fragment"><div class="line">$ ./mfc.sh build --mpi -t pre_process simulation post_process -j 8</div>
-</div><!-- fragment --><p><b>IMPORTANT NOTE</b>: This same mode will be used for any future commands such as <code>./mfc.sh test</code> and <code>./mfc.sh run</code> until you specify <code>-m</code> again (in any of these commands).</p>
+<p><em>⚠️ The <code>--gpu</code> option requires that your compiler supports OpenACC for Fortran for your target GPU architecture.</em></p>
+<p>When these options are given to <code>mfc.sh</code>, they will be remembered when you issue future commands. You can enable and disable features at any time by passing any of the arguments above. For example, if you have previously built MFC with MPI support and no longer wish to run using MPI, you can pass <code>--no-mpi</code> once, for the change to be permanent.</p>
+<p>MFC is composed of three codes, each being a separate <em>target</em>. By default, all targets (<code>pre_process</code>, <code>simulation</code>, and <code>post_process</code>) are selected. To only select a subset, use the <code>-t</code> (i.e <code>--targets</code>) argument. For a detailed list of options, arguments, and features, please refer to <code>./mfc.sh build --help</code>.</p>
+<p>Most first-time users will want to build MFC using 8 threads (or more!) with MPI support: </p><div class="fragment"><div class="line">$ ./mfc.sh build --mpi -j 8</div>
+</div><!-- fragment --><p>Examples (with explanations):</p>
 <ul>
-<li><b>Run MFC's tests in <code>release-cpu</code> mode with 8 threads:</b></li>
+<li>Build MFC using 8 threads with MPI and GPU acceleration: <code>$ ./mfc.sh build --mpi --gpu -j 8</code>.</li>
+<li>Build MFC using a single thread without MPI, GPU, and Debug support: <code>$ ./mfc.sh build</code>.</li>
+<li>Build MFC's <code>simulation</code> code in Debug mode: <code>$ ./mfc.sh build --debug -t simulation</code>.</li>
+<li><b>Run MFC's test suite with 8 threads:</b></li>
 </ul>
 <div class="fragment"><div class="line">$ ./mfc.sh test -j 8</div>
-</div><!-- fragment --><p>Please refer to the <a href="#testing-mfc">Testing</a> section of this document for more information. </p>
+</div><!-- fragment --><p>Please refer to the <a href="#testing-mfc">Testing</a> document for more information. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
