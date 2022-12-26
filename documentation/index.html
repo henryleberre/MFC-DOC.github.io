@@ -114,15 +114,25 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="md_readme"></a> The MFC is a fully-documented parallel simulation software for multi-component, multi-phase, and bubbly flows. The source code of MFC is available <a href="https://github.com/MFlowCode/MFC">on GitHub</a> and is open to contributions!</p>
 <h1><a class="anchor" id="autotoc_md26"></a>
+User Documentation</h1>
+<ul>
+<li><a class="el" href="md_building.html">Building MFC</a></li>
+<li><a class="el" href="md_running.html">Running MFC</a></li>
+<li><a class="el" href="md_testing.html">Testing MFC</a></li>
+<li><a class="el" href="md_visualisation.html">Flow Visualisation</a></li>
+<li><a class="el" href="md_authors.html">MFC's Authors</a></li>
+<li><a class="el" href="md_references.html">References</a></li>
+</ul>
+<h1><a class="anchor" id="autotoc_md27"></a>
 Code Documentation</h1>
 <ul>
 <li><a href="../pre_process/">Pre Process</a></li>
 <li><a href="../simulation/">Simulation</a></li>
 <li><a href="../post_process/">Post Process</a></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md27"></a>
+<h1><a class="anchor" id="autotoc_md28"></a>
 Publications</h1>
-<h2><a class="anchor" id="autotoc_md28"></a>
+<h2><a class="anchor" id="autotoc_md29"></a>
 Primary Paper</h2>
 <p>The paper that describes the MFC's capabilities:</p><ul>
 <li><a href="https://doi.org/10.1016/j.cpc.2020.107396">S. H. Bryngelson, K. Schmidmayer, V. Coralic, K. Maeda, J. Meng, T. Colonius (2021) Computer Physics Communications 4655, 107396 </a></li>
@@ -137,7 +147,7 @@ Primary Paper</h2>
 <div class="line">    publisher = {Elsevier {BV}},</div>
 <div class="line">    pages = {107396},</div>
 <div class="line">}</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md29"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md30"></a>
 Related publications</h2>
 <p>Several publications have used the MFC in various stages of its development. A partial list is included here.</p>
 <p>Journal papers:</p><ul>
@@ -158,9 +168,6 @@ Related publications</h2>
 <li><a href="https://thesis.library.caltech.edu/9764/">J. Meng (2016) Ph.D. thesis, California Institute of Technology </a></li>
 <li><a href="https://thesis.library.caltech.edu/8758/">V. Coralic (2014) Ph.D. thesis, California Institute of Technology </a></li>
 </ul>
-<h2><a class="anchor" id="autotoc_md30"></a>
-User Configuration</h2>
-<p>The <a href="https://github.com/MFlowCode/MFC/blob/master/mfc.sh">mfc.sh</a> script used in the previous section is configured through the <a href="https://github.com/MFlowCode/MFC/blob/master/defaults.yaml">defaults.yaml</a> file.</p>
 <h1><a class="anchor" id="autotoc_md31"></a>
 Development</h1>
 <h2><a class="anchor" id="autotoc_md32"></a>
@@ -174,13 +181,10 @@ Loading Modules</h2>
 <p>On computer systems that run using environment modules, with implementations like <a href="https://github.com/TACC/Lmod">TACC's Lmod</a>, MFC provides a script that can load modules that have been used by contributors.</p>
 <div class="fragment"><div class="line">$ . ./mfc.sh load</div>
 </div><!-- fragment --><p>The list of modules offered by a system is subject to change. The aforementioned script serves as a convenient way to load modules that should work for most users of MFC.</p>
-<h2><a class="anchor" id="autotoc_md35"></a>
-OpenACC Memory Profiling</h2>
-<p>You can append <code>-DMFC_MEMORY_DUMP</code> to <code>release-gpu</code>'s Fortran compiler options in <a href="defaults.yaml">defaults.yaml</a> to make the <a href="src/simulation/">simulation code</a> call <code>acc_present_dump()</code> at various stages of program execution to obtain a printout of on-device memory usage. The <a href="misc/mem_parse.sh">mem_parse.sh</a> script can be given as an argument the path to a file containing MFC's output, in order to aggregate the data and produce tables with formatted output.</p>
-<h1><a class="anchor" id="autotoc_md36"></a>
+<h1><a class="anchor" id="autotoc_md35"></a>
 License</h1>
 <p>Copyright 2022. MFC is under the MIT license (see <a href="https://github.com/MFlowCode/MFC/blob/master/LICENSE">LICENSE</a> file for full text).</p>
-<h1><a class="anchor" id="autotoc_md37"></a>
+<h1><a class="anchor" id="autotoc_md36"></a>
 Acknowledgements</h1>
 <p>The development of the MFC was supported in part by multiple current and past grants from the US Office of Naval Research (ONR), the US National Institute of Health (NIH), and the US National Science Foundation (NSF). MFC computations utilize the Extreme Science and Engineering Discovery Environment (XSEDE), under allocations TG-CTS120005 (PI Colonius) and TG-PHY210084 (PI Bryngelson) and ORNL Summit under allocation CFD154 (PI Bryngelson). </p>
 </div></div><!-- PageDoc -->
