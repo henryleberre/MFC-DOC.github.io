@@ -23,9 +23,7 @@
     <div class="w-full flex flex-col">
         <header class="w-full text-white flex flex-col items-center drop-shadow-3xl font-bold text-xl md:text-2xl">
             <div class="px-4 md:px-0 container mx-auto py-6 flex flex-row items-center justify-center md:justify-start gap-x-4">
-                <a class="hidden md:inline" href="https://mflowcode.github.io/">
-                    <img class="h-6" src="res/banner.png" />
-                </a>
+                <img class="hidden md:inline h-6" src="res/banner.png" />
                 <div>Multi-Component Flow Code</div>
             </div>
         </header>
@@ -56,19 +54,70 @@
         </div>
     </div>
     <main class="px-4 md:px-0 bg-white flex-1 py-6 md:py-12 grid gap-y-4 md:gap-y-12">
-        <div class="container mx-auto">
-            <div class="flex flex-col md:flex-row gap-4 md:gap-0">
-                <h1 class="flex-1 flex flex-col justify-center gap-y-4 md:gap-y-10 text-center">
+        <div class="container mx-auto flex flex-col gap-8">
+            <div class="flex flex-col gap-4">
+                <h1 class="flex-1 flex flex-col justify-center gap-y-4">
                     <div class="text-xl md:text-2xl font-extrabold">
-                        Gallery
+                        Featured Simulations
                     </div>
                     <div class="text-sm md:text-md">
-                        A small collection of visualisations of simulations completed using MFC
+                        A small collection of visualisations of simulations completed using MFC.
+                        Contact us if you would like to be featured!
                     </div>
                 </h1>
-                <div class="flex-1">
-                    <img src="res/gallery_1.png" />
+                <div class="flex-1 grid grid-cols-1 md:grid-cols-4 gap-4">
+                    <div class="bg-slate-900 flex flex-col text-white rounded">
+                        <img src="res/gallery_1.png">
+                        <div class="flex flex-row items-center">
+                            <img class="h-10 bg-white" src="res/logo.png" />
+                            <div class="font-semibold px-2">Bubble collapse from monopole</div>
+                        </div>
+                    </div>
+                    
+                    <!-- more to come! -->
                 </div>
+            </div>
+
+            <div class="flex flex-col gap-4">
+                <h1 class="flex-1 flex flex-col justify-center gap-y-4">
+                    <div class="text-xl md:text-2xl font-extrabold">
+                        Meet the Authors - Professors
+                    </div>
+                </h1>
+                <div class="flex-1 grid grid-cols-1 md:grid-cols-4 gap-4">
+
+                    <div class="bg-slate-900 flex flex-row text-white rounded">
+                        <div class="w-32">
+                            <img class="h-32 mx-auto" src="https://avatars.githubusercontent.com/u/39740593?v=4">
+                        </div>
+                        <div class="flex-1 w-full flex flex-col items-center p-4 justify-center text-center">
+                            <div class="font-semibold text-sky-300">Spencer Bryngelson</div>
+                            <div class="text-sm text-slate-300">Georgia Institute of Technology</div>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-900 flex flex-row text-white rounded">
+                        <div class="w-32">
+                            <img class="h-32 mx-auto" src="https://caltechsites-prod.s3.amazonaws.com/colonius/images/Screen_Shot_2022-02-28_at_3.2.2e16d0ba.fill-310x412-c100.png">
+                        </div>
+                        <div class="flex-1 w-full flex flex-col items-center p-4 justify-center text-center">
+                            <div class="font-semibold text-sky-300">Tim Colonius</div>
+                            <div class="text-sm text-slate-300">California Institute of Technology</div>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-900 flex flex-row text-white rounded">
+                        <div class="w-32">
+                            <img class="h-32 mx-auto" src="https://avatars.githubusercontent.com/u/19245739?v=4">
+                        </div>
+                        <div class="flex-1 w-full flex flex-col items-center p-4 justify-center text-center">
+                            <div class="font-semibold text-sky-300">Mauro Rodriguez Jr</div>
+                            <div class="text-sm text-slate-300">Brown University</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="font-semibold">for a full list of authors, please refer to the <a class="text-sky-500" href="documentation/md_authors.html">Authors page</a>.</div>
             </div>
         </div>
     </main>
