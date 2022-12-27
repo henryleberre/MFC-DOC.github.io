@@ -6,52 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MFC | Home</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="logo.png" />
-    <style type="text/css">
-        a {
-            color: #b3a269 !important;
+    <script>
+        async function onLoad(event) {
+            const url = "https://api.github.com/repos/MFlowCode/MFC/releases/latest";
+
+            document.getElementById("release-ver").innerText = 
+                (await fetch(url).then((r) => r.json()))["tag_name"];
         }
 
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+        window.addEventListener("load", onLoad);
+    </script>
 </head>
 <body class="flex flex-col min-h-screen bg-slate-900">
     <div class="w-full flex flex-col">
-        <header class="w-full top-0 text-white flex flex-col items-center drop-shadow-2xl">
-            <div class="px-4 md:px-0 container mx-auto py-8 flex flex-row items-center justify-between">
-                <div class="flex flex-row items-center gap-x-2">
-                    <a href="https://mflowcode.github.io/" class="flex flex-row items-center gap-x-2">
-                        <img class="h-8 md:h-12 rounded-full bg-white" src="res/logo.png" />
-                        <h1 class="font-bold text-3xl">MFC</h1>
+        <header class="w-full text-white flex flex-col items-center drop-shadow-3xl font-bold text-2xl">
+            <div class="px-4 md:px-0 container mx-auto py-6 flex flex-row items-center justify-between">
+                <div class="flex flex-row items-center gap-x-4">
+                    <a href="https://mflowcode.github.io/">
+                        <img class="h-6" src="res/logo_light.png" />
                     </a>
+                    <div>Multi-Component Flow Code</div>
                 </div>
-                <div class="flex flex-row items-center gap-x-2">
-                    <a href="https://github.com/MFlowCode/MFC">
-                        <img class="h-8 md:h-12" src="res/github.png" />
-                    </a>
-                </div>
+                <a class="items-center" href="https://github.com/MFlowCode/MFC">
+                    <img class="h-6" src="res/github.png" />
+                </a>
             </div>
         </header>
-        <div class="px-4 md:px-0 container mx-auto py-12 md:py-24 w-full flex flex-col">
-            <div class="columns-2 gap-8 w-full flex flex-col md:flex-row items-center">
+        <div class="px-4 md:px-0 gap-8 py-4 md:py-12 container mx-auto w-full flex flex-col">
+            <div class="columns-2 py-16 w-full flex flex-col md:flex-row items-center">
                 <div class="w-full flex flex-col gap-4">
                     <img src="res/logo_light.png" class="h-20 md:h-24 mx-auto">
-                    <span class="text-2xl md:text-4xl text-center font-bold text-white">
-                        Multi-Component Flow Code
-                    </span>
-                    <div class="flex flex-row mt-4 justify-center gap-4 text-md md:text-xl text-center text-white font-medium">
-                        <a href="https://github.com/MFlowCode/MFC">GitHub</a>
-                        -
-                        <a href="https://github.com/MFlowCode/MFC/releases/latest">Download</a>
-                        -
-                        <a href="documentation/index.html">Documentation</a>
-                    </div>
                 </div>
-                <div class="w-full text-white text-md md:text-lg text-justify">
-                    MFC simulates compressible multi-component and multi-phase flows, amongst other things. It scales ideally to tens of thousands of GPUs. MFC is a Fortran codebase that makes use of metaprogramming to keep the codebase readable and compact.
+                <div class="w-full text-white text-md md:text-lg text-justify font-semibold">
+                    MFC simulates compressible multi-component and multi-phase flows, amongst other things. It scales ideally to tens of thousands of GPUs.
                 </div>
+            </div>
+            <div class="flex justify-center flex-row gap-x-8 text-md md:text-xl text-center text-white font-medium">
+                <a class="p-4 border-b-2 hover:border-amber-400" href="https://github.com/MFlowCode/MFC/releases/latest">
+                    <i class="fa fa-download mr-2"></i>
+                    Download <span id="release-ver"></span>
+                </a>
+                <a class="p-4 border-b-2 hover:border-amber-400" href="documentation/index.html">
+                    Getting Started
+                </a>
             </div>
         </div>
     </div>
@@ -70,19 +69,14 @@
                     <img src="res/gallery_1.png" />
                 </div>
             </div>
-            <div class="flex flex-col-reverse md:flex-row gap-y-4 md:gap-y-10">
-                <div class="text-justify flex-1 text-md">
-                    MFC development was supported by multiple current and past grants from the US Office of Naval Research (ONR), the US National Institute of Health (NIH), and the US National Science Foundation (NSF). MFC computations utilize the Extreme Science and Engineering Discovery Environment (XSEDE), under allocations TG-CTS120005 (PI Colonius) and TG-PHY210084 (PI Bryngelson) and OLCF Summit under allocation CFD154 (PI Bryngelson).
-                </div>
-                <h1 class="flex-1 flex flex-col justify-center gap-y-10 text-center text-2xl font-extrabold">
-                    Acknowledgements
-                </h1>
-            </div>
         </div>
     </main>
-    <div class="w-full text-white py-4 text-md">
-        <div class="container mx-auto font-bold text-center md:text-left">
-            &copy; 2022 <a href="https://comp-physics.group/">Computational Physics Group @ GT CSE</a>
+    <div class="flex flex-col w-full text-white py-8 gap-4 text-md container mx-auto">
+        <div class="font-bold text-center md:text-left">
+            &copy; 2022 <a href="https://comp-physics.group/">Computational Physics Group at the Georgia Institute of Technology</a>
+        </div>
+        <div class="text-justify flex-1 text-sm text-neutral-300">
+            MFC development was supported by multiple current and past grants from the US Office of Naval Research (ONR), the US National Institute of Health (NIH), and the US National Science Foundation (NSF). MFC computations utilize the Extreme Science and Engineering Discovery Environment (XSEDE), under allocations TG-CTS120005 (PI Colonius) and TG-PHY210084 (PI Bryngelson) and OLCF Summit under allocation CFD154 (PI Bryngelson).
         </div>
     </div>
 </body>

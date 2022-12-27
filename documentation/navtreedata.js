@@ -25,21 +25,9 @@
 var NAVTREE =
 [
   [ "MFC", "index.html", [
-    [ "Welcome to MFC!", "index.html", [
+    [ "Documentation", "index.html", [
       [ "User Documentation", "index.html#autotoc_md26", null ],
-      [ "Code Documentation", "index.html#autotoc_md27", null ],
-      [ "Publications", "index.html#autotoc_md28", [
-        [ "Primary Paper", "index.html#autotoc_md29", null ],
-        [ "Related publications", "index.html#autotoc_md30", null ]
-      ] ],
-      [ "Development", "index.html#autotoc_md31", [
-        [ "Fypp", "index.html#autotoc_md32", null ]
-      ] ],
-      [ "Useful Scripts", "index.html#autotoc_md33", [
-        [ "Loading Modules", "index.html#autotoc_md34", null ]
-      ] ],
-      [ "License", "index.html#autotoc_md35", null ],
-      [ "Acknowledgements", "index.html#autotoc_md36", null ]
+      [ "Code/API Documentation", "index.html#autotoc_md27", null ]
     ] ],
     [ "Authors", "md_authors.html", null ],
     [ "Building", "md_building.html", [
@@ -74,32 +62,32 @@ var NAVTREE =
     ] ],
     [ "References", "md_references.html", null ],
     [ "Running", "md_running.html", [
-      [ "Parameters", "md_running.html#autotoc_md39", [
-        [ "1. Runtime", "md_running.html#autotoc_md40", null ],
-        [ "2. Computational Domain", "md_running.html#autotoc_md41", null ],
-        [ "3. Patches", "md_running.html#autotoc_md42", null ],
-        [ "4. Fluid Material’s", "md_running.html#autotoc_md43", null ],
-        [ "5. Simulation Algorithm", "md_running.html#autotoc_md44", null ],
-        [ "6. Formatted Output", "md_running.html#autotoc_md45", null ],
-        [ "7. Acoustic Source", "md_running.html#autotoc_md46", null ],
-        [ "8. Ensemble-Averaged Bubble Model", "md_running.html#autotoc_md47", null ]
+      [ "Parameters", "md_running.html#autotoc_md30", [
+        [ "1. Runtime", "md_running.html#autotoc_md31", null ],
+        [ "2. Computational Domain", "md_running.html#autotoc_md32", null ],
+        [ "3. Patches", "md_running.html#autotoc_md33", null ],
+        [ "4. Fluid Material’s", "md_running.html#autotoc_md34", null ],
+        [ "5. Simulation Algorithm", "md_running.html#autotoc_md35", null ],
+        [ "6. Formatted Output", "md_running.html#autotoc_md36", null ],
+        [ "7. Acoustic Source", "md_running.html#autotoc_md37", null ],
+        [ "8. Ensemble-Averaged Bubble Model", "md_running.html#autotoc_md38", null ]
       ] ],
-      [ "Enumerations", "md_running.html#autotoc_md48", [
-        [ "Boundary conditions", "md_running.html#autotoc_md49", null ],
-        [ "Patch types", "md_running.html#autotoc_md50", null ],
-        [ "Flux limiters", "md_running.html#autotoc_md51", null ],
-        [ "Monopole supports", "md_running.html#autotoc_md52", null ]
+      [ "Enumerations", "md_running.html#autotoc_md39", [
+        [ "Boundary conditions", "md_running.html#autotoc_md40", null ],
+        [ "Patch types", "md_running.html#autotoc_md41", null ],
+        [ "Flux limiters", "md_running.html#autotoc_md42", null ],
+        [ "Monopole supports", "md_running.html#autotoc_md43", null ]
       ] ],
-      [ "Running", "md_running.html#autotoc_md53", [
-        [ "Interactive Execution", "md_running.html#autotoc_md54", null ],
-        [ "Batch Execution", "md_running.html#autotoc_md55", null ],
-        [ "Example Runs", "md_running.html#autotoc_md56", null ]
+      [ "Running", "md_running.html#autotoc_md44", [
+        [ "Interactive Execution", "md_running.html#autotoc_md45", null ],
+        [ "Batch Execution", "md_running.html#autotoc_md46", null ],
+        [ "Example Runs", "md_running.html#autotoc_md47", null ]
       ] ]
     ] ],
     [ "Testing", "md_testing.html", null ],
     [ "Flow visualization", "md_visualisation.html", [
-      [ "Procedure", "md_visualisation.html#autotoc_md60", null ],
-      [ "Serial data output", "md_visualisation.html#autotoc_md61", null ]
+      [ "Procedure", "md_visualisation.html#autotoc_md51", null ],
+      [ "Serial data output", "md_visualisation.html#autotoc_md52", null ]
     ] ]
   ] ]
 ];
