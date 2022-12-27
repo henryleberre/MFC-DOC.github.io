@@ -11,9 +11,9 @@
     <script>
         async function onLoad(event) {
             const url = "https://api.github.com/repos/MFlowCode/MFC/releases/latest";
+            const r   = await fetch(url).then((r) => r.json());
 
-            document.getElementById("release-ver").innerText = 
-                (await fetch(url).then((r) => r.json()))["tag_name"];
+            document.getElementById("release-ver").innerText  = r["tag_name"];
         }
 
         window.addEventListener("load", onLoad);
@@ -32,8 +32,9 @@
                 <div class="w-full flex flex-col gap-4">
                     <img src="res/banner.png" class="h-20 md:h-24 mx-auto">
                 </div>
-                <div class="w-full text-white text-md md:text-lg text-justify font-semibold">
-                    MFC simulates compressible multi-component and multi-phase flows, amongst other things. It scales ideally to tens of thousands of GPUs.
+                <div class="w-full flex flex-col text-white text-md md:text-lg text-justify font-semibold">
+                    MFC simulates compressible multi-component and multi-phase flows, amongst other things.
+                    It scales ideally to tens of thousands of GPUs.
                 </div>
             </div>
             <div class="flex justify-center flex-row gap-x-4 md:gap-x-8 text-md md:text-xl text-center text-white font-medium">
@@ -42,25 +43,30 @@
                     <span class="hidden md:inline">GitHub</span>
                 </a>
                 <a class="p-4 border-b-2 hover:border-amber-400" href="https://github.com/MFlowCode/MFC/releases/latest">
-                    <i class="fa fa-download mr-2"></i>
+                    <i class="fa-solid fa-download md:mr-2"></i>
                     <span class="hidden md:inline">Download </span>
-                    <span id="release-ver"></span>
+                    <span class="hidden md:inline" id="release-ver"></span>
                 </a>
                 <a class="p-4 border-b-2 hover:border-amber-400" href="documentation/index.html">
-                    <i class="fa fa-book md:mr-2"></i>
+                    <i class="fa-solid fa-book md:mr-2"></i>
                     <span class="hidden md:inline">Documentation</span>
+                </a>
+                <a class="p-4 border-b-2 hover:border-amber-400" href="https://doi.org/10.1016/j.cpc.2020.107396">
+                    <span>Primary Paper</span>
                 </a>
             </div>
         </div>
     </div>
     <main class="px-4 md:px-0 bg-white flex-1 py-6 md:py-12 grid gap-y-4 md:gap-y-12">
         <div class="container mx-auto flex flex-col gap-8">
+            <!-- more to come! 
+
             <div class="flex flex-col gap-4">
                 <h1 class="flex-1 flex flex-col justify-center gap-y-4">
                     <div class="text-xl md:text-2xl font-extrabold">
                         Featured Simulations
                     </div>
-                    <div class="text-sm md:text-md">
+                    <div class="text-sm md:text-md text-justify">
                         A small collection of visualisations of simulations completed using MFC.
                         Contact us if you would like to be featured!
                     </div>
@@ -74,9 +80,9 @@
                         </div>
                     </div>
                     
-                    <!-- more to come! -->
                 </div>
             </div>
+            -->
 
             <div class="flex flex-col gap-4">
                 <h1 class="flex-1 flex flex-col justify-center gap-y-4">
@@ -86,38 +92,59 @@
                 </h1>
                 <div class="flex-1 grid grid-cols-1 md:grid-cols-4 gap-4">
 
-                    <div class="bg-slate-900 flex flex-row text-white rounded">
-                        <div class="w-32">
-                            <img class="h-32 mx-auto" src="https://avatars.githubusercontent.com/u/39740593?v=4">
+                    <a href="https://comp-physics.group/">
+                        <div class="bg-slate-900 flex flex-row text-white rounded">
+                            <div class="w-32">
+                                <img class="h-32 mx-auto" src="https://avatars.githubusercontent.com/u/39740593?v=4">
+                            </div>
+                            <div class="flex-1 w-full flex flex-col items-center justify-center text-center">
+                                <div class="w-full flex-1 flex flex-col items-center justify-center">
+                                    <div class="font-semibold text-sky-300">Spencer Bryngelson</div>
+                                    <div class="text-sm text-slate-300">Georgia Institute of Technology</div>
+                                </div>
+                                <div class="w-full py-2 text-sm border-t-2 border-amber-400">
+                                    Computational Physics Group
+                                </div>
+                            </div>
                         </div>
-                        <div class="flex-1 w-full flex flex-col items-center p-4 justify-center text-center">
-                            <div class="font-semibold text-sky-300">Spencer Bryngelson</div>
-                            <div class="text-sm text-slate-300">Georgia Institute of Technology</div>
-                        </div>
-                    </div>
+                    </a>
 
-                    <div class="bg-slate-900 flex flex-row text-white rounded">
-                        <div class="w-32">
-                            <img class="h-32 mx-auto" src="https://caltechsites-prod.s3.amazonaws.com/colonius/images/Screen_Shot_2022-02-28_at_3.2.2e16d0ba.fill-310x412-c100.png">
+                    <a href="https://vivo.brown.edu/display/mrodri97">
+                        <div class="bg-slate-900 flex flex-row text-white rounded">
+                            <div class="w-32">
+                                <img class="h-32 mx-auto" src="https://avatars.githubusercontent.com/u/19245739?v=4">
+                            </div>
+                            <div class="flex-1 w-full flex flex-col items-center justify-center text-center">
+                                <div class="w-full flex-1 flex flex-col items-center justify-center">
+                                    <div class="font-semibold text-sky-300">Mauro Rodriguez Jr</div>
+                                    <div class="text-sm text-slate-300">Brown University</div>
+                                </div>
+                                <div class="w-full py-2 text-sm border-t-2 border-amber-400">
+                                    Rodriguez Flow Research Group
+                                </div>
+                            </div>
                         </div>
-                        <div class="flex-1 w-full flex flex-col items-center p-4 justify-center text-center">
-                            <div class="font-semibold text-sky-300">Tim Colonius</div>
-                            <div class="text-sm text-slate-300">California Institute of Technology</div>
-                        </div>
-                    </div>
+                    </a>
 
-                    <div class="bg-slate-900 flex flex-row text-white rounded">
-                        <div class="w-32">
-                            <img class="h-32 mx-auto" src="https://avatars.githubusercontent.com/u/19245739?v=4">
+                    <a href="https://colonius.caltech.edu/">
+                        <div class="bg-slate-900 flex flex-row text-white rounded">
+                            <div class="w-32">
+                                <img class="h-32 mx-auto" src="https://caltechsites-prod.s3.amazonaws.com/colonius/images/Screen_Shot_2022-02-28_at_3.2.2e16d0ba.fill-310x412-c100.png">
+                            </div>
+                            <div class="flex-1 w-full flex flex-col items-center justify-center text-center">
+                                <div class="w-full flex-1 flex flex-col items-center justify-center">
+                                    <div class="font-semibold text-sky-300">Tim Colonius</div>
+                                    <div class="text-sm text-slate-300">California Institute of Technology</div>
+                                </div>
+                                <div class="w-full py-2 text-sm border-t-2 border-amber-400">
+                                    Colonius Research Group
+                                </div>
+                            </div>
                         </div>
-                        <div class="flex-1 w-full flex flex-col items-center p-4 justify-center text-center">
-                            <div class="font-semibold text-sky-300">Mauro Rodriguez Jr</div>
-                            <div class="text-sm text-slate-300">Brown University</div>
-                        </div>
-                    </div>
+                    </a>
 
                 </div>
-                <div class="font-semibold">for a full list of authors, please refer to the <a class="text-sky-500" href="documentation/md_authors.html">Authors page</a>.</div>
+                <div class="font-semibold text-justify">An complete list of authors is hosted <a class="text-sky-500" href="documentation/md_authors.html">here</a>.</div>
             </div>
         </div>
     </main>
