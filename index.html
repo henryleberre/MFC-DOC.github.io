@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MFC | Home</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="icon" href="logo.png" />
     <script>
         async function onLoad(event) {
@@ -21,21 +21,16 @@
 </head>
 <body class="flex flex-col min-h-screen bg-slate-900">
     <div class="w-full flex flex-col">
-        <header class="w-full text-white flex flex-col items-center drop-shadow-3xl font-bold text-2xl">
-            <div class="px-4 md:px-0 container mx-auto py-6 flex flex-row items-center justify-between">
-                <div class="flex flex-row items-center gap-x-4">
-                    <a href="https://mflowcode.github.io/">
-                        <img class="h-6" src="res/logo_light.png" />
-                    </a>
-                    <div>Multi-Component Flow Code</div>
-                </div>
-                <a class="items-center" href="https://github.com/MFlowCode/MFC">
-                    <img class="h-6" src="res/github.png" />
+        <header class="w-full text-white flex flex-col items-center drop-shadow-3xl font-bold text-xl md:text-2xl">
+            <div class="px-4 md:px-0 container mx-auto py-6 flex flex-row items-center justify-center md:justify-start gap-x-4">
+                <a class="hidden md:inline" href="https://mflowcode.github.io/">
+                    <img class="h-6" src="res/logo_light.png" />
                 </a>
+                <div>Multi-Component Flow Code</div>
             </div>
         </header>
-        <div class="px-4 md:px-0 gap-8 py-4 md:py-12 container mx-auto w-full flex flex-col">
-            <div class="columns-2 py-16 w-full flex flex-col md:flex-row items-center">
+        <div class="px-4 md:px-0 gap-8 py-8 md:py-12 container mx-auto w-full flex flex-col">
+            <div class="columns-2 py-8 gap-10 md:py-16 w-full flex flex-col md:flex-row items-center">
                 <div class="w-full flex flex-col gap-4">
                     <img src="res/logo_light.png" class="h-20 md:h-24 mx-auto">
                 </div>
@@ -43,20 +38,26 @@
                     MFC simulates compressible multi-component and multi-phase flows, amongst other things. It scales ideally to tens of thousands of GPUs.
                 </div>
             </div>
-            <div class="flex justify-center flex-row gap-x-8 text-md md:text-xl text-center text-white font-medium">
+            <div class="flex justify-center flex-row gap-x-4 md:gap-x-8 text-md md:text-xl text-center text-white font-medium">
+                <a class="p-4 border-b-2 hover:border-amber-400" href="https://github.com/MFlowCode/MFC">
+                    <i class="fa-brands fa-github md:mr-2"></i>
+                    <span class="hidden md:inline">GitHub</span>
+                </a>
                 <a class="p-4 border-b-2 hover:border-amber-400" href="https://github.com/MFlowCode/MFC/releases/latest">
                     <i class="fa fa-download mr-2"></i>
-                    Download <span id="release-ver"></span>
+                    <span class="hidden md:inline">Download </span>
+                    <span id="release-ver"></span>
                 </a>
                 <a class="p-4 border-b-2 hover:border-amber-400" href="documentation/index.html">
-                    Getting Started
+                    <i class="fa fa-book md:mr-2"></i>
+                    <span class="hidden md:inline">Documentation</span>
                 </a>
             </div>
         </div>
     </div>
     <main class="px-4 md:px-0 bg-white flex-1 py-6 md:py-12 grid gap-y-4 md:gap-y-12">
         <div class="container mx-auto">
-            <div class="flex flex-col md:flex-row">
+            <div class="flex flex-col md:flex-row gap-4 md:gap-0">
                 <h1 class="flex-1 flex flex-col justify-center gap-y-4 md:gap-y-10 text-center">
                     <div class="text-2xl font-extrabold">
                         Gallery
@@ -71,7 +72,7 @@
             </div>
         </div>
     </main>
-    <div class="flex flex-col w-full text-white py-8 gap-4 text-md container mx-auto">
+    <div class="flex flex-col w-full px-4 md:px-0 text-white py-4 md:py-8 gap-4 text-md container mx-auto">
         <div class="font-bold text-center md:text-left">
             &copy; 2022 <a href="https://comp-physics.group/">Computational Physics Group at the Georgia Institute of Technology</a>
         </div>
