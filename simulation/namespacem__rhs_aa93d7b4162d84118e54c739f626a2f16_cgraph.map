@@ -1,5 +1,0 @@
-<map id="m_rhs::s_reconstruct_cell_boundary_values" name="m_rhs::s_reconstruct_cell_boundary_values">
-<area shape="rect" id="node1" title="The purpose of this subroutine is to WENO&#45;reconstruct the left and the right cell&#45;boundary values,..." alt="" coords="5,5,176,47"/>
-<area shape="rect" id="node2" href="$namespacem__weno.html#a3fa127f5914f106740f72aa4af745bef" title=" " alt="" coords="224,13,359,39"/>
-<area shape="rect" id="node3" href="$namespacem__weno.html#ac5c7a0754b0624a47b0152c759ee1789" title="The computation of parameters, the allocation of memory, the association of pointers and/or the execu..." alt="" coords="407,13,604,39"/>
-</map>

@@ -1,6 +1,6 @@
 var m__start__up_8f90 =
 [
-    [ "s_read_abstract_data_files", "interfacem__start__up_1_1s__read__abstract__data__files.html", "interfacem__start__up_1_1s__read__abstract__data__files" ],
+    [ "m_start_up::s_read_abstract_data_files", "interfacem__start__up_1_1s__read__abstract__data__files.html", "interfacem__start__up_1_1s__read__abstract__data__files" ],
     [ "s_check_input_file", "m__start__up_8f90.html#ab5f7e03f1da1999ee699cec4f26370e0", null ],
     [ "s_finalize_start_up_module", "m__start__up_8f90.html#a65fd279db64882a3732a0549ec74e335", null ],
     [ "s_initialize_internal_energy_equations", "m__start__up_8f90.html#a38182f7fcc92c1c687840339a20e85cd", null ],

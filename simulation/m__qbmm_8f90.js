@@ -1,8 +1,8 @@
 var m__qbmm_8f90 =
 [
-    [ "f_quad", "m__qbmm_8f90.html#ab75dc85e5db9855e807348c9de346425", null ],
-    [ "f_quad2d", "m__qbmm_8f90.html#a0b39e0a696825544e036c4f8beeacfa1", null ],
-    [ "s_chyqmom", "m__qbmm_8f90.html#a1d24dcdb5e6067a3d275258c341325da", null ],
+    [ "f_quad", "m__qbmm_8f90.html#ad6cef7c87a7d6d9a57a05ffd8329261c", null ],
+    [ "f_quad2d", "m__qbmm_8f90.html#a68d3cfeeb869a9183bd3105db5bea82b", null ],
+    [ "s_chyqmom", "m__qbmm_8f90.html#aa79c3153d25df68db23cb43379ec1668", null ],
     [ "s_coeff", "m__qbmm_8f90.html#ad9cdf4bbd8165d785faec51d38d14e82", null ],
     [ "s_hyqmom", "m__qbmm_8f90.html#a879ca427353c45ca833d0ecb8a13f05b", null ],
     [ "s_initialize_qbmm_module", "m__qbmm_8f90.html#a4b580ad6ca42c2170fcdf83e3a0125ba", null ],

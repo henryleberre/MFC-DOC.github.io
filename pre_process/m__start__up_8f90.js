@@ -1,7 +1,7 @@
 var m__start__up_8f90 =
 [
-    [ "s_read_abstract_grid_data_files", "interfacem__start__up_1_1s__read__abstract__grid__data__files.html", "interfacem__start__up_1_1s__read__abstract__grid__data__files" ],
-    [ "s_read_abstract_ic_data_files", "interfacem__start__up_1_1s__read__abstract__ic__data__files.html", "interfacem__start__up_1_1s__read__abstract__ic__data__files" ],
+    [ "m_start_up::s_read_abstract_grid_data_files", "interfacem__start__up_1_1s__read__abstract__grid__data__files.html", "interfacem__start__up_1_1s__read__abstract__grid__data__files" ],
+    [ "m_start_up::s_read_abstract_ic_data_files", "interfacem__start__up_1_1s__read__abstract__ic__data__files.html", "interfacem__start__up_1_1s__read__abstract__ic__data__files" ],
     [ "s_check_1d_analytical_patch_geometry", "m__start__up_8f90.html#a2c3f4c2fe04814a924bff26228516a39", null ],
     [ "s_check_2d_analytical_patch_geometry", "m__start__up_8f90.html#a0acb93e848d6dd38e617d4870a9b9261", null ],
     [ "s_check_3d_analytical_patch_geometry", "m__start__up_8f90.html#a936948a39ac13e74203588cae06b325f", null ],

@@ -1,15 +1,15 @@
 var m__global__parameters_8f90 =
 [
     [ "s_assign_default_values_to_user_inputs", "m__global__parameters_8f90.html#a433eac37597eb46a3cac84ca0471f5d3", null ],
-    [ "s_comp_n_from_cons", "m__global__parameters_8f90.html#aac1a5a73b1eae759c913983b38047167", null ],
-    [ "s_comp_n_from_prim", "m__global__parameters_8f90.html#acdaa3827df6fee38a3e55e8b13130c27", null ],
+    [ "s_comp_n_from_cons", "m__global__parameters_8f90.html#ad6c69097a0e9f5acf637c6b49e0bd1ea", null ],
+    [ "s_comp_n_from_prim", "m__global__parameters_8f90.html#a39ce2449992dc4d113a1098e01d35efb", null ],
     [ "s_finalize_global_parameters_module", "m__global__parameters_8f90.html#aa2237c2ed3662bbd69ef39e2e92af7bf", null ],
     [ "s_initialize_global_parameters_module", "m__global__parameters_8f90.html#a8a76198d180cb9736c21dde108cb0dbf", null ],
     [ "s_initialize_nonpoly", "m__global__parameters_8f90.html#a1611e2cf82243c04b04a11281ef67993", null ],
     [ "s_initialize_parallel_io", "m__global__parameters_8f90.html#a54905a7a2ce9e15fc33ebac52c0d3c27", null ],
     [ "s_quad", "m__global__parameters_8f90.html#aa5a48fa9cc196136634022cfa6708213", null ],
     [ "s_simpson", "m__global__parameters_8f90.html#aaae887ec9e7fe756c6f52bd584a7f095", null ],
-    [ "s_transcoeff", "m__global__parameters_8f90.html#af52b102f1c17e28aa4ca3070f8806ca6", null ],
+    [ "s_transcoeff", "m__global__parameters_8f90.html#a24562c7cd90c1d827ca9f8779328cfbf", null ],
     [ "a_x", "m__global__parameters_8f90.html#aa0b506b1bb27c795ff1ca2049cd84b95", null ],
     [ "a_y", "m__global__parameters_8f90.html#a143fcefbf2bf4d1b296851d664c49b3a", null ],
     [ "a_z", "m__global__parameters_8f90.html#a8e0a3ebd94eeb22f50b48dff8a7e0cce", null ],

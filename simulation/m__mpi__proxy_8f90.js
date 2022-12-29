@@ -13,7 +13,7 @@ var m__mpi__proxy_8f90 =
     [ "s_mpi_decompose_computational_domain", "m__mpi__proxy_8f90.html#a80c5e235786545276fe6ffa06965017f", null ],
     [ "s_mpi_finalize", "m__mpi__proxy_8f90.html#a43fbda10c02ec8bc1fc572c83090f2e5", null ],
     [ "s_mpi_initialize", "m__mpi__proxy_8f90.html#a9bc4c617505152d3cc553e5bc25c1ee1", null ],
-    [ "s_mpi_reduce_stability_criteria_extrema", "m__mpi__proxy_8f90.html#a340a2c9b1688582ee485dd5d9bbcc864", null ],
+    [ "s_mpi_reduce_stability_criteria_extrema", "m__mpi__proxy_8f90.html#a05e935f1245bfa87c7618e2aa6948893", null ],
     [ "s_mpi_sendrecv_conservative_variables_buffers", "m__mpi__proxy_8f90.html#a9015d32f3d27c21a75e8a916e5090b96", null ],
     [ "s_mpi_sendrecv_grid_variables_buffers", "m__mpi__proxy_8f90.html#ac348cb6f02f2a9ab70d5c7eac6320231", null ],
     [ "err_code", "m__mpi__proxy_8f90.html#ae5709407e3600d19d79b183e409bb982", null ],

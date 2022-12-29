@@ -34,9 +34,9 @@ var NAVTREE =
         [ "Variables", "namespacemembers_vars.html", "namespacemembers_vars" ]
       ] ]
     ] ],
-    [ "Data Types List", "annotated.html", [
+    [ "Data Types", "annotated.html", [
       [ "Data Types List", "annotated.html", "annotated_dup" ],
-      [ "Data Types", "classes.html", null ],
+      [ "Data Type Index", "classes.html", null ],
       [ "Data Fields", "functions.html", [
         [ "All", "functions.html", null ],
         [ "Functions/Subroutines", "functions_func.html", null ],
@@ -57,12 +57,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"m__global__parameters_8f90.html#a29164826db891e5662ce2bccdbc57d3c",
-"m__qbmm_8f90.html",
-"m__start__up_8f90.html#ada153b7f1b2f725b026b89cd187d3206",
-"namespacem__derived__variables.html#a8da872e21eb3b2340c75326d3fbfc447",
-"namespacem__monopole.html#a10930c954e637ae4aa60ccfbaa04d224",
-"namespacem__riemann__solvers.html#af0757998bd9843f9bb978a600d0ae2b0"
+"m__global__parameters_8f90.html#a0a67704d4c227871a155d6c26590f685",
+"m__mpi__proxy_8f90.html#a04ac565bad2b22dc045a5eeb4f516e2e",
+"m__riemann__solvers_8f90.html#ae0577acd199c492ae838122a82f2d6da",
+"namespacem__data__output.html#a9c1271b2c588c1ae3275791d41550f75",
+"namespacem__global__parameters.html#af451fa7762c859ef20552498fa6edb16",
+"namespacem__riemann__solvers.html#ac44a4218c43a64bbe1b4d0dadc4726f1"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,6 +1,6 @@
 var m__initial__condition_8f90 =
 [
-    [ "s_assign_patch_xxxxx_primitive_variables", "interfacem__initial__condition_1_1s__assign__patch__xxxxx__primitive__variables.html", "interfacem__initial__condition_1_1s__assign__patch__xxxxx__primitive__variables" ],
+    [ "m_initial_condition::s_assign_patch_xxxxx_primitive_variables", "interfacem__initial__condition_1_1s__assign__patch__xxxxx__primitive__variables.html", "interfacem__initial__condition_1_1s__assign__patch__xxxxx__primitive__variables" ],
     [ "f_r", "m__initial__condition_8f90.html#a6bd15d72ae72d7c598bbc3b57cf0b90e", null ],
     [ "s_1d_analytical", "m__initial__condition_8f90.html#a3b4fe978231e74b699695a35fb544236", null ],
     [ "s_1d_bubble_pulse", "m__initial__condition_8f90.html#a7685befab45f10089fc46907fa4cc049", null ],
