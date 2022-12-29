@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['flow_20visualization_7',['Flow visualization',['../md_visualisation.html',1,'']]]
+  ['getting_20started_6',['Getting Started',['../md_getting_started.html',1,'']]],
+  ['getting_2dstarted_2emd_7',['getting-started.md',['../getting-started_8md.html',1,'']]]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MFC: Building</title>
+<title>MFC: Getting Started</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -89,7 +89,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('md_building.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('md_getting_started.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -109,15 +109,13 @@ $(document).ready(function(){initNavTree('md_building.html',''); initResizable()
 
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">Building </div>  </div>
+<div class="title">Getting Started </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md2"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md14"></a>
 Build Environment</h1>
-<p>To fetch, build, and run MFC and its dependencies on a UNIX-like system, you must have installed common utilities such as GNU's Make, Python3, its development headers and libraries, a C/C++ compiler (GCC, NVHPC, etc., but <em>not Clang</em>), and an MPI wrapper (like Open MPI). Below are some commands for popular operating systems and package managers.</p>
-<p><a href="https://www.anaconda.com/">Anaconda</a> may interfere with the building process. If an issue arises, you can either uninstall the affected Anaconda packages, change the ordering of directory paths in your <code>$PATH</code>, or make aliases to the correct binaries.</p>
-<h2><a class="anchor" id="autotoc_md3"></a>
-*nix</h2>
+<p>MFC can be built in multiple ways on various operating systems. Please select your desired configuration from the list bellow:</p>
+<p>&lt;details&gt; </p><h3>*nix</h3>
 <ul>
 <li><b>On supported clusters:</b> Load environment modules</li>
 </ul>
@@ -141,10 +139,11 @@ Build Environment</h1>
 <div class="line">                 python-virtualenv vim \</div>
 <div class="line">                 wget tree</div>
 </div><!-- fragment --><p>If you wish to build MFC using <a href="https://developer.nvidia.com/hpc-sdk">NVidia's NVHPC SDK</a>, first follow the instructions <a href="https://developer.nvidia.com/nvidia-hpc-sdk-downloads">here</a>.</p>
-<h2><a class="anchor" id="autotoc_md4"></a>
-Windows</h2>
+<p>&lt;/details&gt;</p>
+<p>&lt;details&gt;</p>
+<h3>Windows</h3>
 <p>On Windows, you can either use Intel Compilers with the standard Microsoft toolchain, <a href="https://docs.docker.com/get-docker/">Docker</a> or the <a href="https://docs.microsoft.com/en-us/windows/wsl/">Windows Subsystem for Linux (WSL)</a> for a Linux experience.</p>
-<h3><a class="anchor" id="autotoc_md5"></a>
+<h3><a class="anchor" id="autotoc_md15"></a>
 Windows + Intel (Native)</h3>
 <p>Install the latest version of:</p><ul>
 <li><a href="https://visualstudio.microsoft.com/">Microsoft Visual Studio Community</a></li>
@@ -153,15 +152,13 @@ Windows + Intel (Native)</h3>
 </ul>
 <p>Then, in order to initialize your development environment, open a terminal window and run: </p><div class="fragment"><div class="line">&quot;C:\Program Files (x86)\Intel\oneAPI\setvars.bat&quot;</div>
 </div><!-- fragment --><p>To follow this guide, please replace <code>./mfc.sh</code> with <code>mfc.bat</code> when running any commands. <code>./mfc.sh</code> is intended Unix-like systems. You will also have access to the <code>.sln</code> Microsoft Visual Studio solution files for an IDE (Integrated Development Environment).</p>
-<h3><a class="anchor" id="autotoc_md6"></a>
-Windows + Docker</h3>
-<p>See the instructions in the "Docker (Cross-Platform)" section of this document.</p>
-<h3><a class="anchor" id="autotoc_md7"></a>
+<h3><a class="anchor" id="autotoc_md16"></a>
 Windows + WSL</h3>
 <p>Install the latest version of the <a href="https://docs.microsoft.com/en-us/windows/wsl/">Windows Subsystem for Linux (WSL)</a> as well as a distribution such as Ubuntu which can be found <a href="https://apps.microsoft.com/store/detail/ubuntu/9PDXGNCFSCZV">here</a>. Acquiring an interactive session is as simple as typing <code>wsl</code> in your command prompt, or alternatively, selecting the distribution from the dropdown menu available in the <a href="https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701">Microsoft Terminal</a>.</p>
 <p>You can now follow the appropriate instructions for your distribution.</p>
-<h2><a class="anchor" id="autotoc_md8"></a>
-MacOS (x86 and Apple Silicon)</h2>
+<p>&lt;/details&gt;</p>
+<p>&lt;details&gt;</p>
+<h3>MacOS (x86 and Apple Silicon)</h3>
 <p><b>Note:</b> macOS remains the most difficult platform to consistently compile MFC on. If you run into issues, we suggest you try using Docker (instructions above).</p>
 <ul>
 <li><b>MacOS v10.15 (Catalina) or newer [ZSH]</b> (Verify with <code>echo $SHELL</code>)</li>
@@ -187,8 +184,9 @@ MacOS (x86 and Apple Silicon)</h2>
 <div class="fragment"><div class="line">$ brew install wget make python make cmake coreutils gcc@$MFC_GCC_VER</div>
 <div class="line">$ HOMEBREW_MAKE_JOBS=$(nproc) brew install --cc=gcc-$MFC_GCC_VER --verbose --build-from-source open-mpi</div>
 </div><!-- fragment --><p>They will download the dependencies MFC requires to build itself. <code>open-mpi</code> will be compiled from source, using the version of GCC we specified above with the environment variables <code>HOMEBREW_CC</code> and <code>HOMEBREW_CXX</code>. Building this package might take a while.</p>
-<h2><a class="anchor" id="autotoc_md9"></a>
-Docker (Cross-Platform)</h2>
+<p>&lt;/details&gt;</p>
+<p>&lt;details&gt;</p>
+<h3>Docker</h3>
 <p>Docker is a lightweight, cross-platform, and performant alternative to Virtual Machines (VMs). We build a Docker Image that contains the packages required to build and run MFC on your local machine.</p>
 <p>First install Docker and Git:</p><ul>
 <li>Windows: <a href="https://docs.docker.com/get-docker/">Docker</a> + <a href="https://git-scm.com/downloads">Git</a>.</li>
@@ -205,19 +203,15 @@ Docker (Cross-Platform)</h2>
 <div class="line">  .\mfc.bat docker # If on Windows</div>
 </div><!-- fragment --><p>We automatically mount and configure the proper permissions in order for you to access your local copy of MFC, available at <code>~/MFC</code>. You will be logged-in as the <code>me</code> user with root permissions.</p>
 <p>:warning: The state of your container is entirely transient, except for the MFC mount. Thus, any modification outside of <code>~/MFC</code> should be considered as permanently lost upon session exit.</p>
-<h1><a class="anchor" id="autotoc_md10"></a>
-Fetch &amp; Build</h1>
-<p>There are two ways of building and using MFC:</p>
-<ul>
-<li>**(Highly Recommended)** Using the <code>mfc.sh</code> script (or <code>mfc.bat</code> on Windows). <code>mfc.sh</code> offers many convenience features that assist in building, dependency management, testing, optimization, as well as interactive and batch execution.</li>
-<li>**(Highly Discouraged)** Invoking CMake manually (refer to the CMakeLists.txt file). A CMake superbuild file is provided to assist in building MFC's dependencies correctly.</li>
-</ul>
-<h2><a class="anchor" id="autotoc_md11"></a>
-Fetching MFC</h2>
-<div class="fragment"><div class="line">$ git clone https://github.com/MFlowCode/MFC</div>
+<p>&lt;/details&gt;</p>
+<h1><a class="anchor" id="autotoc_md17"></a>
+Fetching MFC</h1>
+<p>You can either download MFC's <a href="https://github.com/MFlowCode/MFC/releases/latest">latest release from GitHub</a> or clone the repository:</p>
+<div class="fragment"><div class="line">$ git clone https://github.com/MFlowCode/MFC.git</div>
 <div class="line">$ cd MFC</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md12"></a>
-Building MFC</h2>
+<div class="line">$ git checkout &lt;release tag&gt;</div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md18"></a>
+Building MFC</h1>
 <p>MFC can be built with support for various (compile-time) features:</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -238,10 +232,17 @@ Building MFC</h2>
 <li>Build MFC using 8 threads with MPI and GPU acceleration: <code>$ ./mfc.sh build --mpi --gpu -j 8</code>.</li>
 <li>Build MFC using a single thread without MPI, GPU, and Debug support: <code>$ ./mfc.sh build</code>.</li>
 <li>Build MFC's <code>simulation</code> code in Debug mode: <code>$ ./mfc.sh build --debug -t simulation</code>.</li>
-<li><b>Run MFC's test suite with 8 threads:</b></li>
 </ul>
+<h1><a class="anchor" id="autotoc_md19"></a>
+Running the Test Suite</h1>
+<p>Run MFC's test suite with 8 threads:</p>
 <div class="fragment"><div class="line">$ ./mfc.sh test -j 8</div>
-</div><!-- fragment --><p>Please refer to the <a href="#testing-mfc">Testing</a> document for more information. </p>
+</div><!-- fragment --><p>Please refer to the <a class="el" href="md_testing.html">Testing</a> document for more information.</p>
+<h1><a class="anchor" id="autotoc_md20"></a>
+Running an Example Case</h1>
+<p>MFC has example cases in the <code>examples</code> folder. You can run such a case interactively using 2 tasks by typing:</p>
+<div class="fragment"><div class="line">$ ./mfc.sh run examples/2D_shockbubble/case.py -n 2</div>
+</div><!-- fragment --><p>Please refer to the <a class="el" href="md_running.html">Running</a> document for more information on <code>case.py</code> files and how to run them. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
