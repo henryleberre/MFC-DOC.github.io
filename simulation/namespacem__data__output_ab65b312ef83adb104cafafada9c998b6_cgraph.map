@@ -1,9 +1,0 @@
-<map id="m_data_output::s_initialize_data_output_module" name="m_data_output::s_initialize_data_output_module">
-<area shape="rect" id="node1" title="The computation of parameters, the allocation of memory, the association of pointers and/or the execu..." alt="" coords="5,170,204,210"/>
-<area shape="rect" id="node2" href="$namespacem__variables__conversion.html#adc8e92da3f26b52445fe96b43bc1ad34" title="This procedure is used alongside with the gamma/pi_inf model to transfer the density,..." alt="" coords="265,5,445,60"/>
-<area shape="rect" id="node3" href="$namespacem__variables__conversion.html#a087d0446a1b6c73a105a4922ee9966c4" title="This subroutine is designed for the volume fraction model and provided a set of either conservative o..." alt="" coords="265,84,445,139"/>
-<area shape="rect" id="node4" href="$namespacem__variables__conversion.html#af706a9e3a74f8b78a4dda1035ee7a492" title="This procedure is used alongside with the gamma/pi_inf model to transfer the density,..." alt="" coords="252,163,457,217"/>
-<area shape="rect" id="node5" href="$namespacem__data__output.html#a9c1271b2c588c1ae3275791d41550f75" title="The goal of this subroutine is to output the grid and conservative variables data files for given tim..." alt="" coords="267,242,442,282"/>
-<area shape="rect" id="node7" href="$namespacem__data__output.html#a04c6b0f01b8561e248a740b017fc4f7d" title="The goal of this subroutine is to output the grid and conservative variables data files for given tim..." alt="" coords="267,306,442,346"/>
-<area shape="rect" id="node6" href="$namespacem__mpi__proxy.html#a2ff35ede51e90c483969e44c31303415" title="The subroutine that initializes MPI data structures." alt="" coords="505,242,693,282"/>
-</map>
