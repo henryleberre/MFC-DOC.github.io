@@ -1,0 +1,4 @@
+<map id="m_initial_condition::s_assign_patch_species_primitive_variables_bubbles" name="m_initial_condition::s_assign_patch_species_primitive_variables_bubbles">
+<area shape="rect" id="node1" title="This subroutine assigns the species primitive variables. This follows s_assign_patch_species_primitiv..." alt="" coords="5,5,219,60"/>
+<area shape="rect" id="node2" href="$namespacem__variables__conversion.html#a084d5c42905a08ae57269119f8989abd" title="This subroutine is designed for the volume fraction model and provided a set of either conservative o..." alt="" coords="267,5,447,60"/>
+</map>
