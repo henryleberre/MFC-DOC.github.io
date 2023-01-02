@@ -12,7 +12,7 @@ var searchData=
   ['vcfl_5fmax_5floc_9',['vcfl_max_loc',['../namespacem__data__output.html#adf7106e733e02688e49cd2a6e6346904',1,'m_data_output']]],
   ['vcfl_5fsf_10',['vcfl_sf',['../namespacem__data__output.html#a0f917a7c1835c3b210879ab406759b06',1,'m_data_output']]],
   ['vel_11',['vel',['../namespacem__cbc.html#ad80b730485604931948331f36eb7b6e2',1,'m_cbc']]],
-  ['vel_5favg_12',['vel_avg',['../namespacem__riemann__solvers.html#a0fd22ed964af8ed09333c72744f561bd',1,'m_riemann_solvers::vel_avg()'],['../namespacem__variables__conversion.html#a8a9fd6029912bd540f67f414592f52f6',1,'m_variables_conversion::vel_avg()']]],
+  ['vel_5favg_12',['vel_avg',['../namespacem__riemann__solvers.html#a0fd22ed964af8ed09333c72744f561bd',1,'m_riemann_solvers']]],
   ['vel_5fic_13',['vel_ic',['../namespacem__riemann__solvers.html#a81bfe96b264a5bba316c60965e787cbf',1,'m_riemann_solvers']]],
   ['vel_5fl_14',['vel_l',['../namespacem__riemann__solvers.html#ab17d29f1de63b4669165d7d92f209986',1,'m_riemann_solvers']]],
   ['vel_5fr_15',['vel_r',['../namespacem__riemann__solvers.html#a27a761fd83f4f8f7178b8c57b09b825e',1,'m_riemann_solvers']]],

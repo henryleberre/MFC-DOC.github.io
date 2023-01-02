@@ -31,7 +31,7 @@ var searchData=
   ['bubble_5fmodel_28',['bubble_model',['../namespacem__global__parameters.html#aef0de5da0e41de495e9fe67accd62d77',1,'m_global_parameters']]],
   ['bubbles_29',['bubbles',['../namespacem__global__parameters.html#a4a22ed160838f8fbe6bd506f334b8815',1,'m_global_parameters']]],
   ['bubmoms_30',['bubmoms',['../namespacem__qbmm.html#abdb53e9258e120cf455cb1c3b2b79cd8',1,'m_qbmm']]],
-  ['bubrs_31',['bubrs',['../namespacem__qbmm.html#a0e66c06bf27961c50cd0292f7aaea345',1,'m_qbmm::bubrs()'],['../namespacem__variables__conversion.html#adf365a7d842572eb657e0f9082081716',1,'m_variables_conversion::bubrs()']]],
+  ['bubrs_31',['bubrs',['../namespacem__qbmm.html#a0e66c06bf27961c50cd0292f7aaea345',1,'m_qbmm']]],
   ['bubxb_32',['bubxb',['../namespacem__global__parameters.html#a0b5e4db635f8e008713c89bd4b476341',1,'m_global_parameters']]],
   ['bubxe_33',['bubxe',['../namespacem__global__parameters.html#af2c761d2439270ca189b7e3912ab1f70',1,'m_global_parameters']]],
   ['buff_5fsize_34',['buff_size',['../namespacem__global__parameters.html#a6e342ae3eb66f89e0eeb94e11aa42d92',1,'m_global_parameters']]],
