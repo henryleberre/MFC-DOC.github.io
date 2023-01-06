@@ -1,6 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"m__mpi__proxy_8f90.html#a69660c5fe9302a8c0496b622fa3b5286":[3,0,0,8,9],
 "m__mpi__proxy_8f90.html#a80c5e235786545276fe6ffa06965017f":[3,0,0,8,10],
 "m__mpi__proxy_8f90.html#a873520062481f3dabcfa77f9bd7728d3":[3,0,0,8,7],
 "m__mpi__proxy_8f90.html#a9015d32f3d27c21a75e8a916e5090b96":[3,0,0,8,14],
@@ -249,5 +248,6 @@ var NAVTREEINDEX2 =
 "m__riemann__solvers_8f90.html#ae941c64575d69a7b369f9f5bb921a384":[3,0,0,11,108],
 "m__riemann__solvers_8f90.html#aef2c7eeabded0734aaa0cd95adac91ab":[3,0,0,11,130],
 "m__riemann__solvers_8f90.html#af0757998bd9843f9bb978a600d0ae2b0":[3,0,0,11,90],
-"m__riemann__solvers_8f90.html#af14a2b29ba2692adfb1ed257e91482e8":[3,0,0,11,81]
+"m__riemann__solvers_8f90.html#af14a2b29ba2692adfb1ed257e91482e8":[3,0,0,11,81],
+"m__riemann__solvers_8f90.html#af425cfd91bc8a567e44b36c9bdbfb2bc":[3,0,0,11,115]
 };

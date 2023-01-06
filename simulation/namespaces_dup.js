@@ -117,7 +117,6 @@ var namespaces_dup =
       [ "cu_mpi", "namespacem__global__parameters.html#a1add2975c35d7fef4295d9e481156e6d", null ],
       [ "cu_tensor", "namespacem__global__parameters.html#a7253e454e33f76a5ac6af8543061e925", null ],
       [ "cyl_coord", "namespacem__global__parameters.html#a53f0d5eed7783c9760aaeeaa0abbd58c", null ],
-      [ "debug", "namespacem__global__parameters.html#a44303c8a8444e2eeee6c26ca54799ab7", null ],
       [ "dflt_char", "namespacem__global__parameters.html#ae482a2c5436761ab7b01fc973d64002d", null ],
       [ "dflt_int", "namespacem__global__parameters.html#a4e4e3806190a62a77cf6542f6d07dbbd", null ],
       [ "dflt_real", "namespacem__global__parameters.html#a99ba7e33a1870ac89386d376e0d20526", null ],
