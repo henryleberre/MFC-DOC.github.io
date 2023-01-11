@@ -243,23 +243,23 @@ Building MFC</h1>
 <p>MFC can be built with support for various (compile-time) features:</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
-<th class="markdownTableHeadCenter">Feature   </th><th class="markdownTableHeadCenter">Enable   </th><th class="markdownTableHeadCenter">Disable   </th><th class="markdownTableHeadNone">Description    </th></tr>
+<th class="markdownTableHeadCenter">Feature   </th><th class="markdownTableHeadCenter">Enable   </th><th class="markdownTableHeadCenter">Disable   </th><th class="markdownTableHeadCenter">Default   </th><th class="markdownTableHeadNone">Description    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyCenter"><b>MPI</b>   </td><td class="markdownTableBodyCenter"><code>--mpi</code>   </td><td class="markdownTableBodyCenter"><code>--no-mpi</code>   </td><td class="markdownTableBodyNone">Lets MFC run on multiple processors (and nodes) simultaneously.    </td></tr>
+<td class="markdownTableBodyCenter"><b>MPI</b>   </td><td class="markdownTableBodyCenter"><code>--mpi</code>   </td><td class="markdownTableBodyCenter"><code>--no-mpi</code>   </td><td class="markdownTableBodyCenter">On   </td><td class="markdownTableBodyNone">Lets MFC run on multiple processors (and nodes) simultaneously.    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyCenter"><b>GPU</b>   </td><td class="markdownTableBodyCenter"><code>--gpu</code>   </td><td class="markdownTableBodyCenter"><code>--no-gpu</code>   </td><td class="markdownTableBodyNone">Enables GPU acceleration via OpenACC.    </td></tr>
+<td class="markdownTableBodyCenter"><b>GPU</b>   </td><td class="markdownTableBodyCenter"><code>--gpu</code>   </td><td class="markdownTableBodyCenter"><code>--no-gpu</code>   </td><td class="markdownTableBodyCenter">Off   </td><td class="markdownTableBodyNone">Enables GPU acceleration via OpenACC.    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyCenter"><b>Debug</b>   </td><td class="markdownTableBodyCenter"><code>--debug</code>   </td><td class="markdownTableBodyCenter"><code>--no-debug</code>   </td><td class="markdownTableBodyNone">Requests the compiler build MFC in debug mode.   </td></tr>
+<td class="markdownTableBodyCenter"><b>Debug</b>   </td><td class="markdownTableBodyCenter"><code>--debug</code>   </td><td class="markdownTableBodyCenter"><code>--no-debug</code>   </td><td class="markdownTableBodyCenter">Off   </td><td class="markdownTableBodyNone">Requests the compiler build MFC in debug mode.   </td></tr>
 </table>
 <p><em>⚠️ The <code>--gpu</code> option requires that your compiler supports OpenACC for Fortran for your target GPU architecture.</em></p>
 <p>When these options are given to <code>mfc.sh</code>, they will be remembered when you issue future commands. You can enable and disable features at any time by passing any of the arguments above. For example, if you have previously built MFC with MPI support and no longer wish to run using MPI, you can pass <code>--no-mpi</code> once, for the change to be permanent.</p>
 <p>MFC is composed of three codes, each being a separate <em>target</em>. By default, all targets (<code>pre_process</code>, <code>simulation</code>, and <code>post_process</code>) are selected. To only select a subset, use the <code>-t</code> (i.e <code>--targets</code>) argument. For a detailed list of options, arguments, and features, please refer to <code>./mfc.sh build --help</code>.</p>
-<p>Most first-time users will want to build MFC using 8 threads (or more!) with MPI support: </p><div class="fragment"><div class="line">$ ./mfc.sh build --mpi -j 8</div>
-</div><!-- fragment --><p>Examples (with explanations):</p>
+<p>Most first-time users will want to build MFC using 8 threads (or more!) with MPI support: </p><div class="fragment"><div class="line">$ ./mfc.sh build -j 8</div>
+</div><!-- fragment --><p>Examples:</p>
 <ul>
-<li>Build MFC using 8 threads with MPI and GPU acceleration: <code>$ ./mfc.sh build --mpi --gpu -j 8</code>.</li>
-<li>Build MFC using a single thread without MPI, GPU, and Debug support: <code>$ ./mfc.sh build</code>.</li>
-<li>Build MFC's <code>simulation</code> code in Debug mode: <code>$ ./mfc.sh build --debug -t simulation</code>.</li>
+<li>Build MFC using 8 threads with MPI and GPU acceleration: <code>$ ./mfc.sh build --gpu -j 8</code>.</li>
+<li>Build MFC using a single thread without MPI, GPU, and Debug support: <code>$ ./mfc.sh build --no-mpi</code>.</li>
+<li>Build MFC's <code>simulation</code> code in Debug mode with MPI and GPU support: <code>$ ./mfc.sh build --debug --gpu -t simulation</code>.</li>
 </ul>
 <h1><a class="anchor" id="autotoc_md17"></a>
 Running the Test Suite</h1>
