@@ -31,7 +31,7 @@ var NAVTREE =
       [ "Module Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", "namespacemembers_dup" ],
         [ "Functions/Subroutines", "namespacemembers_func.html", null ],
-        [ "Variables", "namespacemembers_vars.html", null ]
+        [ "Variables", "namespacemembers_vars.html", "namespacemembers_vars" ]
       ] ]
     ] ],
     [ "Data Types", "annotated.html", [
@@ -39,7 +39,8 @@ var NAVTREE =
       [ "Data Type Index", "classes.html", null ],
       [ "Data Fields", "functions.html", [
         [ "All", "functions.html", null ],
-        [ "Functions/Subroutines", "functions_func.html", null ]
+        [ "Functions/Subroutines", "functions_func.html", null ],
+        [ "Variables", "functions_vars.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
@@ -55,8 +56,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"m__global__parameters_8fpp_8f90.html#ad76c4758994b52559f478d251dc0cba5",
-"namespacem__global__parameters.html#a6cf2e92cfc3b519fb6da6fe9e88fab31"
+"m__global__parameters_8fpp_8f90.html#ab8488205257dab4e94258eee55d0d1aa",
+"namespacem__global__parameters.html#a24562c7cd90c1d827ca9f8779328cfbf",
+"namespacemembers_vars_x.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

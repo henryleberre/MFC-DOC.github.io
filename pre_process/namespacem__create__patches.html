@@ -191,6 +191,13 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:adffe36b493554609593c737c004b3c5e"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__create__patches.html#adffe36b493554609593c737c004b3c5e">s_sweep_plane</a> (patch_id)</td></tr>
 <tr class="memdesc:adffe36b493554609593c737c004b3c5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The swept plane patch is a 3D geometry that may be used, for example, in creating a solid boundary, or pre-/post- shock region, at an angle with respect to the axes of the Cartesian coordinate system. The geometry of the patch is well-defined when its centroid and normal vector, aimed in the sweep direction, are provided. Note that the sweep plane patch DOES allow the smoothing of its boundary.  <br /></td></tr>
 <tr class="separator:adffe36b493554609593c737c004b3c5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06d20d2bc9902a5d9458ae53df0ee7ee"><td class="memItemLeft" align="right" valign="top">real(kind(0d0)) function, dimension(1:4, 1:4)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__create__patches.html#a06d20d2bc9902a5d9458ae53df0ee7ee">s_stl_transform_matrix</a> (stl)</td></tr>
+<tr class="separator:a06d20d2bc9902a5d9458ae53df0ee7ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a945222ec186d9643e60af618d7df39ed"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__create__patches.html#a945222ec186d9643e60af618d7df39ed">s_stl_transform_triangle</a> (triangle, matrix)</td></tr>
+<tr class="separator:a945222ec186d9643e60af618d7df39ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae134b436b33cab3e5bbc17679194d94e"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacem__create__patches.html#ae134b436b33cab3e5bbc17679194d94e">s_stl</a> (patch_id)</td></tr>
+<tr class="memdesc:ae134b436b33cab3e5bbc17679194d94e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The STL patch is a 2/3D geometry that is imported from an STL file.  <br /></td></tr>
+<tr class="separator:ae134b436b33cab3e5bbc17679194d94e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -899,6 +906,98 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="namespacem__create__patches_a42adae30594ebe18444eb9a3932eef88_icgraph.svg" width="480" height="66"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ae134b436b33cab3e5bbc17679194d94e" name="ae134b436b33cab3e5bbc17679194d94e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae134b436b33cab3e5bbc17679194d94e">&#9670;&#160;</a></span>s_stl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine m_create_patches::s_stl </td>
+          <td>(</td>
+          <td class="paramtype">integer, intent(in)&#160;</td>
+          <td class="paramname"><em>patch_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The STL patch is a 2/3D geometry that is imported from an STL file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">patch_id</td><td>is the patch identifier </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacem__create__patches_ae134b436b33cab3e5bbc17679194d94e_cgraph.svg" width="411" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacem__create__patches_ae134b436b33cab3e5bbc17679194d94e_icgraph.svg" width="503" height="66"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a06d20d2bc9902a5d9458ae53df0ee7ee" name="a06d20d2bc9902a5d9458ae53df0ee7ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06d20d2bc9902a5d9458ae53df0ee7ee">&#9670;&#160;</a></span>s_stl_transform_matrix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">real(kind(0d0)) function, dimension(1:4,1:4) m_create_patches::s_stl_transform_matrix </td>
+          <td>(</td>
+          <td class="paramtype">type(ic_stl_parameters)&#160;</td>
+          <td class="paramname"><em>stl</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespacem__create__patches_a06d20d2bc9902a5d9458ae53df0ee7ee_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a945222ec186d9643e60af618d7df39ed" name="a945222ec186d9643e60af618d7df39ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a945222ec186d9643e60af618d7df39ed">&#9670;&#160;</a></span>s_stl_transform_triangle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine m_create_patches::s_stl_transform_triangle </td>
+          <td>(</td>
+          <td class="paramtype">type(<a class="el" href="structm__stl_1_1t__stl__triangle.html">t_stl_triangle</a>), intent(inout)&#160;</td>
+          <td class="paramname"><em>triangle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real(kind(0d0)), dimension(1:4,1:4), intent(in)&#160;</td>
+          <td class="paramname"><em>matrix</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespacem__create__patches_a945222ec186d9643e60af618d7df39ed_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

@@ -228,7 +228,15 @@ Parameters</h1>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyRight"><code>pres</code> *   </td><td class="markdownTableBodyCenter">Real   </td><td class="markdownTableBodyLeft">Pressure.    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyRight"><code>vel(i)</code> *   </td><td class="markdownTableBodyCenter">Real   </td><td class="markdownTableBodyLeft">Velocity in direction $i$.   </td></tr>
+<td class="markdownTableBodyRight"><code>vel(i)</code> *   </td><td class="markdownTableBodyCenter">Real   </td><td class="markdownTableBodyLeft">Velocity in direction $i$.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyRight"><code>stlfile</code>   </td><td class="markdownTableBodyCenter">String   </td><td class="markdownTableBodyLeft">Path to the STL file.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyRight"><code>stlscale(i)</code>   </td><td class="markdownTableBodyCenter">Real   </td><td class="markdownTableBodyLeft">STL model's (applied) scaling factor for component $i$.    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyRight"><code>stloffset(i)</code>   </td><td class="markdownTableBodyCenter">Real   </td><td class="markdownTableBodyLeft">STL model's $i$-th component of (applied) translation.    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyRight"><code>stlrotate(i)</code>   </td><td class="markdownTableBodyCenter">Real   </td><td class="markdownTableBodyLeft">STL model's (applied) angle of rotation along axis $i$. Rotation order is unspecified.   </td></tr>
 </table>
 <p>*: These parameters should be prepended with <code>patch_icpp(j)%</code> where $j$ is the patch index.</p>
 <p>The Table lists the patch parameters. The parameters define the geometries and physical parameters of fluid components (patch) in the domain at initial condition. Note that the domain must be fully filled with patche(s). The code outputs error messages when an empty region is left in the domain.</p>
@@ -581,8 +589,9 @@ Patch types</h2>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyRight">12   </td><td class="markdownTableBodyCenter">Ellipsoid   </td><td class="markdownTableBodyCenter">3   </td><td class="markdownTableBodyCenter">Y   </td><td class="markdownTableBodyLeft">Requires <code>[x,y,z]_centroid</code> and <code>radii(i)</code>.    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyRight">13   </td><td class="markdownTableBodyCenter">3D analytical   </td><td class="markdownTableBodyCenter">3   </td><td class="markdownTableBodyCenter">N   </td><td class="markdownTableBodyLeft">Assigns the primitive variables as analytical functions   </td></tr>
+<td class="markdownTableBodyRight">13   </td><td class="markdownTableBodyCenter">3D analytical   </td><td class="markdownTableBodyCenter">3   </td><td class="markdownTableBodyCenter">N   </td><td class="markdownTableBodyLeft">Assigns the primitive variables as analytical functions.   </td></tr>
 </table>
+<p>| 20 | STL | 3 | N | Imports an STL model. Requires <code>stlfile</code>. | |</p>
 <p>The patch types supported by the MFC are listed in table Patch Types. This includes types exclusive to one-, two-, and three-dimensional problems. The patch type number (<code>#</code>) corresponds to the input value in <code>input.py</code> labeled <code>patch_icpp(j)geometry</code> where $j$ is the patch index. Each patch requires a different set of parameters, which are also listed in this table.</p>
 <h2><a class="anchor" id="autotoc_md36"></a>
 Flux limiters</h2>
