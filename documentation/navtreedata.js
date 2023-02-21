@@ -66,16 +66,20 @@ var NAVTREE =
         [ "Flux limiters", "md_running.html#autotoc_md36", null ],
         [ "Monopole supports", "md_running.html#autotoc_md37", null ]
       ] ],
-      [ "Running", "md_running.html#autotoc_md38", [
-        [ "Interactive Execution", "md_running.html#autotoc_md39", null ],
-        [ "Batch Execution", "md_running.html#autotoc_md40", null ],
-        [ "Example Runs", "md_running.html#autotoc_md41", null ]
+      [ "|    5 | Transducer      |", "md_running.html#autotoc_md38", [
+        [ "Running", "md_running.html#autotoc_md41", [
+          [ "Conservative Variables Ordering", "md_running.html#autotoc_md39", null ],
+          [ "Primitive Variables Ordering", "md_running.html#autotoc_md40", null ],
+          [ "Interactive Execution", "md_running.html#autotoc_md42", null ],
+          [ "Batch Execution", "md_running.html#autotoc_md43", null ],
+          [ "Example Runs", "md_running.html#autotoc_md44", null ]
+        ] ]
       ] ]
     ] ],
     [ "Testing", "md_testing.html", null ],
     [ "Flow visualization", "md_visualisation.html", [
-      [ "Procedure", "md_visualisation.html#autotoc_md45", null ],
-      [ "Serial data output", "md_visualisation.html#autotoc_md46", null ]
+      [ "Procedure", "md_visualisation.html#autotoc_md48", null ],
+      [ "Serial data output", "md_visualisation.html#autotoc_md49", null ]
     ] ]
   ] ]
 ];
