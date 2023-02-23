@@ -422,6 +422,7 @@ var namespaces_dup =
     ] ],
     [ "m_riemann_solvers", "namespacem__riemann__solvers.html", "namespacem__riemann__solvers" ],
     [ "m_start_up", "namespacem__start__up.html", "namespacem__start__up" ],
+    [ "m_stl", "namespacem__stl.html", "namespacem__stl" ],
     [ "m_time_steppers", "namespacem__time__steppers.html", [
       [ "s_1st_order_tvd_rk", "namespacem__time__steppers.html#a8876606e6152b6c8f35272074a088142", null ],
       [ "s_2nd_order_tvd_rk", "namespacem__time__steppers.html#adb82b6c6041c825d0999e6890ed825cc", null ],

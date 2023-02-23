@@ -23,6 +23,7 @@ var namespaces_dup =
       [ "s_check_rectangle_patch_geometry", "namespacem__check__patches.html#ac34be0830489fb414bc93ecbb25c0383", null ],
       [ "s_check_sphere_patch_geometry", "namespacem__check__patches.html#ad2dd6dc473d7bb6d32cd5fd906c80da4", null ],
       [ "s_check_spherical_harmonic_patch_geometry", "namespacem__check__patches.html#a7f4fc28d325755439d8764d595e09387", null ],
+      [ "s_check_stl_geometry", "namespacem__check__patches.html#a4031e8c60108044dea6270f8c8a0036a", null ],
       [ "s_check_supported_patch_smoothing", "namespacem__check__patches.html#ac4618b7bb46f92ac59717a31d673ab88", null ],
       [ "s_check_unsupported_patch_smoothing", "namespacem__check__patches.html#a7f27b499f2b90ad0f25443c1a1c5a0e5", null ]
     ] ],
@@ -68,6 +69,9 @@ var namespaces_dup =
       [ "s_sphere", "namespacem__create__patches.html#a565ecc7f4e08026fd7580e32736efa35", null ],
       [ "s_spherical_harmonic", "namespacem__create__patches.html#a54f0f0e5805df845369db4680e461564", null ],
       [ "s_spiral", "namespacem__create__patches.html#a42adae30594ebe18444eb9a3932eef88", null ],
+      [ "s_stl", "namespacem__create__patches.html#ae134b436b33cab3e5bbc17679194d94e", null ],
+      [ "s_stl_transform_matrix", "namespacem__create__patches.html#a06d20d2bc9902a5d9458ae53df0ee7ee", null ],
+      [ "s_stl_transform_triangle", "namespacem__create__patches.html#a945222ec186d9643e60af618d7df39ed", null ],
       [ "s_sweep_line", "namespacem__create__patches.html#af11aee0ac5301ef5c0ac18a0f0de6fc1", null ],
       [ "s_sweep_plane", "namespacem__create__patches.html#adffe36b493554609593c737c004b3c5e", null ],
       [ "s_varcircle", "namespacem__create__patches.html#a491ae96aaf933da2565b6829958334c8", null ],
@@ -256,5 +260,6 @@ var namespaces_dup =
       [ "ierr", "namespacem__mpi__proxy.html#a306ba163b09cfc692125f2c0ba82ef8c", null ]
     ] ],
     [ "m_start_up", "namespacem__start__up.html", "namespacem__start__up" ],
+    [ "m_stl", "namespacem__stl.html", "namespacem__stl" ],
     [ "m_variables_conversion", "namespacem__variables__conversion.html", "namespacem__variables__conversion" ]
 ];
