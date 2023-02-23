@@ -8,6 +8,5 @@ var searchData=
   ['cont_5fidx_5',['cont_idx',['../namespacem__global__parameters.html#a5d234ed722013d06fbb2d1ee5f8aab56',1,'m_global_parameters']]],
   ['contxb_6',['contxb',['../namespacem__global__parameters.html#a091928109ad0beba74f9320633dac17b',1,'m_global_parameters']]],
   ['contxe_7',['contxe',['../namespacem__global__parameters.html#aa8c3473491c8954fa322dd81a8f8c497',1,'m_global_parameters']]],
-  ['crossprod_8',['crossprod',['../namespacem__stl.html#a1a3f9ab27b76b9250b0fc3c8209ed655',1,'m_stl']]],
-  ['cyl_5fcoord_9',['cyl_coord',['../namespacem__global__parameters.html#a53f0d5eed7783c9760aaeeaa0abbd58c',1,'m_global_parameters']]]
+  ['cyl_5fcoord_8',['cyl_coord',['../namespacem__global__parameters.html#a53f0d5eed7783c9760aaeeaa0abbd58c',1,'m_global_parameters']]]
 ];

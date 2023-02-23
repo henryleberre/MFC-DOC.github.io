@@ -1,5 +1,5 @@
 <map id="m_check_patches::s_check_patches" name="m_check_patches::s_check_patches">
-<area shape="rect" id="node1" title=" " alt="" coords="5,878,159,918"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,839,159,879"/>
 <area shape="rect" id="node2" href="$namespacem__check__patches.html#a4d14e04de7d9344029130ab09571fdb9" title="This subroutine verifies that the geometric parameters of the analytical patch have consistently been..." alt="" coords="227,5,389,60"/>
 <area shape="rect" id="node3" href="$namespacem__check__patches.html#a41e469c1773e6b92e16b2e3b3558c0ed" title="This subroutine verifies that the geometric parameters of the analytical patch have consistently been..." alt="" coords="227,84,389,139"/>
 <area shape="rect" id="node4" href="$namespacem__check__patches.html#a5643fb88910457783efdc7be07c2096c" title="This subroutine verifies that the geometric parameters of the analytical patch have consistently been..." alt="" coords="227,163,389,217"/>
@@ -20,7 +20,6 @@
 <area shape="rect" id="node19" href="$namespacem__check__patches.html#ac34be0830489fb414bc93ecbb25c0383" title="This subroutine verifies that the geometric parameters of the rectangle patch have consistently been ..." alt="" coords="219,1343,397,1397"/>
 <area shape="rect" id="node20" href="$namespacem__check__patches.html#ad2dd6dc473d7bb6d32cd5fd906c80da4" title="This subroutine verifies that the geometric parameters of the sphere patch have consistently been inp..." alt="" coords="227,1421,389,1476"/>
 <area shape="rect" id="node21" href="$namespacem__check__patches.html#a7f4fc28d325755439d8764d595e09387" title="This subroutine verifies that the geometric parameters of the spherical harmonic patch have consisten..." alt="" coords="207,1500,409,1555"/>
-<area shape="rect" id="node22" href="$namespacem__check__patches.html#a4031e8c60108044dea6270f8c8a0036a" title=" " alt="" coords="228,1579,388,1619"/>
-<area shape="rect" id="node23" href="$namespacem__check__patches.html#ac4618b7bb46f92ac59717a31d673ab88" title="This subroutine verifies that the smoothing parameters of the given patch, which supports the smoothi..." alt="" coords="217,1644,399,1699"/>
-<area shape="rect" id="node24" href="$namespacem__check__patches.html#a7f27b499f2b90ad0f25443c1a1c5a0e5" title="This subroutine verifies that the smoothing parameters of the given patch, which does not support the..." alt="" coords="209,1723,407,1777"/>
+<area shape="rect" id="node22" href="$namespacem__check__patches.html#ac4618b7bb46f92ac59717a31d673ab88" title="This subroutine verifies that the smoothing parameters of the given patch, which supports the smoothi..." alt="" coords="217,1579,399,1633"/>
+<area shape="rect" id="node23" href="$namespacem__check__patches.html#a7f27b499f2b90ad0f25443c1a1c5a0e5" title="This subroutine verifies that the smoothing parameters of the given patch, which does not support the..." alt="" coords="209,1657,407,1712"/>
 </map>

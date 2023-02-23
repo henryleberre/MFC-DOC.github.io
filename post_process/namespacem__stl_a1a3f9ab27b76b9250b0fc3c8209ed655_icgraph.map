@@ -1,6 +1,0 @@
-<map id="m_stl::crossprod" name="m_stl::crossprod">
-<area shape="rect" id="node1" title=" " alt="" coords="403,31,532,56"/>
-<area shape="rect" id="node2" href="$namespacem__stl.html#a60170e2e45c00f3d940feefb44f7d44a" title=" " alt="" coords="212,5,355,31"/>
-<area shape="rect" id="node4" href="$namespacem__stl.html#a73d2d12bf13e53299bef2b2ab3f926b8" title="This procedure reads a binary STL file. The caller is responsible for freeing the memory allocated fo..." alt="" coords="217,55,349,80"/>
-<area shape="rect" id="node3" href="$namespacem__stl.html#a692f4734e6b058a947cf03cc3b1bdc42" title=" " alt="" coords="5,5,164,31"/>
-</map>
