@@ -64,22 +64,20 @@ var NAVTREE =
         [ "Boundary conditions", "autotoc_md23.html#autotoc_md34", null ],
         [ "Patch types", "autotoc_md23.html#autotoc_md35", null ],
         [ "Flux limiters", "autotoc_md23.html#autotoc_md36", null ],
-        [ "Monopole supports", "autotoc_md23.html#autotoc_md37", null ]
+        [ "Monopole supports", "autotoc_md23.html#autotoc_md37", null ],
+        [ "Conservative Variables Ordering", "autotoc_md23.html#autotoc_md38", null ],
+        [ "Primitive Variables Ordering", "autotoc_md23.html#autotoc_md39", null ]
       ] ],
-      [ "|    5 | Transducer      |", "autotoc_md23.html#autotoc_md38", [
-        [ "Running", "autotoc_md23.html#autotoc_md41", [
-          [ "Conservative Variables Ordering", "autotoc_md23.html#autotoc_md39", null ],
-          [ "Primitive Variables Ordering", "autotoc_md23.html#autotoc_md40", null ],
-          [ "Interactive Execution", "autotoc_md23.html#autotoc_md42", null ],
-          [ "Batch Execution", "autotoc_md23.html#autotoc_md43", null ],
-          [ "Example Runs", "autotoc_md23.html#autotoc_md44", null ]
-        ] ]
+      [ "Running", "autotoc_md23.html#autotoc_md40", [
+        [ "Interactive Execution", "autotoc_md23.html#autotoc_md41", null ],
+        [ "Batch Execution", "autotoc_md23.html#autotoc_md42", null ],
+        [ "Example Runs", "autotoc_md23.html#autotoc_md43", null ]
       ] ]
     ] ],
-    [ "Testing", "autotoc_md45.html", null ],
-    [ "Flow visualization", "autotoc_md47.html", [
-      [ "Procedure", "autotoc_md47.html#autotoc_md48", null ],
-      [ "Serial data output", "autotoc_md47.html#autotoc_md49", null ]
+    [ "Testing", "autotoc_md44.html", null ],
+    [ "Flow visualization", "autotoc_md46.html", [
+      [ "Procedure", "autotoc_md46.html#autotoc_md47", null ],
+      [ "Serial data output", "autotoc_md46.html#autotoc_md48", null ]
     ] ]
   ] ]
 ];

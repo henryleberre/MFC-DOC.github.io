@@ -254,6 +254,5 @@ var namespaces_dup =
       [ "s_check_input_file", "namespacem__start__up.html#ad77478b402c186b1f620b7d14aab9123", null ],
       [ "s_read_input_file", "namespacem__start__up.html#a3a19eb11ae434dc590a1bd7835442891", null ]
     ] ],
-    [ "m_stl", "namespacem__stl.html", "namespacem__stl" ],
     [ "m_variables_conversion", "namespacem__variables__conversion.html", "namespacem__variables__conversion" ]
 ];

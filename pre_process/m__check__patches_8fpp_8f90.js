@@ -21,7 +21,6 @@ var m__check__patches_8fpp_8f90 =
     [ "s_check_rectangle_patch_geometry", "m__check__patches_8fpp_8f90.html#ac34be0830489fb414bc93ecbb25c0383", null ],
     [ "s_check_sphere_patch_geometry", "m__check__patches_8fpp_8f90.html#ad2dd6dc473d7bb6d32cd5fd906c80da4", null ],
     [ "s_check_spherical_harmonic_patch_geometry", "m__check__patches_8fpp_8f90.html#a7f4fc28d325755439d8764d595e09387", null ],
-    [ "s_check_stl_geometry", "m__check__patches_8fpp_8f90.html#a4031e8c60108044dea6270f8c8a0036a", null ],
     [ "s_check_supported_patch_smoothing", "m__check__patches_8fpp_8f90.html#ac4618b7bb46f92ac59717a31d673ab88", null ],
     [ "s_check_unsupported_patch_smoothing", "m__check__patches_8fpp_8f90.html#a7f27b499f2b90ad0f25443c1a1c5a0e5", null ]
 ];
