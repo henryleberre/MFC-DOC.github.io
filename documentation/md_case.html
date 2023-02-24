@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MFC: Case File</title>
+<title>MFC: Case Files</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -116,10 +116,21 @@ $(document).ready(function(){initNavTree('md_case.html',''); initResizable(); })
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Case File </div></div>
+  <div class="headertitle"><div class="title">Case Files </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>A Python input files define dependencies, logistics, and input parameters for each simulation case. In this section, details of the input file and how to edit it are described. The user can also leverage the example input files as necessary.</p>
+<div class="textblock"><p>Example Python case files, also referred to as <em>input files</em>, can be found in the <a href="examples/">examples/</a> directory. They print a Python dictionary containing input parameters for MFC. Their contents, and a guide to filling them out, are documented in the user manual. A commented, tutorial script can also be found in <a href="examples/3D_sphbubcollapse/case.py">examples/3d_sphbubcollapse/</a>.</p>
+<p>The skeleton for an input file may look like the following:</p>
+<div class="fragment"><div class="line"><span class="comment">#!/usr/bin/env python3</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">import</span> json</div>
+<div class="line"> </div>
+<div class="line"><span class="comment"># Configuring case dictionary</span></div>
+<div class="line">print(json.dumps({</div>
+<div class="line">  <span class="comment"># Insert case parameters here</span></div>
+<div class="line">  ...</div>
+<div class="line">}))</div>
+</div><!-- fragment --><p>Thus, you can run your case file with Python to view the computed case dictionary that will be processed by MFC when you run. This is particularly useful when computations are done in Python to generate the case.</p>
 <h1><a class="anchor" id="autotoc_md2"></a>
 Parameters</h1>
 <p>There are multiple sets of parameters that must be specified in the python input file:</p><ol type="1">
