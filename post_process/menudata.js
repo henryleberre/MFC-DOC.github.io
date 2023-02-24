@@ -53,6 +53,8 @@ var menudata={children:[
 {text:"y",url:"namespacemembers_y.html#index_y"},
 {text:"z",url:"namespacemembers_z.html#index_z"}]},
 {text:"Functions/Subroutines",url:"namespacemembers_func.html",children:[
+{text:"c",url:"namespacemembers_func.html#index_c"},
+{text:"f",url:"namespacemembers_func.html#index_f"},
 {text:"m",url:"namespacemembers_func.html#index_m"},
 {text:"s",url:"namespacemembers_func.html#index_s"}]},
 {text:"Variables",url:"namespacemembers_vars.html",children:[
@@ -85,7 +87,8 @@ var menudata={children:[
 {text:"Data Type Index",url:"classes.html"},
 {text:"Data Fields",url:"functions.html",children:[
 {text:"All",url:"functions.html"},
-{text:"Functions/Subroutines",url:"functions_func.html"}]}]},
+{text:"Functions/Subroutines",url:"functions_func.html"},
+{text:"Variables",url:"functions_vars.html"}]}]},
 {text:"Files",url:"files.html",children:[
 {text:"File List",url:"files.html"},
 {text:"File Members",url:"globals.html",children:[
