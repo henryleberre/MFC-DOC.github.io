@@ -27,7 +27,7 @@ var NAVTREE =
   [ "MFC", "index.html", [
     [ "Documentation", "index.html", "index" ],
     [ "Authors", "md_authors.html", null ],
-    [ "Case Files", "md_case.html", [
+    [ "Case File", "md_case.html", [
       [ "Parameters", "md_case.html#autotoc_md2", [
         [ "1. Runtime", "md_case.html#autotoc_md3", null ],
         [ "2. Computational Domain", "md_case.html#autotoc_md4", null ],
