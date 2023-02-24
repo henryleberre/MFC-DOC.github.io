@@ -70,34 +70,14 @@ var NAVTREE =
     ] ],
     [ "References", "md_references.html", null ],
     [ "Running", "md_running.html", [
-      [ "Parameters", "md_running.html#autotoc_md41", [
-        [ "1. Runtime", "md_running.html#autotoc_md42", null ],
-        [ "2. Computational Domain", "md_running.html#autotoc_md43", null ],
-        [ "3. Patches", "md_running.html#autotoc_md44", null ],
-        [ "4. Fluid Material’s", "md_running.html#autotoc_md45", null ],
-        [ "5. Simulation Algorithm", "md_running.html#autotoc_md46", null ],
-        [ "6. Formatted Output", "md_running.html#autotoc_md47", null ],
-        [ "7. Acoustic Source", "md_running.html#autotoc_md48", null ],
-        [ "8. Ensemble-Averaged Bubble Model", "md_running.html#autotoc_md49", null ]
-      ] ],
-      [ "Enumerations", "md_running.html#autotoc_md50", [
-        [ "Boundary conditions", "md_running.html#autotoc_md51", null ],
-        [ "Patch types", "md_running.html#autotoc_md52", null ],
-        [ "Flux limiters", "md_running.html#autotoc_md53", null ],
-        [ "Monopole supports", "md_running.html#autotoc_md54", null ],
-        [ "Conservative Variables Ordering", "md_running.html#autotoc_md55", null ],
-        [ "Primitive Variables Ordering", "md_running.html#autotoc_md56", null ]
-      ] ],
-      [ "Running", "md_running.html#autotoc_md57", [
-        [ "Interactive Execution", "md_running.html#autotoc_md58", null ],
-        [ "Batch Execution", "md_running.html#autotoc_md59", null ],
-        [ "Example Runs", "md_running.html#autotoc_md60", null ]
-      ] ]
+      [ "Interactive Execution", "md_running.html#autotoc_md41", null ],
+      [ "Batch Execution", "md_running.html#autotoc_md42", null ],
+      [ "Example Runs", "md_running.html#autotoc_md43", null ]
     ] ],
     [ "Testing", "md_testing.html", null ],
     [ "Flow visualization", "md_visualisation.html", [
-      [ "Procedure", "md_visualisation.html#autotoc_md64", null ],
-      [ "Serial data output", "md_visualisation.html#autotoc_md65", null ]
+      [ "Procedure", "md_visualisation.html#autotoc_md47", null ],
+      [ "Serial data output", "md_visualisation.html#autotoc_md48", null ]
     ] ]
   ] ]
 ];
