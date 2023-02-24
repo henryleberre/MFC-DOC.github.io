@@ -119,18 +119,7 @@ $(document).ready(function(){initNavTree('md_running.html',''); initResizable();
   <div class="headertitle"><div class="title">Running </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>MFC can be run using <code>mfc.sh</code>'s <code>run</code> command. It supports both interactive and batch execution, the latter being designed for multi-socket systems, namely supercomputers, equipped with a scheduler such as PBS, SLURM, and LSF. A full (and updated) list of available arguments can be acquired with <code>./mfc.sh run -h</code>. Example Python input files can be found in the <a href="examples/">examples/</a> directory. They print a Python dictionary containing input parameters for MFC. Their contents, and a guide to filling them out, are documented in the user manual. A commented, tutorial script can also be found in <a href="examples/3D_sphbubcollapse/case.py">examples/3d_sphbubcollapse/</a>.</p>
-<p>The skeleton for an input file may look like the following:</p>
-<div class="fragment"><div class="line"><span class="comment">#!/usr/bin/env python3</span></div>
-<div class="line"> </div>
-<div class="line"><span class="keyword">import</span> json</div>
-<div class="line"> </div>
-<div class="line"><span class="comment"># Configuring case dictionary</span></div>
-<div class="line">print(json.dumps({</div>
-<div class="line">  <span class="comment"># Insert case parameters here</span></div>
-<div class="line">  ...</div>
-<div class="line">}))</div>
-</div><!-- fragment --><p>Thus, you can run your case file with Python to view the computed case dictionary that will be processed by MFC when you run. This is particularly useful when computations are done in Python to generate the case.</p>
+<div class="textblock"><p>MFC can be run using <code>mfc.sh</code>'s <code>run</code> command. It supports both interactive and batch execution, the latter being designed for multi-socket systems, namely supercomputers, equipped with a scheduler such as PBS, SLURM, and LSF. A full (and updated) list of available arguments can be acquired with <code>./mfc.sh run -h</code>.</p>
 <h1><a class="anchor" id="autotoc_md41"></a>
 Interactive Execution</h1>
 <p>To run all stages of MFC, that is <a href="src/pre_process/">pre_process</a>, <a href="src/simulation/">simulation</a>, and <a href="src/post_process/">post_process</a> on the sample case <a href="examples/2D_shockbubble/">2D_shockbubble</a>,</p>
