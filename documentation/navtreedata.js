@@ -64,8 +64,8 @@ var NAVTREE =
       [ "Attribution", "md_CODE__OF__CONDUCT.html#autotoc_md31", null ]
     ] ],
     [ "Getting Started", "md_getting-started.html", [
-      [ "Build Environment", "md_getting-started.html#autotoc_md33", null ],
-      [ "Fetching MFC", "md_getting-started.html#autotoc_md34", null ],
+      [ "Fetching MFC", "md_getting-started.html#autotoc_md33", null ],
+      [ "Build Environment", "md_getting-started.html#autotoc_md34", null ],
       [ "Building MFC", "md_getting-started.html#autotoc_md35", null ],
       [ "Running the Test Suite", "md_getting-started.html#autotoc_md36", null ],
       [ "Running an Example Case", "md_getting-started.html#autotoc_md37", null ]
