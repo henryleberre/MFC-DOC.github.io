@@ -259,7 +259,7 @@ var namespaces_dup =
       [ "s_sphere", "namespacem__patches.html#a0a4c1431391482cd3947343d01832f94", null ],
       [ "s_spherical_harmonic", "namespacem__patches.html#a36be577575b5c54d581467162eef12ab", null ],
       [ "s_spiral", "namespacem__patches.html#af9b0318710825d616d4d03361fd4d88b", null ],
-      [ "s_stl", "namespacem__patches.html#a141000abf2eadbd31eed24cbe701a8a3", null ],
+      [ "s_stl", "namespacem__patches.html#aa59090978e2ba6053f0d0ae459b472f6", null ],
       [ "s_stl_transform_matrix", "namespacem__patches.html#a83efe3e97fcd582a8a212ebf326a0689", null ],
       [ "s_stl_transform_triangle", "namespacem__patches.html#af29810fbf1972fbadbcc53ee0a4398e7", null ],
       [ "s_sweep_line", "namespacem__patches.html#a33b9e3cf733ea5ed19cd9c1e26023fdb", null ],

@@ -67,7 +67,7 @@ var sectionId = 'dynsection-30';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="namespacem__patches.html#a141000abf2eadbd31eed24cbe701a8a3" target="_top" xlink:title="The STL patch is a 2/3D geometry that is imported from an STL file.">
+<g id="a_node2"><a xlink:href="namespacem__patches.html#aa59090978e2ba6053f0d0ae459b472f6" target="_top" xlink:title="The STL patch is a 2/3D geometry that is imported from an STL file.">
 <polygon fill="white" stroke="#666666" points="333,-30 235,-30 235,-11 333,-11 333,-30"/>
 <text text-anchor="middle" x="284" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">m_patches::s_stl</text>
 </a>

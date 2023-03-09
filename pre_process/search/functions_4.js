@@ -102,7 +102,7 @@ var searchData=
   ['s_5fsphere_99',['s_sphere',['../namespacem__patches.html#a0a4c1431391482cd3947343d01832f94',1,'m_patches']]],
   ['s_5fspherical_5fharmonic_100',['s_spherical_harmonic',['../namespacem__patches.html#a36be577575b5c54d581467162eef12ab',1,'m_patches']]],
   ['s_5fspiral_101',['s_spiral',['../namespacem__patches.html#af9b0318710825d616d4d03361fd4d88b',1,'m_patches']]],
-  ['s_5fstl_102',['s_stl',['../namespacem__patches.html#a141000abf2eadbd31eed24cbe701a8a3',1,'m_patches']]],
+  ['s_5fstl_102',['s_stl',['../namespacem__patches.html#aa59090978e2ba6053f0d0ae459b472f6',1,'m_patches']]],
   ['s_5fstl_5fread_103',['s_stl_read',['../namespacem__stl.html#a73d2d12bf13e53299bef2b2ab3f926b8',1,'m_stl']]],
   ['s_5fstl_5ftransform_5fmatrix_104',['s_stl_transform_matrix',['../namespacem__patches.html#a83efe3e97fcd582a8a212ebf326a0689',1,'m_patches']]],
   ['s_5fstl_5ftransform_5ftriangle_105',['s_stl_transform_triangle',['../namespacem__patches.html#af29810fbf1972fbadbcc53ee0a4398e7',1,'m_patches']]],
