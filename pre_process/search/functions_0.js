@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['crossprod_0',['crossprod',['../namespacem__stl.html#a1a3f9ab27b76b9250b0fc3c8209ed655',1,'m_stl']]]
+  ['f_5fr_0',['f_r',['../namespacem__patches.html#a38e8db0da64a4a5afd83bda4dc990f0c',1,'m_patches']]]
 ];

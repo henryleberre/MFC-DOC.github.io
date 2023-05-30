@@ -2,6 +2,7 @@ var m__check__patches_8fpp_8f90 =
 [
     [ "s_check_1d_analytical_patch_geometry", "m__check__patches_8fpp_8f90.html#a4d14e04de7d9344029130ab09571fdb9", null ],
     [ "s_check_2d_analytical_patch_geometry", "m__check__patches_8fpp_8f90.html#a41e469c1773e6b92e16b2e3b3558c0ed", null ],
+    [ "s_check_2d_taylorgreen_vortex_patch_geometry", "m__check__patches_8fpp_8f90.html#a5d383a1b6d22d83b4d85e0efaa0de52a", null ],
     [ "s_check_3d_analytical_patch_geometry", "m__check__patches_8fpp_8f90.html#a5643fb88910457783efdc7be07c2096c", null ],
     [ "s_check_active_patch_alteration_rights", "m__check__patches_8fpp_8f90.html#ac652a2c373fea30afb587a3a8f28e4c9", null ],
     [ "s_check_active_patch_primitive_variables", "m__check__patches_8fpp_8f90.html#a7286a74b75fa2f5e046638056a85665e", null ],
@@ -21,7 +22,7 @@ var m__check__patches_8fpp_8f90 =
     [ "s_check_rectangle_patch_geometry", "m__check__patches_8fpp_8f90.html#ac34be0830489fb414bc93ecbb25c0383", null ],
     [ "s_check_sphere_patch_geometry", "m__check__patches_8fpp_8f90.html#ad2dd6dc473d7bb6d32cd5fd906c80da4", null ],
     [ "s_check_spherical_harmonic_patch_geometry", "m__check__patches_8fpp_8f90.html#a7f4fc28d325755439d8764d595e09387", null ],
-    [ "s_check_stl_geometry", "m__check__patches_8fpp_8f90.html#a4031e8c60108044dea6270f8c8a0036a", null ],
     [ "s_check_supported_patch_smoothing", "m__check__patches_8fpp_8f90.html#ac4618b7bb46f92ac59717a31d673ab88", null ],
-    [ "s_check_unsupported_patch_smoothing", "m__check__patches_8fpp_8f90.html#a7f27b499f2b90ad0f25443c1a1c5a0e5", null ]
+    [ "s_check_unsupported_patch_smoothing", "m__check__patches_8fpp_8f90.html#a7f27b499f2b90ad0f25443c1a1c5a0e5", null ],
+    [ "istr", "m__check__patches_8fpp_8f90.html#a1595128fdb31c7579893e18f2b9b5165", null ]
 ];
