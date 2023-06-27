@@ -271,15 +271,13 @@ Parameters</h1>
 <h3><a class="anchor" id="autotoc_md8"></a>
 Analytical Definition of Primitive Variables</h3>
 <p>Some parameters, as described above, can be defined by analytical functions in the input file. For example, one can define the following patch:</p>
-<div class="fragment"><div class="line">{</div>
-<div class="line">    &#39;patch_icpp(2)%geometry&#39;    : 15,</div>
-<div class="line">    &#39;patch_icpp(2)%x_centroid&#39;  : 0.25,</div>
-<div class="line">    &#39;patch_icpp(2)%length_x&#39;    : 9.5,</div>
-<div class="line">    &#39;patch_icpp(2)%vel(1)&#39;      : 0.,</div>
-<div class="line">    &#39;patch_icpp(2)%pres&#39;        : 1.,</div>
-<div class="line">    &#39;patch_icpp(2)%alpha_rho(1)&#39;: &#39;1 + 0.1*sin(20*x*pi)&#39;,</div>
-<div class="line">    &#39;patch_icpp(2)%alpha(1)&#39;    : 1.,</div>
-<div class="line">}</div>
+<div class="fragment"><div class="line">&#39;patch_icpp(2)%geometry&#39;    : 15,</div>
+<div class="line">&#39;patch_icpp(2)%x_centroid&#39;  : 0.25,</div>
+<div class="line">&#39;patch_icpp(2)%length_x&#39;    : 9.5,</div>
+<div class="line">&#39;patch_icpp(2)%vel(1)&#39;      : 0.,</div>
+<div class="line">&#39;patch_icpp(2)%pres&#39;        : 1.,</div>
+<div class="line">&#39;patch_icpp(2)%alpha_rho(1)&#39;: &#39;1 + 0.1*sin(20*x*pi)&#39;,</div>
+<div class="line">&#39;patch_icpp(2)%alpha(1)&#39;    : 1.,</div>
 </div><!-- fragment --><p>where <code>alpha_rho</code> is defined with the <code>1 + 0.1*sin(20*x*pi)</code> function.</p>
 <p>The expressions are interpreted as Fortran code, in the execution context and scope of the function that defines the patch. Additionally, the following variables are made available as shorthand:</p>
 <table class="markdownTable">
