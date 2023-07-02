@@ -210,7 +210,11 @@ var namespaces_dup =
     [ "m_model", "namespacem__model.html", [
       [ "f_model_read", "namespacem__model.html#abda852df75df168f304cf1e21ba7dbf2", null ],
       [ "s_model_free", "namespacem__model.html#a6705bb2281063959f7b82a5718646624", null ],
-      [ "s_model_write", "namespacem__model.html#ae119cd86c9ee2cd68b31f8ce7c5b3c93", null ]
+      [ "s_model_write", "namespacem__model.html#ae119cd86c9ee2cd68b31f8ce7c5b3c93", null ],
+      [ "s_read_obj", "namespacem__model.html#adc9b5433cf32ba68e911e087ecb33238", null ],
+      [ "s_read_stl", "namespacem__model.html#a7303a163fbad467b0966db4428bb23e0", null ],
+      [ "s_write_obj", "namespacem__model.html#a4a1f411226adbc4349049fda784d4fae", null ],
+      [ "s_write_stl", "namespacem__model.html#a4bfb369c293ddf319409a23b435376c1", null ]
     ] ],
     [ "m_mpi_proxy", "namespacem__mpi__proxy.html", [
       [ "s_mpi_bcast_user_inputs", "namespacem__mpi__proxy.html#a69660c5fe9302a8c0496b622fa3b5286", null ],
