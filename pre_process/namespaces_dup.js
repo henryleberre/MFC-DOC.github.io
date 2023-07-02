@@ -207,17 +207,6 @@ var namespaces_dup =
       [ "q_cons_vf", "namespacem__initial__condition.html#a1f42c68f3b3d167616d52b7cf7a7d56a", null ],
       [ "q_prim_vf", "namespacem__initial__condition.html#ad9935d4b9c2f6a7af08f3630681d0c1a", null ]
     ] ],
-    [ "m_model", "namespacem__model.html", [
-      [ "f_model_read", "namespacem__model.html#abda852df75df168f304cf1e21ba7dbf2", null ],
-      [ "s_model_free", "namespacem__model.html#a6705bb2281063959f7b82a5718646624", null ],
-      [ "s_model_write", "namespacem__model.html#ae119cd86c9ee2cd68b31f8ce7c5b3c93", null ],
-      [ "s_read_obj", "namespacem__model.html#adc9b5433cf32ba68e911e087ecb33238", null ],
-      [ "s_read_stl", "namespacem__model.html#a7303a163fbad467b0966db4428bb23e0", null ],
-      [ "s_read_stl_ascii", "namespacem__model.html#a86c56beafd11322f83dd60c431e1f0ee", null ],
-      [ "s_read_stl_binary", "namespacem__model.html#acb6ead03311886a7274f3c8d872266a4", null ],
-      [ "s_write_obj", "namespacem__model.html#afc0b806602422872d04481295a872a84", null ],
-      [ "s_write_stl", "namespacem__model.html#a357a889d3cc9b4351fbd66ecdc2b4f77", null ]
-    ] ],
     [ "m_mpi_proxy", "namespacem__mpi__proxy.html", [
       [ "s_mpi_bcast_user_inputs", "namespacem__mpi__proxy.html#a69660c5fe9302a8c0496b622fa3b5286", null ],
       [ "s_mpi_decompose_computational_domain", "namespacem__mpi__proxy.html#a80c5e235786545276fe6ffa06965017f", null ],
