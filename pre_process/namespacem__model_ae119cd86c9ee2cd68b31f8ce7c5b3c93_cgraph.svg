@@ -48,7 +48,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="namespacem__model.html#afc0b806602422872d04481295a872a84" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="namespacem__model.html#afc0b806602422872d04481295a872a84" target="_top" xlink:title="This procedure writes an OBJ file.">
 <polygon fill="white" stroke="#666666" points="300,-56 176,-56 176,-37 300,-37 300,-56"/>
 <text text-anchor="middle" x="238" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">m_model::s_write_obj</text>
 </a>
@@ -66,7 +66,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="namespacem__model.html#a357a889d3cc9b4351fbd66ecdc2b4f77" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="namespacem__model.html#a357a889d3cc9b4351fbd66ecdc2b4f77" target="_top" xlink:title="This procedure writes a binary STL file.">
 <polygon fill="white" stroke="#666666" points="298.5,-19 177.5,-19 177.5,0 298.5,0 298.5,-19"/>
 <text text-anchor="middle" x="238" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">m_model::s_write_stl</text>
 </a>

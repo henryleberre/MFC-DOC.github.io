@@ -649,7 +649,7 @@
 <!-- Node37 -->
 <g id="Node000037" class="node">
 <title>Node37</title>
-<g id="a_Node000037"><a xlink:href="namespacem__model.html#adc9b5433cf32ba68e911e087ecb33238" target="_top" xlink:title=" ">
+<g id="a_Node000037"><a xlink:href="namespacem__model.html#adc9b5433cf32ba68e911e087ecb33238" target="_top" xlink:title="This procedure reads an OBJ file.">
 <polygon fill="white" stroke="#666666" points="393.5,-2064 272.5,-2064 272.5,-2045 393.5,-2045 393.5,-2064"/>
 <text text-anchor="middle" x="333" y="-2052" font-family="Helvetica,sans-Serif" font-size="10.00">m_model::s_read_obj</text>
 </a>
@@ -743,7 +743,7 @@
 <!-- Node43 -->
 <g id="Node000043" class="node">
 <title>Node43</title>
-<g id="a_Node000043"><a xlink:href="namespacem__model.html#a7303a163fbad467b0966db4428bb23e0" target="_top" xlink:title=" ">
+<g id="a_Node000043"><a xlink:href="namespacem__model.html#a7303a163fbad467b0966db4428bb23e0" target="_top" xlink:title="This procedure reads an STL file.">
 <polygon fill="white" stroke="#666666" points="392,-2004 274,-2004 274,-1985 392,-1985 392,-2004"/>
 <text text-anchor="middle" x="333" y="-1992" font-family="Helvetica,sans-Serif" font-size="10.00">m_model::s_read_stl</text>
 </a>
@@ -761,7 +761,7 @@
 <!-- Node44 -->
 <g id="Node000044" class="node">
 <title>Node44</title>
-<g id="a_Node000044"><a xlink:href="namespacem__model.html#a86c56beafd11322f83dd60c431e1f0ee" target="_top" xlink:title=" ">
+<g id="a_Node000044"><a xlink:href="namespacem__model.html#a86c56beafd11322f83dd60c431e1f0ee" target="_top" xlink:title="This procedure reads an ASCII STL file.">
 <polygon fill="white" stroke="#666666" points="577,-1988.5 459,-1988.5 459,-1958.5 577,-1958.5 577,-1988.5"/>
 <text text-anchor="start" x="467" y="-1976.5" font-family="Helvetica,sans-Serif" font-size="10.00">m_model::s_read_stl</text>
 <text text-anchor="middle" x="518" y="-1965.5" font-family="Helvetica,sans-Serif" font-size="10.00">_ascii</text>
@@ -780,7 +780,7 @@
 <!-- Node45 -->
 <g id="Node000045" class="node">
 <title>Node45</title>
-<g id="a_Node000045"><a xlink:href="namespacem__model.html#acb6ead03311886a7274f3c8d872266a4" target="_top" xlink:title=" ">
+<g id="a_Node000045"><a xlink:href="namespacem__model.html#acb6ead03311886a7274f3c8d872266a4" target="_top" xlink:title="This procedure reads a binary STL file.">
 <polygon fill="white" stroke="#666666" points="577,-1940.5 459,-1940.5 459,-1910.5 577,-1910.5 577,-1940.5"/>
 <text text-anchor="start" x="467" y="-1928.5" font-family="Helvetica,sans-Serif" font-size="10.00">m_model::s_read_stl</text>
 <text text-anchor="middle" x="518" y="-1917.5" font-family="Helvetica,sans-Serif" font-size="10.00">_binary</text>
@@ -799,7 +799,7 @@
 <!-- Node46 -->
 <g id="Node000046" class="node">
 <title>Node46</title>
-<g id="a_Node000046"><a xlink:href="namespacem__model.html#afc0b806602422872d04481295a872a84" target="_top" xlink:title=" ">
+<g id="a_Node000046"><a xlink:href="namespacem__model.html#afc0b806602422872d04481295a872a84" target="_top" xlink:title="This procedure writes an OBJ file.">
 <polygon fill="white" stroke="#666666" points="580,-56 456,-56 456,-37 580,-37 580,-56"/>
 <text text-anchor="middle" x="518" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">m_model::s_write_obj</text>
 </a>
@@ -817,7 +817,7 @@
 <!-- Node47 -->
 <g id="Node000047" class="node">
 <title>Node47</title>
-<g id="a_Node000047"><a xlink:href="namespacem__model.html#a357a889d3cc9b4351fbd66ecdc2b4f77" target="_top" xlink:title=" ">
+<g id="a_Node000047"><a xlink:href="namespacem__model.html#a357a889d3cc9b4351fbd66ecdc2b4f77" target="_top" xlink:title="This procedure writes a binary STL file.">
 <polygon fill="white" stroke="#666666" points="578.5,-19 457.5,-19 457.5,0 578.5,0 578.5,-19"/>
 <text text-anchor="middle" x="518" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">m_model::s_write_stl</text>
 </a>

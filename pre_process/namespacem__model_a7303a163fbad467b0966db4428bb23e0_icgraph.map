@@ -1,5 +1,5 @@
 <map id="m_model::s_read_stl" name="m_model::s_read_stl">
-<area shape="rect" id="Node000001" title=" " alt="" coords="233,5,391,31"/>
+<area shape="rect" id="Node000001" title="This procedure reads an STL file." alt="" coords="233,5,391,31"/>
 <area shape="rect" id="Node000002" href="$namespacem__model.html#abda852df75df168f304cf1e21ba7dbf2" title="This procedure reads a mesh from a file." alt="" coords="5,5,185,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,21,185,21,185,15,219,15"/>
 </map>
