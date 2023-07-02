@@ -1,0 +1,14 @@
+<map id="s_mpi_barrier" name="s_mpi_barrier">
+<area shape="rect" id="Node000001" title="Halts all processes until all have reached barrier." alt="" coords="585,50,696,76"/>
+<area shape="rect" id="Node000002" href="$p__main_8f90.html#aeec10ee8e2940c953967da3e374e1579" title="This program takes care of setting up the initial condition and grid data for the multicomponent flow..." alt="" coords="5,80,76,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="584,49,495,28,378,12,315,8,251,10,187,18,125,34,104,43,85,55,56,82,52,78,82,51,102,38,123,29,186,13,250,5,315,3,379,6,495,23,585,44"/>
+<area shape="rect" id="Node000003" href="$namespacem__data__output.html#ab65b312ef83adb104cafafada9c998b6" title="Computation of parameters, allocation procedures, and/or any other tasks needed to properly setup the..." alt="" coords="124,43,323,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="572,66,323,66,323,60,572,60"/>
+<area shape="rect" id="Node000004" href="$namespacem__start__up.html#a25daee88d75c57908efa6e3e0516fb28" title="The goal of this subroutine is to read in any preexisting initial condition data files so that they m..." alt="" coords="371,100,537,140"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="586,82,520,103,519,98,585,77"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="111,84,76,90,76,84,110,79"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="357,117,76,97,77,92,357,111"/>
+<area shape="rect" id="Node000005" href="$namespacem__start__up.html#a37202711d89d04cd18f08170ba608aa1" title=" " alt="" coords="137,158,310,198"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="360,146,305,160,304,155,359,141"/>
+<area shape="poly" id="edge7_Node000005_Node000002" title=" " alt="" coords="153,155,123,142,61,108,64,103,125,137,156,150"/>
+</map>

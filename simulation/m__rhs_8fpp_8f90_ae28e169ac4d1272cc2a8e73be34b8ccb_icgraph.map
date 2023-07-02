@@ -1,0 +1,7 @@
+<map id="s_initialize_rhs_module" name="s_initialize_rhs_module">
+<area shape="rect" id="Node000001" title="The computation of parameters, the allocation of memory, the association of pointers and/or the execu..." alt="" coords="200,31,375,56"/>
+<area shape="rect" id="Node000002" href="$m__rhs_8fpp_8f90.html#a87616394067f1273cd06c4d299d10add" title=" " alt="" coords="5,5,152,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,34,152,30,152,24,187,28"/>
+<area shape="rect" id="Node000003" href="$p__main_8fpp_8f90.html#aeec10ee8e2940c953967da3e374e1579" title="Quasi&#45;conservative, shock&#45; and interface&#45; capturing finite&#45;volume scheme for the multicomponent Navie..." alt="" coords="43,55,114,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="187,58,114,66,114,61,186,52"/>
+</map>

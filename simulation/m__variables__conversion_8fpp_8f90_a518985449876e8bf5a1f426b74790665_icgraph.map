@@ -1,0 +1,20 @@
+<map id="s_convert_species_to_mixture_variables_bubbles" name="s_convert_species_to_mixture_variables_bubbles">
+<area shape="rect" id="Node000001" title="This procedure is used alongside with the gamma/pi_inf model to transfer the density,..." alt="" coords="473,91,679,131"/>
+<area shape="rect" id="Node000002" href="$m__variables__conversion_8fpp_8f90.html#a347ac5f0eb3158bfb1edcad667b6025c" title=" " alt="" coords="5,5,200,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="524,87,477,66,425,49,368,38,309,31,200,26,200,21,309,26,368,33,426,44,479,61,526,82"/>
+<area shape="rect" id="Node000003" href="$m__data__output_8fpp_8f90.html#a23f7e1c827800797a2fe2a1ea76ca16c" title="The computation of parameters, the allocation of memory, the association of pointers and/or the execu..." alt="" coords="248,123,425,163"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="460,129,426,133,425,128,459,124"/>
+<area shape="rect" id="Node000006" href="$m__rhs_8fpp_8f90.html#ae28e169ac4d1272cc2a8e73be34b8ccb" title="The computation of parameters, the allocation of memory, the association of pointers and/or the execu..." alt="" coords="249,187,424,213"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="520,139,426,177,387,190,385,185,424,172,518,134"/>
+<area shape="rect" id="Node000008" href="$m__variables__conversion_8fpp_8f90.html#ad5e4b4372f2626845645a4e03a83df65" title="The computation of parameters, the allocation of memory, the association of pointers and/or the execu..." alt="" coords="257,59,416,99"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="459,98,416,92,417,87,460,92"/>
+<area shape="rect" id="Node000004" href="$m__data__output_8fpp_8f90.html#a979b8a2cf4215a8122fc461c0512dbba" title=" " alt="" coords="21,123,184,163"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="235,145,184,145,184,140,235,140"/>
+<area shape="rect" id="Node000005" href="$p__main_8fpp_8f90.html#aeec10ee8e2940c953967da3e374e1579" title="Quasi&#45;conservative, shock&#45; and interface&#45; capturing finite&#45;volume scheme for the multicomponent Navie..." alt="" coords="67,73,138,98"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="241,122,137,96,139,91,242,117"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="259,184,246,177,230,160,222,144,214,128,198,113,169,99,138,91,139,86,170,94,202,108,218,125,226,141,234,157,250,173,262,180"/>
+<area shape="rect" id="Node000007" href="$m__rhs_8fpp_8f90.html#a87616394067f1273cd06c4d299d10add" title=" " alt="" coords="29,187,176,213"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="236,203,176,203,176,197,236,197"/>
+<area shape="poly" id="edge9_Node000008_Node000002" title=" " alt="" coords="243,60,190,48,192,43,244,55"/>
+<area shape="poly" id="edge10_Node000008_Node000005" title=" " alt="" coords="244,84,138,87,138,82,243,79"/>
+</map>

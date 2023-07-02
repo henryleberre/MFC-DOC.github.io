@@ -1,0 +1,13 @@
+<map id="s_convert_species_to_mixture_variables_bubbles_acc" name="s_convert_species_to_mixture_variables_bubbles_acc">
+<area shape="rect" id="Node000001" title=" " alt="" coords="472,23,707,63"/>
+<area shape="rect" id="Node000002" href="$m__variables__conversion_8fpp_8f90.html#a347ac5f0eb3158bfb1edcad667b6025c" title=" " alt="" coords="5,23,200,63"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="488,23,424,14,336,8,248,14,180,26,179,21,248,9,336,3,424,9,488,18"/>
+<area shape="rect" id="Node000003" href="$m__variables__conversion_8fpp_8f90.html#a24725c6eb206c9a62e2ec70bf368836d" title="The following procedure handles the conversion between the conservative variables and the primitive v..." alt="" coords="248,87,424,127"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="497,70,416,90,415,85,496,64"/>
+<area shape="rect" id="Node000005" href="$m__variables__conversion_8fpp_8f90.html#a372d7e72401e01311cda4b4b0b8c3d29" title="The following subroutine handles the conversion between the primitive variables and the Eulerian flux..." alt="" coords="261,23,411,63"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="458,46,412,46,412,41,458,41"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="248,86,175,66,177,61,250,81"/>
+<area shape="rect" id="Node000004" href="$p__main_8fpp_8f90.html#aeec10ee8e2940c953967da3e374e1579" title="The post&#45;process restructures raw unformatted data, outputted by the simulation, into a formatted dat..." alt="" coords="67,95,138,120"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="234,110,138,110,138,105,234,105"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="247,46,200,46,200,41,247,41"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="s_octree_free" name="s_octree_free">
+<area shape="rect" id="Node000001" title="This procedure frees the memory associated with an octree." alt="" coords="475,37,585,63"/>
+<area shape="poly" id="edge5_Node000001_Node000001" title=" " alt="" coords="554,26,547,19,530,16,515,18,508,23,506,28,511,36,506,38,501,29,504,19,514,13,530,11,550,14,558,23"/>
+<area shape="rect" id="Node000002" href="$m__patches_8fpp_8f90.html#ac7f748ab1e64c62eff219301807ba04e" title="The STL patch is a 2/3D geometry that is imported from an STL file." alt="" coords="349,37,427,63"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="461,53,427,53,427,47,461,47"/>
+<area shape="rect" id="Node000003" href="$m__patches_8fpp_8f90.html#a4a44c39189d79ff9c01b6372bf3dd856" title=" " alt="" coords="124,5,301,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="335,43,282,33,283,28,336,38"/>
+<area shape="rect" id="Node000004" href="$namespacem__initial__condition.html#aa74a70029e3ec0fd3225b369e7c5443e" title="This subroutine peruses the patches and depending on the type of geometry associated with a particula..." alt="" coords="139,55,286,109"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="337,62,287,71,286,66,336,57"/>
+<area shape="rect" id="Node000005" href="$p__main_8f90.html#aeec10ee8e2940c953967da3e374e1579" title="This program takes care of setting up the initial condition and grid data for the multicomponent flow..." alt="" coords="5,69,76,95"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="126,85,76,85,76,79,126,79"/>
+</map>

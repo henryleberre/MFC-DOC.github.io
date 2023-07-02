@@ -1,0 +1,7 @@
+<map id="s_initialize_monopole_module" name="s_initialize_monopole_module">
+<area shape="rect" id="Node000001" title=" " alt="" coords="244,23,408,63"/>
+<area shape="rect" id="Node000002" href="$m__monopole_8fpp_8f90.html#ab6551667b900a876c9b7bc1f1205a510" title=" " alt="" coords="5,5,196,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="230,35,196,31,196,26,230,30"/>
+<area shape="rect" id="Node000003" href="$p__main_8fpp_8f90.html#aeec10ee8e2940c953967da3e374e1579" title="Quasi&#45;conservative, shock&#45; and interface&#45; capturing finite&#45;volume scheme for the multicomponent Navie..." alt="" coords="65,55,136,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="230,56,136,66,136,61,230,51"/>
+</map>

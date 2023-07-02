@@ -1,0 +1,38 @@
+<map id="s_model" name="s_model">
+<area shape="rect" id="Node000001" title="The STL patch is a 2/3D geometry that is imported from an STL file." alt="" coords="5,138,83,163"/>
+<area shape="rect" id="Node000002" href="$m__helper_8fpp_8f90.html#a88808ee0f14fe4e145a538646dc9ba73" title="This procedure creates a bounding box for a model." alt="" coords="348,8,463,34"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="48,136,76,84,100,56,129,33,180,14,234,5,287,3,335,6,334,12,287,8,235,10,182,19,132,38,104,60,81,87,53,139"/>
+<area shape="rect" id="Node000003" href="$m__helper_8fpp_8f90.html#aafb2d0e9e3e66d3f3714f0ad3349bc8f" title="This procedure creates a transformation matrix." alt="" coords="131,48,278,88"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="64,135,129,97,142,91,145,96,132,102,67,140"/>
+<area shape="rect" id="Node000004" href="$m__octree_8fpp_8f90.html#a514b1883b7eb6555909ba441983ff214" title="This procedure creates an octree from a mesh." alt="" coords="143,112,266,138"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="82,142,129,134,130,139,83,147"/>
+<area shape="rect" id="Node000009" href="$m__octree_8fpp_8f90.html#a4af99bba59c39aed6f2eb2ba5c80cb35" title="This procedure, recursively, finds whether a point is inside an octree." alt="" coords="135,162,274,187"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="83,153,122,159,121,165,82,159"/>
+<area shape="rect" id="Node000013" href="$m__octree_8fpp_8f90.html#aef61410b6740284758fcc4e70841d261" title="This procedure frees the memory associated with an octree." alt="" coords="149,235,260,260"/>
+<area shape="poly" id="edge16_Node000001_Node000013" title=" " alt="" coords="67,161,172,225,170,230,65,165"/>
+<area shape="rect" id="Node000014" href="$m__helper_8fpp_8f90.html#a77ee798a317ff1eb8d3c50a7407010ba" title="This procedure transforms a model by a matrix, one triangle at a time." alt="" coords="131,284,279,310"/>
+<area shape="poly" id="edge18_Node000001_Node000014" title=" " alt="" coords="53,162,82,215,105,245,132,271,140,276,137,280,129,275,101,248,78,217,48,164"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="248,110,277,97,302,81,325,63,367,38,369,43,328,67,305,85,280,102,250,115"/>
+<area shape="rect" id="Node000005" href="$m__octree_8fpp_8f90.html#a99b10f3dd836630734ae099443aae716" title="This procedure builds, recursively, an octree from a set of triangles." alt="" coords="349,102,462,127"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="266,119,335,115,335,121,267,124"/>
+<area shape="poly" id="edge9_Node000005_Node000005" title=" " alt="" coords="372,103,365,93,369,83,383,77,405,75,433,79,444,88,441,92,431,84,405,80,384,82,373,87,371,93,377,100"/>
+<area shape="rect" id="Node000006" href="$m__octree_8fpp_8f90.html#a53f1baf0e463d2c7cbcbd7282e690bc0" title=" " alt="" coords="532,102,727,127"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="463,112,518,112,518,117,463,117"/>
+<area shape="rect" id="Node000007" href="$m__octree_8fpp_8f90.html#a2624e7caa267269669c96133c1fc6a51" title="This procedure checks if a ray intersects a bounding box." alt="" coords="775,127,940,152"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="727,122,762,126,761,132,727,128"/>
+<area shape="rect" id="Node000008" href="$m__helper_8fpp_8f90.html#af89217ee50179a901a5c9f8fd450cf59" title="This procedure swaps two real numbers." alt="" coords="988,127,1059,152"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="940,137,974,137,974,142,940,142"/>
+<area shape="rect" id="Node000010" href="$m__octree_8fpp_8f90.html#af8fa93568348fe58b9ab23f9ff1f7a8d" title="This procedure, recursively, counts the number of triangles intersected by a ray in an octree." alt="" coords="331,175,480,200"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="274,176,317,179,317,184,274,182"/>
+<area shape="poly" id="edge15_Node000010_Node000007" title=" " alt="" coords="480,177,761,147,761,152,481,182"/>
+<area shape="poly" id="edge14_Node000010_Node000010" title=" " alt="" coords="372,176,365,167,369,157,383,150,405,148,433,152,444,161,441,165,431,157,405,154,384,156,373,160,371,166,377,173"/>
+<area shape="rect" id="Node000011" href="$m__octree_8fpp_8f90.html#a6e0ee6fb5b8a3451c19946c713c922d2" title="This procedure checks if a ray intersects a triangle." alt="" coords="552,203,707,228"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="481,194,539,202,538,207,480,200"/>
+<area shape="rect" id="Node000012" href="$m__helper_8fpp_8f90.html#a453300ff424896c95d5d4169b202f8e2" title="This procedure computes the cross product of two vectors." alt="" coords="829,203,885,228"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="707,213,816,213,816,218,707,218"/>
+<area shape="poly" id="edge17_Node000013_Node000013" title=" " alt="" coords="178,236,172,227,175,217,186,211,205,208,227,212,236,220,233,224,224,217,205,214,188,216,179,220,177,226,182,233"/>
+<area shape="rect" id="Node000015" href="$m__helper_8fpp_8f90.html#a0e3c0b7ec7d8eee1b8b802c364cf0081" title="This procedure transforms a triangle by a matrix, one vertex at a time." alt="" coords="327,284,484,310"/>
+<area shape="poly" id="edge19_Node000014_Node000015" title=" " alt="" coords="279,294,313,294,313,300,279,300"/>
+<area shape="rect" id="Node000016" href="$m__helper_8fpp_8f90.html#ae401e6ec49c4c7340e19c04a0abe836a" title="This procedure transforms a vector by a matrix." alt="" coords="564,284,695,310"/>
+<area shape="poly" id="edge20_Node000015_Node000016" title=" " alt="" coords="484,294,550,294,550,300,484,300"/>
+</map>

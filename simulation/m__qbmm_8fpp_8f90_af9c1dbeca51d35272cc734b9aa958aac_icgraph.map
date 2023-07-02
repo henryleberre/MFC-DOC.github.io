@@ -1,0 +1,7 @@
+<map id="s_initialize_qbmm_module" name="s_initialize_qbmm_module">
+<area shape="rect" id="Node000001" title=" " alt="" coords="221,31,419,56"/>
+<area shape="rect" id="Node000002" href="$m__qbmm_8fpp_8f90.html#a8709b41fb0b88fca7d5d5622b6f8096c" title=" " alt="" coords="5,5,173,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,34,173,30,174,25,208,28"/>
+<area shape="rect" id="Node000003" href="$p__main_8fpp_8f90.html#aeec10ee8e2940c953967da3e374e1579" title="Quasi&#45;conservative, shock&#45; and interface&#45; capturing finite&#45;volume scheme for the multicomponent Navie..." alt="" coords="54,55,125,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,58,125,66,125,61,208,52"/>
+</map>
