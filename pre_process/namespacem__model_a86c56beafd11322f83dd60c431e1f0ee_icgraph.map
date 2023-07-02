@@ -1,0 +1,7 @@
+<map id="m_model::s_read_stl_ascii" name="m_model::s_read_stl_ascii">
+<area shape="rect" id="Node000001" title=" " alt="" coords="439,5,596,45"/>
+<area shape="rect" id="Node000002" href="$namespacem__model.html#a7303a163fbad467b0966db4428bb23e0" title=" " alt="" coords="233,13,391,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="425,28,391,28,391,23,425,23"/>
+<area shape="rect" id="Node000003" href="$namespacem__model.html#abda852df75df168f304cf1e21ba7dbf2" title="This procedure reads a mesh from a file." alt="" coords="5,13,185,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="219,28,185,28,185,23,219,23"/>
+</map>
