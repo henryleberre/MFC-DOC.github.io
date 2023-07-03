@@ -7,11 +7,12 @@ var searchData=
   ['nnode_4',['nnode',['../namespacem__constants.html#aa66c5f6942d6776bdc0152bbb26177fd',1,'m_constants']]],
   ['normal_5',['normal',['../structic__patch__parameters.html#a1cb9b08a6287e41414f8c012c41cfc2b',1,'ic_patch_parameters']]],
   ['npulse_6',['npulse',['../structmono__parameters.html#a935661b53779d7edacda0328ac0ceaaf',1,'mono_parameters']]],
-  ['num_5fdims_7',['num_dims',['../namespacem__global__parameters.html#a76e251296a28212df87bf9f653ff9a3b',1,'m_global_parameters']]],
-  ['num_5ffluids_8',['num_fluids',['../namespacem__global__parameters.html#a2f0b96a5aef3925aa7e3cc816754e17e',1,'m_global_parameters']]],
-  ['num_5ffluids_5fmax_9',['num_fluids_max',['../namespacem__constants.html#a98d57985f5f6603153d9a870aaff08a1',1,'m_constants']]],
-  ['num_5fpatches_5fmax_10',['num_patches_max',['../namespacem__constants.html#a2678965621459e6045edb254772ffdb5',1,'m_constants']]],
-  ['num_5fprobes_5fmax_11',['num_probes_max',['../namespacem__constants.html#ae89a45bab1dc4f820e2076b5b367f6c1',1,'m_constants']]],
-  ['num_5fprocs_12',['num_procs',['../namespacem__global__parameters.html#aafb65952c33f1c363d1040bde29734ea',1,'m_global_parameters']]],
-  ['num_5fstcls_5fmin_13',['num_stcls_min',['../namespacem__constants.html#a3a14ef6d3e63d1d44ded46d378a9fff4',1,'m_constants']]]
+  ['ntrs_7',['ntrs',['../structt__model.html#a5874cae6ec4158f7875555f1c8aff60e',1,'t_model']]],
+  ['num_5fdims_8',['num_dims',['../namespacem__global__parameters.html#a76e251296a28212df87bf9f653ff9a3b',1,'m_global_parameters']]],
+  ['num_5ffluids_9',['num_fluids',['../namespacem__global__parameters.html#a2f0b96a5aef3925aa7e3cc816754e17e',1,'m_global_parameters']]],
+  ['num_5ffluids_5fmax_10',['num_fluids_max',['../namespacem__constants.html#a98d57985f5f6603153d9a870aaff08a1',1,'m_constants']]],
+  ['num_5fpatches_5fmax_11',['num_patches_max',['../namespacem__constants.html#a2678965621459e6045edb254772ffdb5',1,'m_constants']]],
+  ['num_5fprobes_5fmax_12',['num_probes_max',['../namespacem__constants.html#ae89a45bab1dc4f820e2076b5b367f6c1',1,'m_constants']]],
+  ['num_5fprocs_13',['num_procs',['../namespacem__global__parameters.html#aafb65952c33f1c363d1040bde29734ea',1,'m_global_parameters']]],
+  ['num_5fstcls_5fmin_14',['num_stcls_min',['../namespacem__constants.html#a3a14ef6d3e63d1d44ded46d378a9fff4',1,'m_constants']]]
 ];
