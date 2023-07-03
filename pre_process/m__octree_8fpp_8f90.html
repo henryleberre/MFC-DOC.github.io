@@ -153,9 +153,9 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:af8fa93568348fe58b9ab23f9ff1f7a8d"><td class="memItemLeft" align="right" valign="top">recursive integer function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__octree_8fpp_8f90.html#af8fa93568348fe58b9ab23f9ff1f7a8d">f_octree_count_hits</a> (ray, octree)</td></tr>
 <tr class="memdesc:af8fa93568348fe58b9ab23f9ff1f7a8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This procedure, recursively, counts the number of triangles intersected by a ray in an octree.  <br /></td></tr>
 <tr class="separator:af8fa93568348fe58b9ab23f9ff1f7a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4af99bba59c39aed6f2eb2ba5c80cb35"><td class="memItemLeft" align="right" valign="top">real(kind(0d0)) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__octree_8fpp_8f90.html#a4af99bba59c39aed6f2eb2ba5c80cb35">f_octree_is_inside</a> (point, octree, point_spacing)</td></tr>
-<tr class="memdesc:a4af99bba59c39aed6f2eb2ba5c80cb35"><td class="mdescLeft">&#160;</td><td class="mdescRight">This procedure, recursively, finds whether a point is inside an octree.  <br /></td></tr>
-<tr class="separator:a4af99bba59c39aed6f2eb2ba5c80cb35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec91df60cfaaa2be6847cd240ea993d4"><td class="memItemLeft" align="right" valign="top">real(kind(0d0)) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__octree_8fpp_8f90.html#aec91df60cfaaa2be6847cd240ea993d4">f_octree_is_inside</a> (point, octree, point_spacing, spc)</td></tr>
+<tr class="memdesc:aec91df60cfaaa2be6847cd240ea993d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This procedure, recursively, finds whether a point is inside an octree.  <br /></td></tr>
+<tr class="separator:aec91df60cfaaa2be6847cd240ea993d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function/Subroutine Documentation</h2>
 <a id="a33351c7f9d4ac1139796bcd2b02c6c13" name="a33351c7f9d4ac1139796bcd2b02c6c13"></a>
@@ -321,8 +321,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a4af99bba59c39aed6f2eb2ba5c80cb35" name="a4af99bba59c39aed6f2eb2ba5c80cb35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4af99bba59c39aed6f2eb2ba5c80cb35">&#9670;&#160;</a></span>f_octree_is_inside()</h2>
+<a id="aec91df60cfaaa2be6847cd240ea993d4" name="aec91df60cfaaa2be6847cd240ea993d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec91df60cfaaa2be6847cd240ea993d4">&#9670;&#160;</a></span>f_octree_is_inside()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -346,7 +346,13 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">intent(in)&#160;</td>
-          <td class="paramname"><em>point_spacing</em>&#160;</td>
+          <td class="paramname"><em>point_spacing</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer, intent(in)&#160;</td>
+          <td class="paramname"><em>spc</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -367,6 +373,7 @@ Here is the caller graph for this function:</div>
     <tr><td class="paramname">point</td><td>Point to search for. </td></tr>
     <tr><td class="paramname">octree</td><td>Octree to search in. </td></tr>
     <tr><td class="paramname">point_spacing</td><td>Space around the point to search in (grid spacing). </td></tr>
+    <tr><td class="paramname">spc</td><td>Number of samples per cell. </td></tr>
   </table>
   </dd>
 </dl>
@@ -374,12 +381,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="m__octree_8fpp_8f90_a4af99bba59c39aed6f2eb2ba5c80cb35_cgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="m__octree_8fpp_8f90_aec91df60cfaaa2be6847cd240ea993d4_cgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="m__octree_8fpp_8f90_a4af99bba59c39aed6f2eb2ba5c80cb35_icgraph.svg" width="619" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="m__octree_8fpp_8f90_aec91df60cfaaa2be6847cd240ea993d4_icgraph.svg" width="619" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

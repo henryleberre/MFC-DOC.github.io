@@ -85,11 +85,12 @@ var searchData=
   ['smooth_5fpatch_5fid_82',['smooth_patch_id',['../structic__patch__parameters.html#adb43a40c19d0b3a7baa4d972f302ca45',1,'ic_patch_parameters']]],
   ['smoothen_83',['smoothen',['../structic__patch__parameters.html#a3f501c71c12ab9b3c7f2e8b6ab4df780',1,'ic_patch_parameters']]],
   ['spatial_5fextents_84',['spatial_extents',['../namespacem__data__output.html#a60fd667edc741b8cb7dcb08d05f67462',1,'m_data_output']]],
-  ['ss_85',['ss',['../structphysical__parameters.html#a65d271616be02b995b2c0e4a6dd872ff',1,'physical_parameters']]],
-  ['start_5fidx_86',['start_idx',['../namespacem__global__parameters.html#a4bd117ae744eab60f3d681fd03d6e90d',1,'m_global_parameters']]],
-  ['stress_5fidx_87',['stress_idx',['../namespacem__global__parameters.html#a35c137784611ee5f7b01cd21feeb34d7',1,'m_global_parameters']]],
-  ['strxb_88',['strxb',['../namespacem__global__parameters.html#a8ea53db151f807ced8925f659ecc2a7f',1,'m_global_parameters']]],
-  ['strxe_89',['strxe',['../namespacem__global__parameters.html#a59f10cfe28c1478382aa1ee4cd3793b9',1,'m_global_parameters']]],
-  ['support_90',['support',['../structmono__parameters.html#a7399748c2d08fd39ada3faacbc6c653a',1,'mono_parameters']]],
-  ['sys_5fsize_91',['sys_size',['../namespacem__global__parameters.html#a4dac2e4ead915635e0c6c33af87be01b',1,'m_global_parameters']]]
+  ['spc_85',['spc',['../structic__model__parameters.html#a1f9f79e75387b664c17f9df77e50e7cc',1,'ic_model_parameters']]],
+  ['ss_86',['ss',['../structphysical__parameters.html#a65d271616be02b995b2c0e4a6dd872ff',1,'physical_parameters']]],
+  ['start_5fidx_87',['start_idx',['../namespacem__global__parameters.html#a4bd117ae744eab60f3d681fd03d6e90d',1,'m_global_parameters']]],
+  ['stress_5fidx_88',['stress_idx',['../namespacem__global__parameters.html#a35c137784611ee5f7b01cd21feeb34d7',1,'m_global_parameters']]],
+  ['strxb_89',['strxb',['../namespacem__global__parameters.html#a8ea53db151f807ced8925f659ecc2a7f',1,'m_global_parameters']]],
+  ['strxe_90',['strxe',['../namespacem__global__parameters.html#a59f10cfe28c1478382aa1ee4cd3793b9',1,'m_global_parameters']]],
+  ['support_91',['support',['../structmono__parameters.html#a7399748c2d08fd39ada3faacbc6c653a',1,'mono_parameters']]],
+  ['sys_5fsize_92',['sys_size',['../namespacem__global__parameters.html#a4dac2e4ead915635e0c6c33af87be01b',1,'m_global_parameters']]]
 ];

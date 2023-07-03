@@ -148,7 +148,8 @@ var searchData=
   ['smooth_5fpatch_5fid_145',['smooth_patch_id',['../structic__patch__parameters.html#adb43a40c19d0b3a7baa4d972f302ca45',1,'ic_patch_parameters']]],
   ['smoothen_146',['smoothen',['../structic__patch__parameters.html#a3f501c71c12ab9b3c7f2e8b6ab4df780',1,'ic_patch_parameters']]],
   ['sound_147',['sound',['../m__monopole_8fpp_8f90.html#a326dfc5e3e14a069126576aa947e29d0',1,'m_monopole.fpp.f90']]],
-  ['ss_148',['ss',['../structphysical__parameters.html#a65d271616be02b995b2c0e4a6dd872ff',1,'physical_parameters']]],
-  ['sum_5falpha_149',['sum_alpha',['../m__rhs_8fpp_8f90.html#a796247036b68f5c2f04db3b4c943b5f2',1,'m_rhs.fpp.f90']]],
-  ['support_150',['support',['../structmono__parameters.html#a7399748c2d08fd39ada3faacbc6c653a',1,'mono_parameters']]]
+  ['spc_148',['spc',['../structic__model__parameters.html#a1f9f79e75387b664c17f9df77e50e7cc',1,'ic_model_parameters']]],
+  ['ss_149',['ss',['../structphysical__parameters.html#a65d271616be02b995b2c0e4a6dd872ff',1,'physical_parameters']]],
+  ['sum_5falpha_150',['sum_alpha',['../m__rhs_8fpp_8f90.html#a796247036b68f5c2f04db3b4c943b5f2',1,'m_rhs.fpp.f90']]],
+  ['support_151',['support',['../structmono__parameters.html#a7399748c2d08fd39ada3faacbc6c653a',1,'mono_parameters']]]
 ];
