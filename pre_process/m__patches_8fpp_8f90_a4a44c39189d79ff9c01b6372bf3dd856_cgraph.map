@@ -28,20 +28,20 @@
 <area shape="poly" id="edge17_Node000001_Node000015" title=" " alt="" coords="102,523,117,564,144,620,182,680,206,707,232,731,249,740,246,745,229,735,202,711,178,683,139,622,112,566,97,525"/>
 <area shape="rect" id="Node000016" href="$m__patches_8fpp_8f90.html#ac7f748ab1e64c62eff219301807ba04e" title="The STL patch is a 2/3D geometry that is imported from an STL file." alt="" coords="283,795,361,820"/>
 <area shape="poly" id="edge18_Node000001_Node000016" title=" " alt="" coords="101,524,113,572,138,642,155,679,177,716,202,750,232,780,251,791,271,798,269,803,248,796,229,784,198,754,172,719,151,682,133,644,108,574,95,525"/>
-<area shape="rect" id="Node000045" href="$m__patches_8fpp_8f90.html#a13fd94596295470337ddd3aaaf997e50" title="The rectangular patch is a 2D geometry that may be used, for example, in creating a solid boundary,..." alt="" coords="273,844,371,869"/>
-<area shape="poly" id="edge57_Node000001_Node000045" title=" " alt="" coords="100,524,109,580,132,663,149,708,171,752,199,794,232,829,261,845,259,850,229,833,195,797,167,755,144,710,127,665,104,582,94,525"/>
-<area shape="rect" id="Node000046" href="$m__patches_8fpp_8f90.html#a81af271f4146fa38840e17e3a3f28bd3" title="The spherical patch is a 3D geometry that may be used, for example, in creating a bubble or a droplet..." alt="" coords="282,252,362,277"/>
-<area shape="poly" id="edge58_Node000001_Node000046" title=" " alt="" coords="97,497,112,456,139,399,178,339,202,311,229,286,248,276,268,269,270,274,250,281,232,291,205,314,182,342,143,402,117,459,102,499"/>
-<area shape="rect" id="Node000047" href="$m__patches_8fpp_8f90.html#ac495040b73e45dc96e23a5a1ec55e569" title="This patch generates the shape of the spherical harmonics as a perturbation to a perfect sphere." alt="" coords="241,499,403,524"/>
-<area shape="poly" id="edge60_Node000001_Node000047" title=" " alt="" coords="183,509,227,509,227,514,183,514"/>
-<area shape="rect" id="Node000049" href="$m__patches_8fpp_8f90.html#adcb41d8b3a2c69d356c92a0af3f7853b" title="The spiral patch is a 2D geometry that may be used, The geometry of the patch is well&#45;defined when it..." alt="" coords="286,893,358,919"/>
-<area shape="poly" id="edge63_Node000001_Node000049" title=" " alt="" coords="99,524,106,587,126,683,143,736,166,788,195,836,232,879,251,891,273,899,272,904,249,896,229,883,191,840,161,790,138,737,120,684,100,588,93,524"/>
-<area shape="rect" id="Node000051" href="$m__patches_8fpp_8f90.html#a21e85b84406e2dd37807038d70f5aea2" title="The swept line patch is a 2D geometry that may be used, for example, in creating a solid boundary,..." alt="" coords="267,943,377,968"/>
-<area shape="poly" id="edge66_Node000001_Node000051" title=" " alt="" coords="98,524,102,595,109,646,120,703,137,764,160,823,192,879,232,928,256,943,253,947,229,932,187,882,155,826,132,765,115,705,104,647,97,595,93,524"/>
-<area shape="rect" id="Node000052" href="$m__patches_8fpp_8f90.html#abeee1a033809cdc97e1202f54daf6d01" title="The swept plane patch is a 3D geometry that may be used, for example, in creating a solid boundary,..." alt="" coords="261,301,383,327"/>
-<area shape="poly" id="edge67_Node000001_Node000052" title=" " alt="" coords="99,497,117,465,146,421,183,375,229,336,247,326,250,331,232,340,187,379,150,424,122,467,104,500"/>
-<area shape="rect" id="Node000053" href="$m__patches_8fpp_8f90.html#aa6c7a1dbbeeb49707ffb4f50581d0026" title="The varcircle patch is a 2D geometry that may be used . It generatres an annulus." alt="" coords="276,992,368,1017"/>
-<area shape="poly" id="edge69_Node000001_Node000053" title=" " alt="" coords="97,524,99,602,104,660,114,724,130,793,154,860,188,924,209,952,232,979,247,989,264,996,262,1001,244,994,229,983,205,956,183,927,149,862,125,794,108,725,98,660,93,602,92,524"/>
+<area shape="rect" id="Node000044" href="$m__patches_8fpp_8f90.html#a13fd94596295470337ddd3aaaf997e50" title="The rectangular patch is a 2D geometry that may be used, for example, in creating a solid boundary,..." alt="" coords="273,844,371,869"/>
+<area shape="poly" id="edge57_Node000001_Node000044" title=" " alt="" coords="100,524,109,580,132,663,149,708,171,752,199,794,232,829,261,845,259,850,229,833,195,797,167,755,144,710,127,665,104,582,94,525"/>
+<area shape="rect" id="Node000045" href="$m__patches_8fpp_8f90.html#a81af271f4146fa38840e17e3a3f28bd3" title="The spherical patch is a 3D geometry that may be used, for example, in creating a bubble or a droplet..." alt="" coords="282,252,362,277"/>
+<area shape="poly" id="edge58_Node000001_Node000045" title=" " alt="" coords="97,497,112,456,139,399,178,339,202,311,229,286,248,276,268,269,270,274,250,281,232,291,205,314,182,342,143,402,117,459,102,499"/>
+<area shape="rect" id="Node000046" href="$m__patches_8fpp_8f90.html#ac495040b73e45dc96e23a5a1ec55e569" title="This patch generates the shape of the spherical harmonics as a perturbation to a perfect sphere." alt="" coords="241,499,403,524"/>
+<area shape="poly" id="edge60_Node000001_Node000046" title=" " alt="" coords="183,509,227,509,227,514,183,514"/>
+<area shape="rect" id="Node000048" href="$m__patches_8fpp_8f90.html#adcb41d8b3a2c69d356c92a0af3f7853b" title="The spiral patch is a 2D geometry that may be used, The geometry of the patch is well&#45;defined when it..." alt="" coords="286,893,358,919"/>
+<area shape="poly" id="edge63_Node000001_Node000048" title=" " alt="" coords="99,524,106,587,126,683,143,736,166,788,195,836,232,879,251,891,273,899,272,904,249,896,229,883,191,840,161,790,138,737,120,684,100,588,93,524"/>
+<area shape="rect" id="Node000050" href="$m__patches_8fpp_8f90.html#a21e85b84406e2dd37807038d70f5aea2" title="The swept line patch is a 2D geometry that may be used, for example, in creating a solid boundary,..." alt="" coords="267,943,377,968"/>
+<area shape="poly" id="edge66_Node000001_Node000050" title=" " alt="" coords="98,524,102,595,109,646,120,703,137,764,160,823,192,879,232,928,256,943,253,947,229,932,187,882,155,826,132,765,115,705,104,647,97,595,93,524"/>
+<area shape="rect" id="Node000051" href="$m__patches_8fpp_8f90.html#abeee1a033809cdc97e1202f54daf6d01" title="The swept plane patch is a 3D geometry that may be used, for example, in creating a solid boundary,..." alt="" coords="261,301,383,327"/>
+<area shape="poly" id="edge67_Node000001_Node000051" title=" " alt="" coords="99,497,117,465,146,421,183,375,229,336,247,326,250,331,232,340,187,379,150,424,122,467,104,500"/>
+<area shape="rect" id="Node000052" href="$m__patches_8fpp_8f90.html#aa6c7a1dbbeeb49707ffb4f50581d0026" title="The varcircle patch is a 2D geometry that may be used . It generatres an annulus." alt="" coords="276,992,368,1017"/>
+<area shape="poly" id="edge69_Node000001_Node000052" title=" " alt="" coords="97,524,99,602,104,660,114,724,130,793,154,860,188,924,209,952,232,979,247,989,264,996,262,1001,244,994,229,983,205,956,183,927,149,862,125,794,108,725,98,660,93,602,92,524"/>
 <area shape="rect" id="Node000007" href="$m__patches_8fpp_8f90.html#a899dca857a7e7f2d7d8dbd4bbd92a5ed" title=" " alt="" coords="463,343,621,383"/>
 <area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="384,361,449,361,449,366,384,366"/>
 <area shape="poly" id="edge10_Node000010_Node000007" title=" " alt="" coords="361,401,449,381,450,387,362,407"/>
@@ -57,16 +57,16 @@
 <area shape="poly" id="edge22_Node000016_Node000020" title=" " alt="" coords="360,800,473,787,473,793,361,806"/>
 <area shape="rect" id="Node000028" href="$m__octree_8fpp_8f90.html#a514b1883b7eb6555909ba441983ff214" title="This procedure creates an octree from a mesh." alt="" coords="481,593,603,619"/>
 <area shape="poly" id="edge34_Node000016_Node000028" title=" " alt="" coords="360,802,388,795,412,780,425,764,432,747,436,713,439,677,446,659,459,640,482,623,485,627,463,644,451,661,444,679,441,714,437,749,430,766,415,784,390,800,362,807"/>
-<area shape="rect" id="Node000033" href="$m__octree_8fpp_8f90.html#aec91df60cfaaa2be6847cd240ea993d4" title="This procedure, recursively, finds whether a point is inside an octree." alt="" coords="473,655,611,680"/>
-<area shape="poly" id="edge40_Node000016_Node000033" title=" " alt="" coords="360,801,387,794,412,780,428,759,435,737,442,714,459,691,469,684,472,689,463,695,447,716,440,738,433,761,415,784,389,798,362,806"/>
-<area shape="rect" id="Node000037" href="$m__model_8fpp_8f90.html#a4e5b0d533feecd52aec31ccffa94d0c5" title="This procedure frees the memory allocated for an STL mesh." alt="" coords="487,871,597,896"/>
-<area shape="poly" id="edge45_Node000016_Node000037" title=" " alt="" coords="362,814,414,829,462,849,498,863,495,868,460,854,412,834,360,819"/>
-<area shape="rect" id="Node000038" href="$m__model_8fpp_8f90.html#a6ab58ad9fd412fd5c45fee60db584a41" title="This procedure writes a binary STL file." alt="" coords="691,972,808,997"/>
-<area shape="poly" id="edge46_Node000016_Node000038" title=" " alt="" coords="361,802,416,802,484,808,556,825,591,838,624,856,642,872,651,889,659,907,673,926,718,962,714,967,669,929,654,909,646,891,638,875,621,860,589,843,555,830,483,814,416,807,361,807"/>
-<area shape="rect" id="Node000041" href="$m__octree_8fpp_8f90.html#aef61410b6740284758fcc4e70841d261" title="This procedure frees the memory associated with an octree." alt="" coords="487,944,597,969"/>
-<area shape="poly" id="edge52_Node000016_Node000041" title=" " alt="" coords="362,808,389,816,415,829,433,848,441,867,449,886,463,905,504,935,501,940,459,909,444,888,436,869,428,851,412,833,387,821,360,814"/>
-<area shape="rect" id="Node000042" href="$m__helper_8fpp_8f90.html#a77ee798a317ff1eb8d3c50a7407010ba" title="This procedure transforms a model by a matrix, one triangle at a time." alt="" coords="468,993,616,1019"/>
-<area shape="poly" id="edge54_Node000016_Node000042" title=" " alt="" coords="362,807,390,814,415,829,430,848,438,868,440,906,442,944,449,962,463,980,468,984,464,988,459,984,445,965,437,945,435,907,433,869,426,851,412,833,388,819,360,812"/>
+<area shape="rect" id="Node000032" href="$m__octree_8fpp_8f90.html#aec91df60cfaaa2be6847cd240ea993d4" title="This procedure, recursively, finds whether a point is inside an octree." alt="" coords="473,655,611,680"/>
+<area shape="poly" id="edge40_Node000016_Node000032" title=" " alt="" coords="360,801,387,794,412,780,428,759,435,737,442,714,459,691,469,684,472,689,463,695,447,716,440,738,433,761,415,784,389,798,362,806"/>
+<area shape="rect" id="Node000036" href="$m__model_8fpp_8f90.html#a4e5b0d533feecd52aec31ccffa94d0c5" title="This procedure frees the memory allocated for an STL mesh." alt="" coords="487,871,597,896"/>
+<area shape="poly" id="edge45_Node000016_Node000036" title=" " alt="" coords="362,814,414,829,462,849,498,863,495,868,460,854,412,834,360,819"/>
+<area shape="rect" id="Node000037" href="$m__model_8fpp_8f90.html#a6ab58ad9fd412fd5c45fee60db584a41" title="This procedure writes a binary STL file." alt="" coords="691,972,808,997"/>
+<area shape="poly" id="edge46_Node000016_Node000037" title=" " alt="" coords="361,802,416,802,484,808,556,825,591,838,624,856,642,872,651,889,659,907,673,926,718,962,714,967,669,929,654,909,646,891,638,875,621,860,589,843,555,830,483,814,416,807,361,807"/>
+<area shape="rect" id="Node000040" href="$m__octree_8fpp_8f90.html#aef61410b6740284758fcc4e70841d261" title="This procedure frees the memory associated with an octree." alt="" coords="487,944,597,969"/>
+<area shape="poly" id="edge52_Node000016_Node000040" title=" " alt="" coords="362,808,389,816,415,829,433,848,441,867,449,886,463,905,504,935,501,940,459,909,444,888,436,869,428,851,412,833,387,821,360,814"/>
+<area shape="rect" id="Node000041" href="$m__helper_8fpp_8f90.html#a77ee798a317ff1eb8d3c50a7407010ba" title="This procedure transforms a model by a matrix, one triangle at a time." alt="" coords="468,993,616,1019"/>
+<area shape="poly" id="edge54_Node000016_Node000041" title=" " alt="" coords="362,807,390,814,415,829,430,848,438,868,440,906,442,944,449,962,463,980,468,984,464,988,459,984,445,965,437,945,435,907,433,869,426,851,412,833,388,819,360,812"/>
 <area shape="rect" id="Node000021" href="$m__mpi__common_8fpp_8f90.html#ad9e1329e498b65ad4256658675d6f797" title="The subroutine terminates the MPI execution environment." alt="" coords="1150,871,1253,896"/>
 <area shape="poly" id="edge23_Node000020_Node000021" title=" " alt="" coords="581,792,671,821,773,849,876,869,1015,880,1136,882,1136,887,1015,885,876,874,772,855,670,826,579,797"/>
 <area shape="rect" id="Node000022" href="$m__model_8fpp_8f90.html#a0dd1f9451362655b63a76e288a3f92db" title="This procedure reads an OBJ file." alt="" coords="927,696,1019,721"/>
@@ -92,30 +92,30 @@
 <area shape="poly" id="edge37_Node000029_Node000030" title=" " alt="" coords="806,582,880,570,881,575,807,588"/>
 <area shape="rect" id="Node000031" href="$m__octree_8fpp_8f90.html#a2624e7caa267269669c96133c1fc6a51" title="This procedure checks if a ray intersects a bounding box." alt="" coords="1119,596,1284,621"/>
 <area shape="poly" id="edge38_Node000030_Node000031" title=" " alt="" coords="1032,568,1131,590,1130,596,1031,573"/>
-<area shape="rect" id="Node000034" href="$m__octree_8fpp_8f90.html#af8fa93568348fe58b9ab23f9ff1f7a8d" title="This procedure, recursively, counts the number of triangles intersected by a ray in an octree." alt="" coords="675,655,824,680"/>
-<area shape="poly" id="edge41_Node000033_Node000034" title=" " alt="" coords="611,665,661,665,661,670,611,670"/>
-<area shape="poly" id="edge44_Node000034_Node000031" title=" " alt="" coords="824,658,1070,629,1119,621,1119,626,1071,634,825,663"/>
-<area shape="poly" id="edge43_Node000034_Node000034" title=" " alt="" coords="716,656,708,646,712,636,726,630,749,628,778,632,789,641,786,645,776,637,749,633,727,635,716,640,714,646,720,653"/>
-<area shape="rect" id="Node000035" href="$m__octree_8fpp_8f90.html#a6e0ee6fb5b8a3451c19946c713c922d2" title="This procedure checks if a ray intersects a triangle." alt="" coords="896,595,1051,620"/>
-<area shape="poly" id="edge42_Node000034_Node000035" title=" " alt="" coords="797,652,911,621,913,626,798,657"/>
-<area shape="poly" id="edge47_Node000038_Node000021" title=" " alt="" coords="776,995,831,1019,906,1041,947,1048,989,1049,1030,1044,1070,1032,1108,1006,1141,973,1167,938,1185,907,1190,910,1171,941,1145,977,1112,1011,1072,1036,1031,1050,989,1055,947,1053,905,1046,830,1024,774,1000"/>
-<area shape="rect" id="Node000039" href="$m__model_8fpp_8f90.html#a453ecd79bc67d64acfc07a75f638fed9" title="This procedure writes an OBJ file." alt="" coords="925,947,1021,972"/>
-<area shape="poly" id="edge48_Node000038_Node000039" title=" " alt="" coords="808,975,912,964,912,969,809,981"/>
-<area shape="rect" id="Node000040" href="$m__model_8fpp_8f90.html#a7a9ea3dd9dd2c0b561dae5c10208e128" title="This procedure writes a binary STL file." alt="" coords="927,996,1019,1021"/>
-<area shape="poly" id="edge50_Node000038_Node000040" title=" " alt="" coords="809,988,914,1000,914,1005,808,994"/>
-<area shape="poly" id="edge49_Node000039_Node000021" title=" " alt="" coords="1012,944,1070,925,1149,898,1151,903,1072,930,1014,949"/>
-<area shape="poly" id="edge51_Node000040_Node000021" title=" " alt="" coords="1019,999,1070,982,1129,944,1176,904,1179,908,1132,949,1072,987,1020,1004"/>
-<area shape="poly" id="edge53_Node000041_Node000041" title=" " alt="" coords="508,946,501,936,505,926,519,920,542,917,571,921,582,930,579,934,568,926,542,923,520,925,509,929,506,935,512,942"/>
-<area shape="rect" id="Node000043" href="$m__helper_8fpp_8f90.html#a0e3c0b7ec7d8eee1b8b802c364cf0081" title="This procedure transforms a triangle by a matrix, one vertex at a time." alt="" coords="671,1047,828,1072"/>
-<area shape="poly" id="edge55_Node000042_Node000043" title=" " alt="" coords="593,1016,687,1041,686,1046,592,1021"/>
-<area shape="rect" id="Node000044" href="$m__helper_8fpp_8f90.html#ae401e6ec49c4c7340e19c04a0abe836a" title="This procedure transforms a vector by a matrix." alt="" coords="908,1097,1039,1123"/>
-<area shape="poly" id="edge56_Node000043_Node000044" title=" " alt="" coords="807,1070,904,1092,903,1097,806,1075"/>
-<area shape="poly" id="edge59_Node000046_Node000007" title=" " alt="" coords="363,270,414,286,460,309,502,334,499,338,458,314,412,291,361,275"/>
-<area shape="poly" id="edge61_Node000047_Node000007" title=" " alt="" coords="383,496,412,484,442,463,470,439,515,392,519,396,474,443,445,468,415,488,386,501"/>
-<area shape="rect" id="Node000048" href="$m__patches_8fpp_8f90.html#a07620469b61321f2795f545a9e98cd30" title=" " alt="" coords="463,478,621,518"/>
-<area shape="poly" id="edge62_Node000047_Node000048" title=" " alt="" coords="403,504,449,501,449,506,404,509"/>
-<area shape="rect" id="Node000050" href="$m__patches_8fpp_8f90.html#ad6b8b34904846ffb6346ae50f08d5410" title="Archimedes spiral function." alt="" coords="523,1116,561,1141"/>
-<area shape="poly" id="edge64_Node000049_Node000050" title=" " alt="" coords="359,905,388,912,415,928,430,947,439,966,443,1003,445,1040,451,1059,463,1079,486,1099,511,1114,509,1119,483,1104,459,1082,446,1061,440,1041,437,1003,434,967,426,950,412,932,386,917,358,910"/>
-<area shape="poly" id="edge65_Node000050_Node000050" title=" " alt="" coords="521,1125,504,1114,502,1101,515,1092,542,1089,565,1092,579,1098,583,1108,576,1118,571,1114,578,1107,575,1101,564,1097,542,1095,517,1097,507,1103,509,1111,524,1120"/>
-<area shape="poly" id="edge68_Node000052_Node000007" title=" " alt="" coords="380,324,450,340,449,345,379,329"/>
+<area shape="rect" id="Node000033" href="$m__octree_8fpp_8f90.html#af8fa93568348fe58b9ab23f9ff1f7a8d" title="This procedure, recursively, counts the number of triangles intersected by a ray in an octree." alt="" coords="675,655,824,680"/>
+<area shape="poly" id="edge41_Node000032_Node000033" title=" " alt="" coords="611,665,661,665,661,670,611,670"/>
+<area shape="poly" id="edge44_Node000033_Node000031" title=" " alt="" coords="824,658,1070,629,1119,621,1119,626,1071,634,825,663"/>
+<area shape="poly" id="edge43_Node000033_Node000033" title=" " alt="" coords="716,656,708,646,712,636,726,630,749,628,778,632,789,641,786,645,776,637,749,633,727,635,716,640,714,646,720,653"/>
+<area shape="rect" id="Node000034" href="$m__octree_8fpp_8f90.html#a6e0ee6fb5b8a3451c19946c713c922d2" title="This procedure checks if a ray intersects a triangle." alt="" coords="896,595,1051,620"/>
+<area shape="poly" id="edge42_Node000033_Node000034" title=" " alt="" coords="797,652,911,621,913,626,798,657"/>
+<area shape="poly" id="edge47_Node000037_Node000021" title=" " alt="" coords="776,995,831,1019,906,1041,947,1048,989,1049,1030,1044,1070,1032,1108,1006,1141,973,1167,938,1185,907,1190,910,1171,941,1145,977,1112,1011,1072,1036,1031,1050,989,1055,947,1053,905,1046,830,1024,774,1000"/>
+<area shape="rect" id="Node000038" href="$m__model_8fpp_8f90.html#a453ecd79bc67d64acfc07a75f638fed9" title="This procedure writes an OBJ file." alt="" coords="925,947,1021,972"/>
+<area shape="poly" id="edge48_Node000037_Node000038" title=" " alt="" coords="808,975,912,964,912,969,809,981"/>
+<area shape="rect" id="Node000039" href="$m__model_8fpp_8f90.html#a7a9ea3dd9dd2c0b561dae5c10208e128" title="This procedure writes a binary STL file." alt="" coords="927,996,1019,1021"/>
+<area shape="poly" id="edge50_Node000037_Node000039" title=" " alt="" coords="809,988,914,1000,914,1005,808,994"/>
+<area shape="poly" id="edge49_Node000038_Node000021" title=" " alt="" coords="1012,944,1070,925,1149,898,1151,903,1072,930,1014,949"/>
+<area shape="poly" id="edge51_Node000039_Node000021" title=" " alt="" coords="1019,999,1070,982,1129,944,1176,904,1179,908,1132,949,1072,987,1020,1004"/>
+<area shape="poly" id="edge53_Node000040_Node000040" title=" " alt="" coords="508,946,501,936,505,926,519,920,542,917,571,921,582,930,579,934,568,926,542,923,520,925,509,929,506,935,512,942"/>
+<area shape="rect" id="Node000042" href="$m__helper_8fpp_8f90.html#a0e3c0b7ec7d8eee1b8b802c364cf0081" title="This procedure transforms a triangle by a matrix, one vertex at a time." alt="" coords="671,1047,828,1072"/>
+<area shape="poly" id="edge55_Node000041_Node000042" title=" " alt="" coords="593,1016,687,1041,686,1046,592,1021"/>
+<area shape="rect" id="Node000043" href="$m__helper_8fpp_8f90.html#ae401e6ec49c4c7340e19c04a0abe836a" title="This procedure transforms a vector by a matrix." alt="" coords="908,1097,1039,1123"/>
+<area shape="poly" id="edge56_Node000042_Node000043" title=" " alt="" coords="807,1070,904,1092,903,1097,806,1075"/>
+<area shape="poly" id="edge59_Node000045_Node000007" title=" " alt="" coords="363,270,414,286,460,309,502,334,499,338,458,314,412,291,361,275"/>
+<area shape="poly" id="edge61_Node000046_Node000007" title=" " alt="" coords="383,496,412,484,442,463,470,439,515,392,519,396,474,443,445,468,415,488,386,501"/>
+<area shape="rect" id="Node000047" href="$m__patches_8fpp_8f90.html#a07620469b61321f2795f545a9e98cd30" title=" " alt="" coords="463,478,621,518"/>
+<area shape="poly" id="edge62_Node000046_Node000047" title=" " alt="" coords="403,504,449,501,449,506,404,509"/>
+<area shape="rect" id="Node000049" href="$m__patches_8fpp_8f90.html#ad6b8b34904846ffb6346ae50f08d5410" title="Archimedes spiral function." alt="" coords="523,1116,561,1141"/>
+<area shape="poly" id="edge64_Node000048_Node000049" title=" " alt="" coords="359,905,388,912,415,928,430,947,439,966,443,1003,445,1040,451,1059,463,1079,486,1099,511,1114,509,1119,483,1104,459,1082,446,1061,440,1041,437,1003,434,967,426,950,412,932,386,917,358,910"/>
+<area shape="poly" id="edge65_Node000049_Node000049" title=" " alt="" coords="521,1125,504,1114,502,1101,515,1092,542,1089,565,1092,579,1098,583,1108,576,1118,571,1114,578,1107,575,1101,564,1097,542,1095,517,1097,507,1103,509,1111,524,1120"/>
+<area shape="poly" id="edge68_Node000051_Node000007" title=" " alt="" coords="380,324,450,340,449,345,379,329"/>
 </map>

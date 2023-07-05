@@ -7,8 +7,6 @@
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="341,31,381,27,381,32,342,37"/>
 <area shape="rect" id="Node000005" href="$m__octree_8fpp_8f90.html#a2624e7caa267269669c96133c1fc6a51" title="This procedure checks if a ray intersects a bounding box." alt="" coords="389,55,555,80"/>
 <area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="342,49,376,53,375,59,341,55"/>
-<area shape="rect" id="Node000004" href="$m__helper_8fpp_8f90.html#a453300ff424896c95d5d4169b202f8e2" title="This procedure computes the cross product of two vectors." alt="" coords="610,5,666,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="550,15,596,15,596,21,550,21"/>
-<area shape="rect" id="Node000006" href="$m__helper_8fpp_8f90.html#af89217ee50179a901a5c9f8fd450cf59" title="This procedure swaps two real numbers." alt="" coords="603,55,673,80"/>
-<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="555,65,589,65,589,70,555,70"/>
+<area shape="rect" id="Node000004" href="$m__helper_8fpp_8f90.html#a453300ff424896c95d5d4169b202f8e2" title="This procedure computes the cross product of two vectors." alt="" coords="603,5,659,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="550,15,589,15,589,21,550,21"/>
 </map>
