@@ -27,7 +27,6 @@ var annotated_dup =
     [ "scalar_field", "structscalar__field.html", "structscalar__field" ],
     [ "t_bbox", "structt__bbox.html", null ],
     [ "t_model", "structt__model.html", "structt__model" ],
-    [ "t_octree", "structt__octree.html", "structt__octree" ],
     [ "t_ray", "structt__ray.html", null ],
     [ "t_triangle", "structt__triangle.html", "structt__triangle" ],
     [ "vector_field", "structvector__field.html", "structvector__field" ]

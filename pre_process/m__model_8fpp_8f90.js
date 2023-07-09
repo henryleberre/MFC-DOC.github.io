@@ -1,6 +1,8 @@
 var m__model_8fpp_8f90 =
 [
     [ "__m_model_fpp_f90__", "m__model_8fpp_8f90.html#aec55944fb8c1ba7a734931f79a5a7686", null ],
+    [ "f_intersects_triangle", "m__model_8fpp_8f90.html#aa8e784a7afcad5f9713116d8e0efe8dd", null ],
+    [ "f_model_is_inside", "m__model_8fpp_8f90.html#aeec237153c6c81ad91c7b0155c283c11", null ],
     [ "f_model_read", "m__model_8fpp_8f90.html#a1b9b22c1f17d46b41f2d227e1636f3a5", null ],
     [ "f_read_line", "m__model_8fpp_8f90.html#accb621c002a9aa99ef7acf0aa84c2b50", null ],
     [ "s_model_free", "m__model_8fpp_8f90.html#a4e5b0d533feecd52aec31ccffa94d0c5", null ],

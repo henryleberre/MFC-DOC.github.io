@@ -272,7 +272,7 @@ Parameters</h1>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyRight"><code>modelrotate(i)</code>   </td><td class="markdownTableBodyCenter">Real   </td><td class="markdownTableBodyCenter">Not Supported   </td><td class="markdownTableBodyLeft">Model's (applied) angle of rotation about axis $i$.    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyRight"><code>modeloffset(i)</code>   </td><td class="markdownTableBodyCenter">Real   </td><td class="markdownTableBodyCenter">Not Supported   </td><td class="markdownTableBodyLeft">Model's $i$-th component of (applied) translation.    </td></tr>
+<td class="markdownTableBodyRight"><code>modeltranslate(i)</code>   </td><td class="markdownTableBodyCenter">Real   </td><td class="markdownTableBodyCenter">Not Supported   </td><td class="markdownTableBodyLeft">Model's $i$-th component of (applied) translation.    </td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyRight"><code>modelspc</code>   </td><td class="markdownTableBodyCenter">Integer   </td><td class="markdownTableBodyCenter">Not Supported   </td><td class="markdownTableBodyLeft">Number of samples per cell when discretizing the model into the grid.   </td></tr>
 </table>
@@ -325,7 +325,7 @@ Parameter Descriptions</h3>
 </li>
 <li><code>smoothen</code> activates smoothening of the boundary of the patch that alters the existing patch. When smoothening occurs, fluids of the two patches are mixed in the region of the boundary. For instance, in the aforementioned case of the cylindrical patch immersed in the rectangular patch, smoothening occurs when <code>patch_icpp(2)smoothen</code>=TRUE. <code>smooth_coeff</code> controls the thickness of the region of smoothening (sharpness of the mixture region). The default value of <code>smooth_coeff</code> is unity. The region of smoothening is thickened with decreasing the value. Optimal choice of the value of <code>smooth_coeff</code> is case-dependent and left to the user.</li>
 <li><code>patch_icpp(j)alpha(i)</code>, <code>patch_icpp(j)alpha_rho(i)</code>, <code>patch_icpp(j)pres</code>, and <code>texttt{patch_icpp(j)vel(i)</code> define for $j$-th patch the void fraction of <code>fluid(i)</code>, partial density of <code>fluid(i)</code>, the pressure, and the velocity in the $i$-th coordinate direction. These physical parameters must be consistent with fluid material's parameters defined in the next subsection. See also <code>adv_alphan</code> in table Simulation Algorithm Parameters.</li>
-<li>'modelscale', 'modelrotate<code>and</code>modeloffset<code>define how the model should be transformed to domain-space by first scaling by</code>modelscale<code>, then rotating about the Z, X, and Y axes (using</code>modelrotate<code>), and finally translating by</code>modeloffset`.</li>
+<li>'modelscale', 'modelrotate<code>and</code>modeltranslate<code>define how the model should be transformed to domain-space by first scaling by</code>modelscale<code>, then rotating about the Z, X, and Y axes (using</code>modelrotate<code>), and finally translating by</code>modeltranslate`.</li>
 </ul>
 <h2><a class="anchor" id="autotoc_md10"></a>
 4. Fluid Material’s</h2>

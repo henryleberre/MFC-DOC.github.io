@@ -1,13 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"namespacem__global__parameters.html#a91304734742c36abcb4dbf0712545344":[1,0,5,15],
-"namespacem__global__parameters.html#a94bfe5cc861c66dadab450d25a6b5817":[1,0,5,134],
-"namespacem__global__parameters.html#a95a3647227ae84b17613caee22408853":[1,0,5,110],
-"namespacem__global__parameters.html#a9648048cbecc834252ec7e0c259b1111":[1,0,5,95],
-"namespacem__global__parameters.html#a971692c50b4725d4724238b8a01a722e":[1,0,5,71],
-"namespacem__global__parameters.html#a98ddabe1c45996064589ca24ce5d8fe3":[1,0,5,83],
-"namespacem__global__parameters.html#a9a425d1bd91d1765043adf8410b98bf7":[1,0,5,18],
-"namespacem__global__parameters.html#a9eb3789b90381530338a223c99cf1090":[1,0,5,42],
 "namespacem__global__parameters.html#aa0b506b1bb27c795ff1ca2049cd84b95":[1,0,5,7],
 "namespacem__global__parameters.html#aa1bbfa906e1019bd962a5a0f7f378aa1":[1,0,5,105],
 "namespacem__global__parameters.html#aa2237c2ed3662bbd69ef39e2e92af7bf":[1,0,5,1],
@@ -227,15 +219,9 @@ var NAVTREEINDEX2 =
 "structt__model.html":[2,0,17],
 "structt__model.html#a2263885506ecea0b2c00f9de9c103848":[2,0,17,1],
 "structt__model.html#a5874cae6ec4158f7875555f1c8aff60e":[2,0,17,0],
-"structt__octree.html":[2,0,18],
-"structt__octree.html#a4bd6fa22d5862c62e772268c3a6d53de":[2,0,18,1],
-"structt__octree.html#a7b2edff2c5ed72437ef64df4c1d8e64a":[2,0,18,4],
-"structt__octree.html#a80b21a9914c2e377cc8c3343f193bd3b":[2,0,18,3],
-"structt__octree.html#a9028145bdf7e661b0266ea8f5586110c":[2,0,18,0],
-"structt__octree.html#aab122b0fc3ed3c497a418ee7f4230688":[2,0,18,2],
-"structt__ray.html":[2,0,19],
-"structt__triangle.html":[2,0,20],
-"structt__triangle.html#ab52f0d7e206e92ace1517c07751a9116":[2,0,20,0],
-"structvector__field.html":[2,0,21],
-"structvector__field.html#a7e81ce34a68c9a9823eef2932008f772":[2,0,21,0]
+"structt__ray.html":[2,0,18],
+"structt__triangle.html":[2,0,19],
+"structt__triangle.html#ab52f0d7e206e92ace1517c07751a9116":[2,0,19,0],
+"structvector__field.html":[2,0,20],
+"structvector__field.html#a7e81ce34a68c9a9823eef2932008f772":[2,0,20,0]
 };

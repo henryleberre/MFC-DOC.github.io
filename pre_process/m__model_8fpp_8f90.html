@@ -158,6 +158,12 @@ Functions/Subroutines</h2></td></tr>
 <tr class="separator:accb621c002a9aa99ef7acf0aa84c2b50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0cc3e8189f9ed02b8f1bf84ba77e07c0"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__model_8fpp_8f90.html#a0cc3e8189f9ed02b8f1bf84ba77e07c0">s_skip_ignored_lines</a> (iunit)</td></tr>
 <tr class="separator:a0cc3e8189f9ed02b8f1bf84ba77e07c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeec237153c6c81ad91c7b0155c283c11"><td class="memItemLeft" align="right" valign="top">real(kind(0d0)) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__model_8fpp_8f90.html#aeec237153c6c81ad91c7b0155c283c11">f_model_is_inside</a> (model, point, spacing, spc)</td></tr>
+<tr class="memdesc:aeec237153c6c81ad91c7b0155c283c11"><td class="mdescLeft">&#160;</td><td class="mdescRight">This procedure, recursively, finds whether a point is inside an octree.  <br /></td></tr>
+<tr class="separator:aeec237153c6c81ad91c7b0155c283c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8e784a7afcad5f9713116d8e0efe8dd"><td class="memItemLeft" align="right" valign="top">logical function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__model_8fpp_8f90.html#aa8e784a7afcad5f9713116d8e0efe8dd">f_intersects_triangle</a> (ray, triangle)</td></tr>
+<tr class="memdesc:aa8e784a7afcad5f9713116d8e0efe8dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">This procedure checks if a ray intersects a triangle.  <br /></td></tr>
+<tr class="separator:aa8e784a7afcad5f9713116d8e0efe8dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function/Subroutine Documentation</h2>
 <a id="aec55944fb8c1ba7a734931f79a5a7686" name="aec55944fb8c1ba7a734931f79a5a7686"></a>
@@ -174,7 +180,133 @@ Functions/Subroutines</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="m__model_8fpp_8f90_aec55944fb8c1ba7a734931f79a5a7686_cgraph.svg" width="100%" height="592"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="m__model_8fpp_8f90_aec55944fb8c1ba7a734931f79a5a7686_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aa8e784a7afcad5f9713116d8e0efe8dd" name="aa8e784a7afcad5f9713116d8e0efe8dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8e784a7afcad5f9713116d8e0efe8dd">&#9670;&#160;</a></span>f_intersects_triangle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">logical function __m_model_fpp_f90__::f_intersects_triangle </td>
+          <td>(</td>
+          <td class="paramtype">type(<a class="el" href="structt__ray.html">t_ray</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>ray</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">type(<a class="el" href="structt__triangle.html">t_triangle</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>triangle</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This procedure checks if a ray intersects a triangle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ray</td><td>Ray. </td></tr>
+    <tr><td class="paramname">triangle</td><td>Triangle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the ray intersects the triangle, false otherwise. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="m__model_8fpp_8f90_aa8e784a7afcad5f9713116d8e0efe8dd_cgraph.svg" width="270" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="m__model_8fpp_8f90_aa8e784a7afcad5f9713116d8e0efe8dd_icgraph.svg" width="100%" height="399"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aeec237153c6c81ad91c7b0155c283c11" name="aeec237153c6c81ad91c7b0155c283c11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeec237153c6c81ad91c7b0155c283c11">&#9670;&#160;</a></span>f_model_is_inside()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">real(kind(0d0)) function __m_model_fpp_f90__::f_model_is_inside </td>
+          <td>(</td>
+          <td class="paramtype">type(<a class="el" href="structt__model.html">t_model</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>model</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">intent(in)&#160;</td>
+          <td class="paramname"><em>point</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">intent(in)&#160;</td>
+          <td class="paramname"><em>spacing</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer, intent(in)&#160;</td>
+          <td class="paramname"><em>spc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This procedure, recursively, finds whether a point is inside an octree. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">model</td><td>Model to search in. </td></tr>
+    <tr><td class="paramname">point</td><td>Point to test. </td></tr>
+    <tr><td class="paramname">spacing</td><td>Space around the point to search in (grid spacing). </td></tr>
+    <tr><td class="paramname">spc</td><td>Number of samples per cell. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the point is inside the octree, false otherwise. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="m__model_8fpp_8f90_aeec237153c6c81ad91c7b0155c283c11_cgraph.svg" width="456" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="m__model_8fpp_8f90_aeec237153c6c81ad91c7b0155c283c11_icgraph.svg" width="100%" height="399"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -348,7 +480,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="m__model_8fpp_8f90_a6ab58ad9fd412fd5c45fee60db584a41_icgraph.svg" width="100%" height="399"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="m__model_8fpp_8f90_a6ab58ad9fd412fd5c45fee60db584a41_icgraph.svg" width="343" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -624,7 +756,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="m__model_8fpp_8f90_a453ecd79bc67d64acfc07a75f638fed9_icgraph.svg" width="100%" height="399"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="m__model_8fpp_8f90_a453ecd79bc67d64acfc07a75f638fed9_icgraph.svg" width="487" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -672,7 +804,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="m__model_8fpp_8f90_a7a9ea3dd9dd2c0b561dae5c10208e128_icgraph.svg" width="100%" height="399"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="m__model_8fpp_8f90_a7a9ea3dd9dd2c0b561dae5c10208e128_icgraph.svg" width="483" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

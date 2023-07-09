@@ -8,7 +8,7 @@ var searchData=
   ['nnode_5',['nnode',['../namespacem__constants.html#aa66c5f6942d6776bdc0152bbb26177fd',1,'m_constants']]],
   ['normal_6',['normal',['../structic__patch__parameters.html#a1cb9b08a6287e41414f8c012c41cfc2b',1,'ic_patch_parameters']]],
   ['npulse_7',['npulse',['../structmono__parameters.html#a935661b53779d7edacda0328ac0ceaaf',1,'mono_parameters']]],
-  ['ntrs_8',['ntrs',['../structt__octree.html#a80b21a9914c2e377cc8c3343f193bd3b',1,'t_octree::ntrs'],['../structt__model.html#a5874cae6ec4158f7875555f1c8aff60e',1,'t_model::ntrs']]],
+  ['ntrs_8',['ntrs',['../structt__model.html#a5874cae6ec4158f7875555f1c8aff60e',1,'t_model']]],
   ['num_5fdims_9',['num_dims',['../namespacem__global__parameters.html#a76e251296a28212df87bf9f653ff9a3b',1,'m_global_parameters']]],
   ['num_5ffluids_10',['num_fluids',['../namespacem__global__parameters.html#a2f0b96a5aef3925aa7e3cc816754e17e',1,'m_global_parameters']]],
   ['num_5ffluids_5fmax_11',['num_fluids_max',['../namespacem__constants.html#a98d57985f5f6603153d9a870aaff08a1',1,'m_constants']]],
