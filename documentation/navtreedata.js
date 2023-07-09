@@ -71,11 +71,11 @@ var NAVTREE =
         [ "Initial Condition", "md_examples.html#autotoc_md36", null ],
         [ "Result", "md_examples.html#autotoc_md37", null ]
       ] ],
-      [ "3D Weak Scaling", "md_examples.html#autotoc_md38", null ],
-      [ "Shu-Osher problem (1D)", "md_examples.html#autotoc_md39", [
-        [ "Initial Condition", "md_examples.html#autotoc_md40", null ],
-        [ "Result", "md_examples.html#autotoc_md41", null ]
-      ] ]
+      [ "Shu-Osher problem (1D)", "md_examples.html#autotoc_md38", [
+        [ "Initial Condition", "md_examples.html#autotoc_md39", null ],
+        [ "Result", "md_examples.html#autotoc_md40", null ]
+      ] ],
+      [ "3D Weak Scaling", "md_examples.html#autotoc_md41", null ]
     ] ],
     [ "Getting Started", "md_getting-started.html", [
       [ "Fetching MFC", "md_getting-started.html#autotoc_md43", null ],
