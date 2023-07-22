@@ -63,8 +63,8 @@
 <area shape="poly" id="edge40_Node000016_Node000032" title=" " alt="" coords="361,813,414,829,439,841,462,854,484,862,482,867,460,859,436,846,412,834,360,818"/>
 <area shape="rect" id="Node000021" href="$m__model_8fpp_8f90.html#aa8e784a7afcad5f9713116d8e0efe8dd" title="This procedure checks if a ray intersects a triangle." alt="" coords="672,669,827,695"/>
 <area shape="poly" id="edge23_Node000020_Node000021" title=" " alt="" coords="593,719,684,695,686,701,594,724"/>
-<area shape="rect" id="Node000022" href="$m__helper_8fpp_8f90.html#a453300ff424896c95d5d4169b202f8e2" title="This procedure computes the cross product of two vectors." alt="" coords="916,669,972,695"/>
-<area shape="poly" id="edge24_Node000021_Node000022" title=" " alt="" coords="827,679,902,679,902,685,827,685"/>
+<area shape="rect" id="Node000022" href="$m__helper_8fpp_8f90.html#a3685fb84c52ce964157ac58fc0068249" title="This procedure computes the cross product of two vectors." alt="" coords="910,669,978,695"/>
+<area shape="poly" id="edge24_Node000021_Node000022" title=" " alt="" coords="827,679,896,679,896,685,827,685"/>
 <area shape="rect" id="Node000024" href="$m__mpi__common_8fpp_8f90.html#ad9e1329e498b65ad4256658675d6f797" title="The subroutine terminates the MPI execution environment." alt="" coords="1087,821,1190,847"/>
 <area shape="poly" id="edge26_Node000023_Node000024" title=" " alt="" coords="597,781,782,787,897,794,1012,806,1074,817,1073,822,1012,811,896,800,781,792,597,786"/>
 <area shape="rect" id="Node000025" href="$m__model_8fpp_8f90.html#a0dd1f9451362655b63a76e288a3f92db" title="This procedure reads an OBJ file." alt="" coords="898,720,990,745"/>

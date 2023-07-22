@@ -146,6 +146,10 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:ad5e4b4372f2626845645a4e03a83df65"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__variables__conversion_8fpp_8f90.html#ad5e4b4372f2626845645a4e03a83df65">s_initialize_variables_conversion_module</a> ()</td></tr>
 <tr class="memdesc:ad5e4b4372f2626845645a4e03a83df65"><td class="mdescLeft">&#160;</td><td class="mdescRight">The computation of parameters, the allocation of memory, the association of pointers and/or the execution of any other procedures that are necessary to setup the module.  <br /></td></tr>
 <tr class="separator:ad5e4b4372f2626845645a4e03a83df65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad48f69f361f76e36209d9d979b76ad62"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__variables__conversion_8fpp_8f90.html#ad48f69f361f76e36209d9d979b76ad62">s_initialize_mv</a> (qk_cons_vf, mv)</td></tr>
+<tr class="separator:ad48f69f361f76e36209d9d979b76ad62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11120a6e524ba31ebb874fdbf3ee75a4"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__variables__conversion_8fpp_8f90.html#a11120a6e524ba31ebb874fdbf3ee75a4">s_initialize_pb</a> (qk_cons_vf, mv, pb)</td></tr>
+<tr class="separator:a11120a6e524ba31ebb874fdbf3ee75a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24725c6eb206c9a62e2ec70bf368836d"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__variables__conversion_8fpp_8f90.html#a24725c6eb206c9a62e2ec70bf368836d">s_convert_conservative_to_primitive_variables</a> (qk_cons_vf, qk_prim_vf, gm_alphak_vf, ix, iy, iz)</td></tr>
 <tr class="memdesc:a24725c6eb206c9a62e2ec70bf368836d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The following procedure handles the conversion between the conservative variables and the primitive variables.  <br /></td></tr>
 <tr class="separator:a24725c6eb206c9a62e2ec70bf368836d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1035,6 +1039,94 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="m__variables__conversion_8fpp_8f90_ace14d66a864f202904444921d6927a20_icgraph.svg" width="410" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ad48f69f361f76e36209d9d979b76ad62" name="ad48f69f361f76e36209d9d979b76ad62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad48f69f361f76e36209d9d979b76ad62">&#9670;&#160;</a></span>s_initialize_mv()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine __m_variables_conversion_fpp_f90__::s_initialize_mv </td>
+          <td>(</td>
+          <td class="paramtype">type(<a class="el" href="structscalar__field.html">scalar_field</a>), dimension(sys_size), intent(in)&#160;</td>
+          <td class="paramname"><em>qk_cons_vf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real(kind(0d0)), dimension(ixb:, iyb:, izb:, 1:, 1:), intent(inout)&#160;</td>
+          <td class="paramname"><em>mv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="m__variables__conversion_8fpp_8f90_ad48f69f361f76e36209d9d979b76ad62_icgraph.svg" width="374" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a11120a6e524ba31ebb874fdbf3ee75a4" name="a11120a6e524ba31ebb874fdbf3ee75a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11120a6e524ba31ebb874fdbf3ee75a4">&#9670;&#160;</a></span>s_initialize_pb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine __m_variables_conversion_fpp_f90__::s_initialize_pb </td>
+          <td>(</td>
+          <td class="paramtype">type(<a class="el" href="structscalar__field.html">scalar_field</a>), dimension(sys_size), intent(in)&#160;</td>
+          <td class="paramname"><em>qk_cons_vf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real(kind(0d0)), dimension(ixb:, iyb:, izb:, 1:, 1:), intent(in)&#160;</td>
+          <td class="paramname"><em>mv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real(kind(0d0)), dimension(ixb:, iyb:, izb:, 1:, 1:), intent(inout)&#160;</td>
+          <td class="paramname"><em>pb</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="m__variables__conversion_8fpp_8f90_a11120a6e524ba31ebb874fdbf3ee75a4_icgraph.svg" width="368" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

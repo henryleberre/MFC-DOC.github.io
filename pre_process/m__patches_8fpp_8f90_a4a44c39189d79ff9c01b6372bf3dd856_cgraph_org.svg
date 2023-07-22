@@ -589,9 +589,9 @@
 <!-- Node22 -->
 <g id="Node000022" class="node">
 <title>Node22</title>
-<g id="a_Node000022"><a xlink:href="m__helper_8fpp_8f90.html#a453300ff424896c95d5d4169b202f8e2" target="_top" xlink:title="This procedure computes the cross product of two vectors.">
-<polygon fill="white" stroke="#666666" points="725,-261 683,-261 683,-242 725,-242 725,-261"/>
-<text text-anchor="middle" x="704" y="-249" font-family="Helvetica,sans-Serif" font-size="10.00">cross</text>
+<g id="a_Node000022"><a xlink:href="m__helper_8fpp_8f90.html#a3685fb84c52ce964157ac58fc0068249" target="_top" xlink:title="This procedure computes the cross product of two vectors.">
+<polygon fill="white" stroke="#666666" points="729.5,-261 678.5,-261 678.5,-242 729.5,-242 729.5,-261"/>
+<text text-anchor="middle" x="704" y="-249" font-family="Helvetica,sans-Serif" font-size="10.00">f_cross</text>
 </a>
 </g>
 </g>
@@ -599,8 +599,8 @@
 <g id="edge24_Node000021_Node000022" class="edge">
 <title>Node21&#45;&gt;Node22</title>
 <g id="a_edge24_Node000021_Node000022"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M616.33,-251.5C635.63,-251.5 656.4,-251.5 672.77,-251.5"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="672.83,-255 682.83,-251.5 672.83,-248 672.83,-255"/>
+<path fill="none" stroke="#63b8ff" d="M616.33,-251.5C633.79,-251.5 652.45,-251.5 667.97,-251.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="668.16,-255 678.16,-251.5 668.16,-248 668.16,-255"/>
 </a>
 </g>
 </g>

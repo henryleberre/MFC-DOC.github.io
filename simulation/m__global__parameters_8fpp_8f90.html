@@ -133,21 +133,12 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:a3e7b06d0ce6caa5c36dccc2c995d9236"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__global__parameters_8fpp_8f90.html#a3e7b06d0ce6caa5c36dccc2c995d9236">s_initialize_global_parameters_module</a> ()</td></tr>
 <tr class="memdesc:a3e7b06d0ce6caa5c36dccc2c995d9236"><td class="mdescLeft">&#160;</td><td class="mdescRight">The computation of parameters, the allocation of memory, the association of pointers and/or the execution of any other procedures that are necessary to setup the module.  <br /></td></tr>
 <tr class="separator:a3e7b06d0ce6caa5c36dccc2c995d9236"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6b3960adb24a5f4fcd249cc3be55d78"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__global__parameters_8fpp_8f90.html#af6b3960adb24a5f4fcd249cc3be55d78">s_initialize_nonpoly</a></td></tr>
-<tr class="memdesc:af6b3960adb24a5f4fcd249cc3be55d78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes non-polydisperse bubble modeling.  <br /></td></tr>
-<tr class="separator:af6b3960adb24a5f4fcd249cc3be55d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ea67586066f387f4cefa0c23233b118"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__global__parameters_8fpp_8f90.html#a0ea67586066f387f4cefa0c23233b118">s_transcoeff</a> (omega, peclet, re_trans, im_trans)</td></tr>
-<tr class="memdesc:a0ea67586066f387f4cefa0c23233b118"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes transfer coefficient for non-polydisperse bubble modeling (Preston 2007)  <br /></td></tr>
-<tr class="separator:a0ea67586066f387f4cefa0c23233b118"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add437ef6eec863e07d01561d73628a27"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__global__parameters_8fpp_8f90.html#add437ef6eec863e07d01561d73628a27">s_initialize_parallel_io</a> ()</td></tr>
 <tr class="memdesc:add437ef6eec863e07d01561d73628a27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes parallel infrastructure.  <br /></td></tr>
 <tr class="separator:add437ef6eec863e07d01561d73628a27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a841a184dd7755c545fea8fe1506926b6"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__global__parameters_8fpp_8f90.html#a841a184dd7755c545fea8fe1506926b6">s_finalize_global_parameters_module</a> ()</td></tr>
 <tr class="memdesc:a841a184dd7755c545fea8fe1506926b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Module deallocation and/or disassociation procedures.  <br /></td></tr>
 <tr class="separator:a841a184dd7755c545fea8fe1506926b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab50c2dcaf768a778b0a4539c024ba797"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__global__parameters_8fpp_8f90.html#ab50c2dcaf768a778b0a4539c024ba797">s_simpson</a></td></tr>
-<tr class="memdesc:ab50c2dcaf768a778b0a4539c024ba797"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the Simpson weights for quadrature.  <br /></td></tr>
-<tr class="separator:ab50c2dcaf768a778b0a4539c024ba797"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function/Subroutine Documentation</h2>
 <a id="a5450612fc76f809a6511548ab9ba8afb" name="a5450612fc76f809a6511548ab9ba8afb"></a>
@@ -244,48 +235,9 @@ Here is the caller graph for this function:</div>
 
 <p>The computation of parameters, the allocation of memory, the association of pointers and/or the execution of any other procedures that are necessary to setup the module. </p>
 <div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="m__global__parameters_8fpp_8f90_a3e7b06d0ce6caa5c36dccc2c995d9236_cgraph.svg" width="519" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="m__global__parameters_8fpp_8f90_a3e7b06d0ce6caa5c36dccc2c995d9236_icgraph.svg" width="290" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="af6b3960adb24a5f4fcd249cc3be55d78" name="af6b3960adb24a5f4fcd249cc3be55d78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6b3960adb24a5f4fcd249cc3be55d78">&#9670;&#160;</a></span>s_initialize_nonpoly()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">subroutine __m_global_parameters_fpp_f90__::s_initialize_nonpoly</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Initializes non-polydisperse bubble modeling. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="m__global__parameters_8fpp_8f90_af6b3960adb24a5f4fcd249cc3be55d78_cgraph.svg" width="311" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="m__global__parameters_8fpp_8f90_af6b3960adb24a5f4fcd249cc3be55d78_icgraph.svg" width="488" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -315,99 +267,6 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="m__global__parameters_8fpp_8f90_add437ef6eec863e07d01561d73628a27_icgraph.svg" width="296" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="ab50c2dcaf768a778b0a4539c024ba797" name="ab50c2dcaf768a778b0a4539c024ba797"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab50c2dcaf768a778b0a4539c024ba797">&#9670;&#160;</a></span>s_simpson()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">subroutine __m_global_parameters_fpp_f90__::s_simpson</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Computes the Simpson weights for quadrature. </p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="m__global__parameters_8fpp_8f90_ab50c2dcaf768a778b0a4539c024ba797_icgraph.svg" width="428" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a0ea67586066f387f4cefa0c23233b118" name="a0ea67586066f387f4cefa0c23233b118"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ea67586066f387f4cefa0c23233b118">&#9670;&#160;</a></span>s_transcoeff()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">subroutine __m_global_parameters_fpp_f90__::s_transcoeff </td>
-          <td>(</td>
-          <td class="paramtype">real(kind(0.d0)), intent(in)&#160;</td>
-          <td class="paramname"><em>omega</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">real(kind(0.d0)), intent(in)&#160;</td>
-          <td class="paramname"><em>peclet</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">real(kind(0.d0)), intent(out)&#160;</td>
-          <td class="paramname"><em>re_trans</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">real(kind(0.d0)), intent(out)&#160;</td>
-          <td class="paramname"><em>im_trans</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Computes transfer coefficient for non-polydisperse bubble modeling (Preston 2007) </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">omega</td><td>Frequency </td></tr>
-    <tr><td class="paramname">peclet</td><td>Peclet number </td></tr>
-    <tr><td class="paramname">Re_trans</td><td>Real part of transfer coefficient </td></tr>
-    <tr><td class="paramname">Im_trans</td><td>Imaginary part of transfer coefficient </td></tr>
-  </table>
-  </dd>
-</dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="m__global__parameters_8fpp_8f90_a0ea67586066f387f4cefa0c23233b118_icgraph.svg" width="638" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

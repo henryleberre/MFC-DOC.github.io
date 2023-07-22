@@ -135,11 +135,20 @@ Functions/Subroutines</h2></td></tr>
 <tr class="separator:a308591c92e68d2500ea353807d1b388b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a772c75c8b24c414cfaed17e2f8acc772"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__helper_8fpp_8f90.html#a772c75c8b24c414cfaed17e2f8acc772">s_comp_n_from_cons</a> (vftmp, nrtmp, ntmp, weights)</td></tr>
 <tr class="separator:a772c75c8b24c414cfaed17e2f8acc772"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6e719f709d847b8b1a1f8e8b483158f"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__helper_8fpp_8f90.html#ae6e719f709d847b8b1a1f8e8b483158f">s_initialize_nonpoly</a></td></tr>
+<tr class="memdesc:ae6e719f709d847b8b1a1f8e8b483158f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes non-polydisperse bubble modeling.  <br /></td></tr>
+<tr class="separator:ae6e719f709d847b8b1a1f8e8b483158f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91cfb5e94039510845e0bb8cdc843ee8"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__helper_8fpp_8f90.html#a91cfb5e94039510845e0bb8cdc843ee8">s_transcoeff</a> (omega, peclet, re_trans, im_trans)</td></tr>
+<tr class="memdesc:a91cfb5e94039510845e0bb8cdc843ee8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the transfer coefficient for the non-polytropic bubble compression process.  <br /></td></tr>
+<tr class="separator:a91cfb5e94039510845e0bb8cdc843ee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a0505b2bd4f3d8cb2bf3ce16cfe01e3"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__helper_8fpp_8f90.html#a8a0505b2bd4f3d8cb2bf3ce16cfe01e3">s_int_to_str</a> (<a class="el" href="m__monopole_8fpp_8f90.html#aaea4baed8fd8b780f6938f0dc1fb0f72">i</a>, res)</td></tr>
 <tr class="separator:a8a0505b2bd4f3d8cb2bf3ce16cfe01e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a453300ff424896c95d5d4169b202f8e2"><td class="memItemLeft" align="right" valign="top">real(kind(0d0)) function, dimension(3)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__helper_8fpp_8f90.html#a453300ff424896c95d5d4169b202f8e2">cross</a> (a, b)</td></tr>
-<tr class="memdesc:a453300ff424896c95d5d4169b202f8e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">This procedure computes the cross product of two vectors.  <br /></td></tr>
-<tr class="separator:a453300ff424896c95d5d4169b202f8e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a546be57ed19ff3f9da2d133dc9df96a9"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__helper_8fpp_8f90.html#a546be57ed19ff3f9da2d133dc9df96a9">s_simpson</a></td></tr>
+<tr class="memdesc:a546be57ed19ff3f9da2d133dc9df96a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the Simpson weights for quadrature.  <br /></td></tr>
+<tr class="separator:a546be57ed19ff3f9da2d133dc9df96a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3685fb84c52ce964157ac58fc0068249"><td class="memItemLeft" align="right" valign="top">real(kind(0d0)) function, dimension(3)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__helper_8fpp_8f90.html#a3685fb84c52ce964157ac58fc0068249">f_cross</a> (a, b)</td></tr>
+<tr class="memdesc:a3685fb84c52ce964157ac58fc0068249"><td class="mdescLeft">&#160;</td><td class="mdescRight">This procedure computes the cross product of two vectors.  <br /></td></tr>
+<tr class="separator:a3685fb84c52ce964157ac58fc0068249"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af89217ee50179a901a5c9f8fd450cf59"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__helper_8fpp_8f90.html#af89217ee50179a901a5c9f8fd450cf59">s_swap</a> (lhs, rhs)</td></tr>
 <tr class="memdesc:af89217ee50179a901a5c9f8fd450cf59"><td class="mdescLeft">&#160;</td><td class="mdescRight">This procedure swaps two real numbers.  <br /></td></tr>
 <tr class="separator:af89217ee50179a901a5c9f8fd450cf59"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,52 +180,11 @@ Functions/Subroutines</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="m__helper_8fpp_8f90_ac1893d0dc10d4afa0f4b3f5c36b8fb8b_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
-</div>
-<a id="a453300ff424896c95d5d4169b202f8e2" name="a453300ff424896c95d5d4169b202f8e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a453300ff424896c95d5d4169b202f8e2">&#9670;&#160;</a></span>cross()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">real(kind(0d0)) function, dimension(3) __m_helper_fpp_f90__::cross </td>
-          <td>(</td>
-          <td class="paramtype">real(kind(0d0)), dimension(3), intent(in)&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">real(kind(0d0)), dimension(3), intent(in)&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>This procedure computes the cross product of two vectors. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">a</td><td>First vector. </td></tr>
-    <tr><td class="paramname">b</td><td>Second vector. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The cross product of the two vectors. </dd></dl>
 
 </div>
 </div>
@@ -252,6 +220,11 @@ Functions/Subroutines</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Bounding box. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="m__helper_8fpp_8f90_a88808ee0f14fe4e145a538646dc9ba73_icgraph.svg" width="340" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -287,6 +260,62 @@ Functions/Subroutines</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Transformation matrix. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="m__helper_8fpp_8f90_aafb2d0e9e3e66d3f3714f0ad3349bc8f_icgraph.svg" width="372" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a3685fb84c52ce964157ac58fc0068249" name="a3685fb84c52ce964157ac58fc0068249"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3685fb84c52ce964157ac58fc0068249">&#9670;&#160;</a></span>f_cross()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">real(kind(0d0)) function, dimension(3) __m_helper_fpp_f90__::f_cross </td>
+          <td>(</td>
+          <td class="paramtype">real(kind(0d0)), dimension(3), intent(in)&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real(kind(0d0)), dimension(3), intent(in)&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This procedure computes the cross product of two vectors. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>First vector. </td></tr>
+    <tr><td class="paramname">b</td><td>Second vector. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The cross product of the two vectors. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="m__helper_8fpp_8f90_a3685fb84c52ce964157ac58fc0068249_icgraph.svg" width="294" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -401,7 +430,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="m__helper_8fpp_8f90_a308591c92e68d2500ea353807d1b388b_icgraph.svg" width="664" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="m__helper_8fpp_8f90_a308591c92e68d2500ea353807d1b388b_icgraph.svg" width="664" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -474,7 +503,41 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="m__helper_8fpp_8f90_a397f792e51d5a7f74131b9c72b87e071_icgraph.svg" width="542" height="66"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="m__helper_8fpp_8f90_a397f792e51d5a7f74131b9c72b87e071_icgraph.svg" width="550" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ae6e719f709d847b8b1a1f8e8b483158f" name="ae6e719f709d847b8b1a1f8e8b483158f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6e719f709d847b8b1a1f8e8b483158f">&#9670;&#160;</a></span>s_initialize_nonpoly()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine __m_helper_fpp_f90__::s_initialize_nonpoly</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initializes non-polydisperse bubble modeling. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="m__helper_8fpp_8f90_ae6e719f709d847b8b1a1f8e8b483158f_cgraph.svg" width="311" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="m__helper_8fpp_8f90_ae6e719f709d847b8b1a1f8e8b483158f_icgraph.svg" width="376" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -515,7 +578,36 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="m__helper_8fpp_8f90_a8a0505b2bd4f3d8cb2bf3ce16cfe01e3_icgraph.svg" width="630" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="m__helper_8fpp_8f90_a8a0505b2bd4f3d8cb2bf3ce16cfe01e3_icgraph.svg" width="644" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a546be57ed19ff3f9da2d133dc9df96a9" name="a546be57ed19ff3f9da2d133dc9df96a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a546be57ed19ff3f9da2d133dc9df96a9">&#9670;&#160;</a></span>s_simpson()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine __m_helper_fpp_f90__::s_simpson</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes the Simpson weights for quadrature. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="m__helper_8fpp_8f90_a546be57ed19ff3f9da2d133dc9df96a9_icgraph.svg" width="316" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -562,6 +654,75 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="m__helper_8fpp_8f90_af89217ee50179a901a5c9f8fd450cf59_icgraph.svg" width="296" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a91cfb5e94039510845e0bb8cdc843ee8" name="a91cfb5e94039510845e0bb8cdc843ee8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91cfb5e94039510845e0bb8cdc843ee8">&#9670;&#160;</a></span>s_transcoeff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine __m_helper_fpp_f90__::s_transcoeff </td>
+          <td>(</td>
+          <td class="paramtype">real(kind(0.d0)), intent(in)&#160;</td>
+          <td class="paramname"><em>omega</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real(kind(0.d0)), intent(in)&#160;</td>
+          <td class="paramname"><em>peclet</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real(kind(0.d0)), intent(out)&#160;</td>
+          <td class="paramname"><em>re_trans</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real(kind(0.d0)), intent(out)&#160;</td>
+          <td class="paramname"><em>im_trans</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes the transfer coefficient for the non-polytropic bubble compression process. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">omega</td><td>natural frqeuencies </td></tr>
+    <tr><td class="paramname">peclet</td><td>Peclet number </td></tr>
+    <tr><td class="paramname">Re_trans</td><td>Real part of the transport coefficients </td></tr>
+    <tr><td class="paramname">Im_trans</td><td>Imaginary part of the transport coefficients </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="m__helper_8fpp_8f90_a91cfb5e94039510845e0bb8cdc843ee8_icgraph.svg" width="526" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -611,6 +772,11 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="m__helper_8fpp_8f90_a77ee798a317ff1eb8d3c50a7407010ba_cgraph.svg" width="543" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="m__helper_8fpp_8f90_a77ee798a317ff1eb8d3c50a7407010ba_icgraph.svg" width="374" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -665,7 +831,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="m__helper_8fpp_8f90_a0e3c0b7ec7d8eee1b8b802c364cf0081_icgraph.svg" width="364" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="m__helper_8fpp_8f90_a0e3c0b7ec7d8eee1b8b802c364cf0081_icgraph.svg" width="579" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -715,7 +881,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="m__helper_8fpp_8f90_ae401e6ec49c4c7340e19c04a0abe836a_icgraph.svg" width="543" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="m__helper_8fpp_8f90_ae401e6ec49c4c7340e19c04a0abe836a_icgraph.svg" width="100%" height="384"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

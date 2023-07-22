@@ -156,9 +156,9 @@ var sectionId = 'dynsection-0';
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="m__helper_8fpp_8f90.html#a453300ff424896c95d5d4169b202f8e2" target="_top" xlink:title="This procedure computes the cross product of two vectors.">
-<polygon fill="white" stroke="#666666" points="525,-321 483,-321 483,-302 525,-302 525,-321"/>
-<text text-anchor="middle" x="504" y="-309" font-family="Helvetica,sans-Serif" font-size="10.00">cross</text>
+<g id="a_Node000004"><a xlink:href="m__helper_8fpp_8f90.html#a3685fb84c52ce964157ac58fc0068249" target="_top" xlink:title="This procedure computes the cross product of two vectors.">
+<polygon fill="white" stroke="#666666" points="529.5,-321 478.5,-321 478.5,-302 529.5,-302 529.5,-321"/>
+<text text-anchor="middle" x="504" y="-309" font-family="Helvetica,sans-Serif" font-size="10.00">f_cross</text>
 </a>
 </g>
 </g>
@@ -166,8 +166,8 @@ var sectionId = 'dynsection-0';
 <g id="edge3_Node000003_Node000004" class="edge">
 <title>Node3&#45;&gt;Node4</title>
 <g id="a_edge3_Node000003_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M407.22,-292.08C428.91,-296.47 453.98,-301.56 473.04,-305.42"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="472.44,-308.87 482.94,-307.43 473.84,-302.01 472.44,-308.87"/>
+<path fill="none" stroke="#63b8ff" d="M407.22,-292.08C427.17,-296.12 449.98,-300.75 468.34,-304.47"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="467.81,-307.93 478.3,-306.49 469.2,-301.07 467.81,-307.93"/>
 </a>
 </g>
 </g>

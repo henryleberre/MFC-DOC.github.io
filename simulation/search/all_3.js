@@ -7,6 +7,5 @@ var searchData=
   ['col_4',['col',['../namespacem__nvtx.html#af232470c550267867fedf74adc30cab4',1,'m_nvtx']]],
   ['color_5',['color',['../structm__nvtx_1_1nvtxeventattributes.html#ac3782bbbbe86784127af31797be53f98',1,'m_nvtx::nvtxeventattributes']]],
   ['colortype_6',['colortype',['../structm__nvtx_1_1nvtxeventattributes.html#a6c3d2c3996f7c755fe5fc92ab083744d',1,'m_nvtx::nvtxeventattributes']]],
-  ['const_5fsos_7',['const_sos',['../m__monopole_8fpp_8f90.html#a9e22377892f06ea9aeaba431969b58cc',1,'m_monopole.fpp.f90']]],
-  ['cross_8',['cross',['../m__helper_8fpp_8f90.html#a453300ff424896c95d5d4169b202f8e2',1,'m_helper.fpp.f90']]]
+  ['const_5fsos_7',['const_sos',['../m__monopole_8fpp_8f90.html#a9e22377892f06ea9aeaba431969b58cc',1,'m_monopole.fpp.f90']]]
 ];

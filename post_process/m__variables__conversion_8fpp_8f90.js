@@ -11,5 +11,7 @@ var m__variables__conversion_8fpp_8f90 =
     [ "s_convert_species_to_mixture_variables_bubbles", "m__variables__conversion_8fpp_8f90.html#a518985449876e8bf5a1f426b74790665", null ],
     [ "s_convert_species_to_mixture_variables_bubbles_acc", "m__variables__conversion_8fpp_8f90.html#ab5ef0fb6705f3250d70ca1d9d750952c", null ],
     [ "s_finalize_variables_conversion_module", "m__variables__conversion_8fpp_8f90.html#ace14d66a864f202904444921d6927a20", null ],
+    [ "s_initialize_mv", "m__variables__conversion_8fpp_8f90.html#ad48f69f361f76e36209d9d979b76ad62", null ],
+    [ "s_initialize_pb", "m__variables__conversion_8fpp_8f90.html#a11120a6e524ba31ebb874fdbf3ee75a4", null ],
     [ "s_initialize_variables_conversion_module", "m__variables__conversion_8fpp_8f90.html#ad5e4b4372f2626845645a4e03a83df65", null ]
 ];

@@ -139,9 +139,9 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:aa725bdf99f1fe5f8b5f98273a7d71a78"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__mpi__proxy_8fpp_8f90.html#aa725bdf99f1fe5f8b5f98273a7d71a78">s_mpi_sendrecv_grid_variables_buffers</a> (mpi_dir, pbc_loc)</td></tr>
 <tr class="memdesc:aa725bdf99f1fe5f8b5f98273a7d71a78"><td class="mdescLeft">&#160;</td><td class="mdescRight">The goal of this procedure is to populate the buffers of the grid variables by communicating with the neighboring processors. Note that only the buffers of the cell-width distributions are handled in such a way. This is because the buffers of cell-boundary locations may be calculated directly from those of the cell-width distributions.  <br /></td></tr>
 <tr class="separator:aa725bdf99f1fe5f8b5f98273a7d71a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acee7e2607d56444468385e2b08003331"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__mpi__proxy_8fpp_8f90.html#acee7e2607d56444468385e2b08003331">s_mpi_sendrecv_conservative_variables_buffers</a> (q_cons_vf, mpi_dir, pbc_loc)</td></tr>
-<tr class="memdesc:acee7e2607d56444468385e2b08003331"><td class="mdescLeft">&#160;</td><td class="mdescRight">The goal of this procedure is to populate the buffers of the cell-average conservative variables by communicating with the neighboring processors.  <br /></td></tr>
-<tr class="separator:acee7e2607d56444468385e2b08003331"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77f1effa0dfee1f0d451542ad136a9ba"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__mpi__proxy_8fpp_8f90.html#a77f1effa0dfee1f0d451542ad136a9ba">s_mpi_sendrecv_conservative_variables_buffers</a> (q_cons_vf, pb, mv, mpi_dir, pbc_loc)</td></tr>
+<tr class="memdesc:a77f1effa0dfee1f0d451542ad136a9ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">The goal of this procedure is to populate the buffers of the cell-average conservative variables by communicating with the neighboring processors.  <br /></td></tr>
+<tr class="separator:a77f1effa0dfee1f0d451542ad136a9ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed5e69351e389cdca5b8deff13ba1a92"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__mpi__proxy_8fpp_8f90.html#aed5e69351e389cdca5b8deff13ba1a92">s_finalize_mpi_proxy_module</a> ()</td></tr>
 <tr class="memdesc:aed5e69351e389cdca5b8deff13ba1a92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Module deallocation and/or disassociation procedures.  <br /></td></tr>
 <tr class="separator:aed5e69351e389cdca5b8deff13ba1a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -282,8 +282,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="acee7e2607d56444468385e2b08003331" name="acee7e2607d56444468385e2b08003331"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acee7e2607d56444468385e2b08003331">&#9670;&#160;</a></span>s_mpi_sendrecv_conservative_variables_buffers()</h2>
+<a id="a77f1effa0dfee1f0d451542ad136a9ba" name="a77f1effa0dfee1f0d451542ad136a9ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77f1effa0dfee1f0d451542ad136a9ba">&#9670;&#160;</a></span>s_mpi_sendrecv_conservative_variables_buffers()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -296,6 +296,18 @@ Here is the caller graph for this function:</div>
           <td>(</td>
           <td class="paramtype">type(<a class="el" href="structscalar__field.html">scalar_field</a>), dimension(sys_size), intent(inout)&#160;</td>
           <td class="paramname"><em>q_cons_vf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real(kind(0d0)), dimension(startx:, starty:, startz:, 1:, 1:), intent(inout)&#160;</td>
+          <td class="paramname"><em>pb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real(kind(0d0)), dimension(startx:, starty:, startz:, 1:, 1:), intent(inout)&#160;</td>
+          <td class="paramname"><em>mv</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -334,7 +346,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="m__mpi__proxy_8fpp_8f90_acee7e2607d56444468385e2b08003331_icgraph.svg" width="100%" height="438"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="m__mpi__proxy_8fpp_8f90_a77f1effa0dfee1f0d451542ad136a9ba_icgraph.svg" width="100%" height="438"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

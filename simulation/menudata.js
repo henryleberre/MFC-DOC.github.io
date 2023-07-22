@@ -137,7 +137,6 @@ var menudata={children:[
 {text:"t",url:"globals.html#index_t"}]},
 {text:"Functions/Subroutines",url:"globals_func.html",children:[
 {text:"_",url:"globals_func.html#index__5F"},
-{text:"c",url:"globals_func.html#index_c"},
 {text:"f",url:"globals_func.html#index_f"},
 {text:"m",url:"globals_func.html#index_m"},
 {text:"p",url:"globals_func.html#index_p"},

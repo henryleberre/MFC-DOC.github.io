@@ -5,6 +5,6 @@ var m__mpi__proxy_8fpp_8f90 =
     [ "s_initialize_mpi_proxy_module", "m__mpi__proxy_8fpp_8f90.html#a17ccc4b91663699dfa335a421a558fa6", null ],
     [ "s_mpi_bcast_user_inputs", "m__mpi__proxy_8fpp_8f90.html#a04e8355f80d32fea464fe0a99076d891", null ],
     [ "s_mpi_decompose_computational_domain", "m__mpi__proxy_8fpp_8f90.html#ada41964cbc5982321a9421444a0f3d54", null ],
-    [ "s_mpi_sendrecv_conservative_variables_buffers", "m__mpi__proxy_8fpp_8f90.html#acee7e2607d56444468385e2b08003331", null ],
+    [ "s_mpi_sendrecv_conservative_variables_buffers", "m__mpi__proxy_8fpp_8f90.html#a77f1effa0dfee1f0d451542ad136a9ba", null ],
     [ "s_mpi_sendrecv_grid_variables_buffers", "m__mpi__proxy_8fpp_8f90.html#aa725bdf99f1fe5f8b5f98273a7d71a78", null ]
 ];
